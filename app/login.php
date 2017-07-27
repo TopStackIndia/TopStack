@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/styles.css" title="mainStyle">
 
     <script src="js/modernizr.custom.32033.js"></script>
+    
 
 </head>
 
@@ -72,7 +73,8 @@
                             </li>
 
                         </ul>
-                    </li>
+                    </li> <li><a href="login.php">Login</a>
+                                            </li>
                         <li class="social-nav">
                             <a href="#"><i class="fa fa-twitter"></i></a>
                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -91,86 +93,76 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <h2>Training Details</h2>
+                        <h2>TopStack Login </h2>
                     </div>
                     <div class="col-md-6">
                         <ol class="breadcrumb">
                             <li><a href="index.html">Home</a></li>
-                            <li class="active">PHP Training</li>
+                            <li class="active">Login</li>
                         </ol>
                     </div>
                 </div>
             </div>
         </section>
-
-        <section id="php_detils">
+          
+        <section id="login_detils">
             <div class="container">
                 <div class="row">
-                <div class="col-md-12">
-            
-              <div class="panel panel-info">
-                <div class="panel-heading"><h3>Professional PHP Course</h3></div>
-                <div class="panel-body">
-                    <p>PHP is currently ranked as the most popular skill in Current Job Market in IT. PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.
-                     PHP is pretty easy to learn and has huge demand.PHP is similar to the C style syntax. if conditions, for and while loops, and function returns are similar in syntax to languages such as C, C++, C#, Java and Perl.<strong>PHP web developer jobs always in top five on job Market.</strong> 
-                    </p>
-                </div>
-               </div>
-                    
-            </div> 
-            <div class="row"> 
-             <div class="col-md-12">
-             <p></p>
-         <div class="panel panel-info">
-                <div class="panel-heading">
-              <h3><i class="fa fa-fw fa-book"></i>Course Details</h3></div>
-              <div class="panel-body">
-                <ul class="list-group">
-                    <li class="list-group-item list-group-item-warning"><h4>Chapter 1: HTML, CSS, Javascript, Client Side JQuery</h4>
-                         <p>Introducion to Basic WebPage Design.
-                            Working this modern code editor like sublime,visual studio code,Atom etc.
-                            HTML5, Table/Div, Forms, image,css3 syntax,selectors, css properties,javascript concept,javascript events,various types of validation,jquery concept, jquery functions.
-                            <p>Assignment: Simple Static WebPage using Above concept.</p>
-                        </p></li>
-                        <p></p>
-                    <li class="list-group-item list-group-item-warning"> <h4>Chapter 2: PHP Basics</h4>
-                        <p>PHP Syntax, Comments, Variables, value-passing, conditional-statements, loops, arrays, library function ,user defined function, session, cookies, php-errors.
-                        </p>
-                        </li>
-                      <p></p>
-                    <li class="list-group-item list-group-item-warning" ><h4>Chapter 3: Databse & MySQL Database Concept</h4>
-                        <p>Database concept,sql-query,(create,insert,delete,edit,select).File upload, Basic Ajax, Ajax XMLHttpRequest, Use of Jquery ajax.
-                        </p>
-                        </li>
-                      <p></p>
-                    <li class="list-group-item list-group-item-warning" ><h4>Chapter 4: Object Oriented Programming Concept in PHP</h4>
-                        <p>Object Oriented Programming using PHP.Detail knowledge about class, object, inheritance, polymorphism, different types of variable in a class, encapsulation, Constructor, Destructor, Abstract class.
-                        </p>
-                        </li>
-                        <p></p>
-                    <li class="list-group-item list-group-item-warning" ><h4>Chapter 5: MVC Architecture, CodeIgniter</h4>
-                        <p>Working with  MVC architecture. Knowledge of Codeigniter framework or any framework.</p>
-                        </li>
-                         <p></p>
-                    <li class="list-group-item list-group-item-warning" ><h4>Chapter 6: Creating REST API Using Slim Framework(Mini Project)</h4> 
-                        <p>Knowledge about Dependency Manager for PHP(Composer). Knowledge of WebService Like REST,Backend Development.
-                           Concept of Slim MicroFrameWork.
-                        </p>
-                        </li>
-                       <p></p>
-                    <li class="list-group-item list-group-item-warning" ><h4>Chapter 7: Working With JSON,Ajax,JQuery JSON Parsing</h4>
-                        <p>Creating FrontEnd for WebServices.</p>
-                        </li>
-                      <p></p>
-                    <li class="list-group-item list-group-item-warning" ><h4>Chapter 8: Project Development (Assign Live Project)</h4>
-                        <p>At The end Student will be part of the live project development for Software Development division of TopStack.</p>
-                        </li>
-                </ul>
-                </div>
-                </div>
-             </div>
-            </div>
-        </section>
+                <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <div id="login-overlay" class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+              <h4 class="modal-title" id="myModalLabel">Login to TopStack India</h4>
+          </div>
+          <div class="modal-body">
+              <div class="row">
+                  <div class="col-xs-6">
+                      <div class="well">
+                          <form id="loginForm" method="POST" action="/login/" novalidate="novalidate">
+                              <div class="form-group">
+                                  <label for="username" class="control-label">Username</label>
+                                  <input type="text" class="form-control" id="username" name="username" value="" required="" title="Please enter you username" placeholder="example@gmail.com">
+                                  <span class="help-block"></span>
+                              </div>
+                              <div class="form-group">
+                                  <label for="password" class="control-label">Password</label>
+                                  <input type="password" class="form-control" id="password" name="password" value="" required="" title="Please enter your password">
+                                  <span class="help-block"></span>
+                              </div>
+                              <div id="loginErrorMsg" class="alert alert-error hide">Wrong username og password</div>
+                              <div class="checkbox">
+                                  <label>
+                                      <input type="checkbox" name="remember" id="remember"> Remember login
+                                  </label>
+                                  <p class="help-block">(if this is a private computer)</p>
+                              </div>
+                              <button type="submit" class="btn btn-success btn-block">Login</button>
+                              <a href="#" class="btn btn-default btn-block" onclick="forgot_pass_contact()">Help to login</a>
+                          </form>
+                      </div>
+                  </div>
+                  <div class="col-xs-6">
+                      <p class="lead">Register now for <span class="text-success">FREE</span></p>
+                      <ul class="list-unstyled" style="line-height: 2">
+                          <li><span class="fa fa-check text-success"></span> See all your progress</li>
+                          <li><span class="fa fa-check text-success"></span> Fast Learning Metial</li>
+                          <li><span class="fa fa-check text-success"></span> Save your time</li>
+                          <li><span class="fa fa-check text-success"></span> Free Source Code</li>
+                          <li><span class="fa fa-check text-success"></span> Get a gift for good performance</li>
+                         <!-- <li><a href="#"><u>Read more</u></a></li>-->
+                      </ul>
+                      </br>
+                      </br>
+                      <p><a href="#" class="btn btn-info btn-block" onclick="my_availabe_soon()">Yes please, Register Now!</a></p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+        </div>
+    </section>
 
         <section id="get-in-touch">
             <div class="container">
@@ -241,7 +233,7 @@
 
         <section id="map"></section>
 
-        <footer id="site-footer">
+       <footer id="site-footer">
             <div class="container">
                 <div class="row">
                     <span class="divider grey"></span>
@@ -264,6 +256,16 @@
     <script src="js/jquery.circliful.min.js"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
     <script src="js/script.js"></script>
+    <script>
+     function my_availabe_soon() {
+         alert("Hello! Registraion will availabe Soon!");
+     }
+     function forgot_pass_contact() {
+         alert("If you forgot your screct password please contact our admin!");
+     }
+     
+</script>
+
 </body>
 
 </html>
