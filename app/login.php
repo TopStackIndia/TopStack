@@ -69,7 +69,7 @@
                                 <a href="#">Android Training</a>
                             </li>
                             <li>
-                                <a href="#">Professional WebDesign Training</a>
+                                <a href="others_training.php">Others Training</a>
                             </li>
 
                         </ul>

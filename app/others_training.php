@@ -76,6 +76,8 @@
 
                         </ul>
                     </li>
+                    <li><a href="login.php">Login</a>
+                        </li>
                         <li class="social-nav">
                             <a href="#"><i class="fa fa-twitter"></i></a>
                             <a href="#"><i class="fa fa-facebook"></i></a>
