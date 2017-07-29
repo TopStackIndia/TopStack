@@ -60,7 +60,7 @@
                         <li><a href="index.html#team">team</a></li>
                         <li><a href="index.html#ourwork">our work</a></li>
                         <li><a href="index.html#contact">contact</a></li>
-                       
+
                         <li>
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training Details <b class="caret"></b></a>
                         <ul class="dropdown-menu">
@@ -68,7 +68,7 @@
                                 <a href="php_training.html">PHP/MySQL Training</a>
                             </li>
                             <li>
-                                <a href="#">Android Training</a>
+                                <a href="android_training.html">Android Training</a>
                             </li>
                             <li>
                                 <a href="others_training.php">Others Training</a>
@@ -120,6 +120,7 @@
                     <a href="#" class="list-group-item" onclick="change_Python()">Python</a>
                     <a href="#" class="list-group-item" onclick="change_Javaee()">Java EE</a>
                     <a href="#" class="list-group-item" onclick="Change_csharp()">C# (Sharp) Training</a>
+
                     <!--<a href="#" class="list-group-item">2 Column Portfolio</a>
                     <a href="#" class="list-group-item">3 Column Portfolio</a>
                     <a href="#" class="list-group-item">4 Column Portfolio</a>
@@ -146,13 +147,13 @@
                     <p>Name : <input type="text" ng-model="name" placeholder="Enter name here"></p>
                     <h4>Hello {{name}}</h4>
                   </div>-->
-                 <!--- 
+                 <!---
                 <object id="tech_video" data="https://www.youtube.com/embed/WAZTZUgeLhQ?rel=0&amp;showinfo=0"
                   width="560" height="315" ></object>-->
                  <div class="embed-responsive embed-responsive-4by3">
                   <img id="tech_img" src="img/technology/AngularJS-large.png" width="100%" height="100%">
                 </div>
-                  
+
             </div>
         </div>
         <!-- /.row -->
@@ -228,7 +229,7 @@
             </div>
         </section>
 
-        
+
 
         <footer id="site-footer">
             <div class="container">
@@ -251,7 +252,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/stellar.js"></script>
     <script src="js/jquery.circliful.min.js"></script>
-    
+
     <script src="js/script.js"></script>
     <script type="text/javascript">
         function change_Angular() {
@@ -267,7 +268,7 @@
         function change_Node(){
             document.getElementById("tech_heading").innerHTML = "Node.JS Training";
             document.getElementById("tech_paragraph").innerHTML ="Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.";
-             
+
             document.getElementById("tech_img").src="img/technology/nodejs.jpg";
              //var data= document.getElementById("tech_img");
             // dat.src="img/technology/nodejs.jpg"
