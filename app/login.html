@@ -18,8 +18,9 @@
     <link rel="stylesheet" href="css/styles.css" title="mainStyle">
 
     <script src="js/modernizr.custom.32033.js"></script>
-
-
+    <!-- Main Application backed logical Code !-->
+    <!-- firebase sdk 4.2.0 -->
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
 </head>
 
 <body>
@@ -60,21 +61,24 @@
                         <li><a href="index.html#contact">contact</a></li>
 
                         <li>
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training Details <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="php_training.html">PHP/MySQL Training</a>
-                            </li>
-                            <li>
-                                <a href="android_training.html">Android Training</a>
-                            </li>
-                            <li>
-                                <a href="others_training.php">Others Training</a>
-                            </li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training Details <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="php_training.html">PHP/MySQL Training</a>
+                                </li>
+                                <li>
+                                    <a href="android_training.html">Android Training</a>
+                                </li>
+                                <li>
+                                    <a href="others_training.php">Others Training</a>
+                                </li>
 
-                        </ul>
-                    </li> <li><a href="login.php">Login</a>
-                                            </li>
+                            </ul>
+                        </li>
+                        <li><a href="login.php">Login</a></li>
+
+
+
                         <li class="social-nav">
                             <a href="#"><i class="fa fa-twitter"></i></a>
                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -108,62 +112,65 @@
         <section id="login_detils">
             <div class="container">
                 <div class="row">
-                <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+                    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <div id="login-overlay" class="modal-dialog">
-      <div class="modal-content">
-          <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-              <h4 class="modal-title" id="myModalLabel">Login to TopStack India</h4>
-          </div>
-          <div class="modal-body">
-              <div class="row">
-                  <div class="col-xs-6">
-                      <div class="well">
-                          <form id="loginForm" method="POST" action="/login/" novalidate="novalidate">
-                              <div class="form-group">
-                                  <label for="username" class="control-label">Username</label>
-                                  <input type="text" class="form-control" id="username" name="username" value="" required="" title="Please enter you username" placeholder="example@gmail.com">
-                                  <span class="help-block"></span>
-                              </div>
-                              <div class="form-group">
-                                  <label for="password" class="control-label">Password</label>
-                                  <input type="password" class="form-control" id="password" name="password" value="" required="" title="Please enter your password">
-                                  <span class="help-block"></span>
-                              </div>
-                              <div id="loginErrorMsg" class="alert alert-error hide">Wrong username og password</div>
-                              <div class="checkbox">
-                                  <label>
+                    <div id="login-overlay" class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Login to TopStack India</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        <div class="well">
+                                            <!-- <form id="loginForm">-->
+                                            <div class="form-group">
+                                                <label for="username" class="control-label">Username</label>
+                                                <input type="text" class="form-control" id="username" name="username" value="" required="" title="Please enter you username"
+                                                    placeholder="example@gmail.com">
+                                                <span class="help-block"></span>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="password" class="control-label">Password</label>
+                                                <input type="password" class="form-control" id="password" name="password" value="" required="" title="Please enter your password">
+                                                <span class="help-block"></span>
+                                            </div>
+                                            <div id="loginErrorMsg" class="alert alert-error hide">Wrong username og password</div>
+                                            <div class="checkbox">
+                                                <label>
                                       <input type="checkbox" name="remember" id="remember"> Remember login
                                   </label>
-                                  <p class="help-block">(if this is a private computer)</p>
-                              </div>
-                              <button type="submit" class="btn btn-success btn-block">Login</button>
-                              <a href="#" class="btn btn-default btn-block" onclick="forgot_pass_contact()">Help to login</a>
-                          </form>
-                      </div>
-                  </div>
-                  <div class="col-xs-6">
-                      <p class="lead">Register now for <span class="text-success">FREE</span></p>
-                      <ul class="list-unstyled" style="line-height: 2">
-                          <li><span class="fa fa-check text-success"></span> See all your progress</li>
-                          <li><span class="fa fa-check text-success"></span> Fast Learning Metial</li>
-                          <li><span class="fa fa-check text-success"></span> Save your time</li>
-                          <li><span class="fa fa-check text-success"></span> Free Source Code</li>
-                          <li><span class="fa fa-check text-success"></span> Get a gift for good performance</li>
-                         <!-- <li><a href="#"><u>Read more</u></a></li>-->
-                      </ul>
-                      </br>
-                      </br>
-                      <p><a href="#" class="btn btn-info btn-block" onclick="my_availabe_soon()">Yes please, Register Now!</a></p>
-                  </div>
-              </div>
-          </div>
-      </div>
-      </div>
-        </div>
-    </section>
-
+                                                <p class="help-block">(if this is a private computer)</p>
+                                            </div>
+                                            <button class="btn btn-success btn-block" id="btnLogin">Login</button>
+                                            <a href="#" class="btn btn-default btn-block" onclick="forgot_pass_contact()">Help to login</a>
+                                            <button id="btnLogout" class="btn btn-action hide">Logout</button>
+                                            <!--s</form>-->
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <p class="lead">Register now for <span class="text-success">FREE</span></p>
+                                        <ul class="list-unstyled" style="line-height: 2">
+                                            <li><span class="fa fa-check text-success"></span> See all your progress</li>
+                                            <li><span class="fa fa-check text-success"></span> Fast Learning Metial</li>
+                                            <li><span class="fa fa-check text-success"></span> Save your time</li>
+                                            <li><span class="fa fa-check text-success"></span> Free Source Code</li>
+                                            <li><span class="fa fa-check text-success"></span> Get a gift for good performance</li>
+                                            <!-- <li><a href="#"><u>Read more</u></a></li>-->
+                                        </ul>
+                                        </br>
+                                        </br>
+                                        <p><a href="#" class="btn btn-info btn-block" onclick="my_availabe_soon()">Yes please, Register Now!</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <h1 id="user_email"></h1>
         <section id="get-in-touch">
             <div class="container">
                 <div class="row">
@@ -233,14 +240,14 @@
 
         <section id="map"></section>
 
-       <footer id="site-footer">
+        <footer id="site-footer">
             <div class="container">
                 <div class="row">
                     <span class="divider grey"></span>
-                   <!-- <h4>TopStack<span class="brandy">2017</span> India.com.</h4>-->
+                    <!-- <h4>TopStack<span class="brandy">2017</span> India.com.</h4>-->
                     <h4>Copyright <span class="brandy">&copy;2017</span> TopStackindia.com</h4>
                     <!--<h5>by <a href="http://www.scoopthemes.com" target="_blank">ScoopThemes</a>-->
-                    </h5>
+
                     <a href="#" class="scroll-top">
                         <img src="img/top.png" alt="" class="top">
                     </a>
@@ -253,19 +260,19 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/stellar.js"></script>
-    <script src="js/jquery.circliful.min.js"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
+  
+   
     <script src="js/script.js"></script>
     <script>
-     function my_availabe_soon() {
-         alert("Hello! Registraion will availabe Soon!");
-     }
-     function forgot_pass_contact() {
-         alert("If you forgot your screct password please contact our admin!");
-     }
-
-</script>
-
+        function my_availabe_soon() {
+            alert("Hello! Registraion will availabe Soon!");
+        }
+        function forgot_pass_contact() {
+            alert("If you forgot your screct password please contact our admin!");
+        }
+    </script>
+    <!-- firebase App.js Config File -->
+    <script src="app.js"></script>
 </body>
 
 </html>
