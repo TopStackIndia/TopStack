@@ -44,8 +44,8 @@
 
       .testbox {
         margin: 20px auto;
-        width: 343px; 
-        height: 464px; 
+        width: 343px;  
+        height: 564px; 
         -webkit-border-radius: 8px/7px; 
         -moz-border-radius: 8px/7px; 
         border-radius: 8px/7px; 
@@ -129,7 +129,7 @@
         padding-left: 10px;
       }
 
-      input[type=password]{
+      input[type=password].repass{
         margin-bottom: 25px;
       }
 
@@ -151,7 +151,7 @@
 
       .gender {
         margin-left: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
       }
 
       .accounttype{
@@ -231,19 +231,26 @@
 
       <form role="form" id="register-form" autocomplete="off" method="post">
         <hr>
+        
         <div class="accounttype">
           <input type="radio" value="None" id="radioOne" name="account" checked/>
           <label for="radioOne" class="radio" chec>Student</label>
           <input type="radio" value="None" id="radioTwo" name="account" />
           <label for="radioTwo" class="radio">Personal</label>
         </div>
+        
         <hr>
         <label id="icon" for="email"><i class="icon-envelope "></i></label>
         <input type="email" name="email" id="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="xyz@something.com" required/>
         <label id="icon" for="name"><i class="icon-user"></i></label>
         <input type="text" name="name" id="name" placeholder="Name" pattern="[A-Za-z]+" title="letters only" required />
+        <label id="icon" for="text"><i class="icon-phone"></i></label>
+        <input type="text" pattern="^\d{10}$"  placeholder="Mobile Number" title="10 numeric characters only" required />
         <label id="icon" for="password"><i class="icon-shield"></i></label>
         <input type="password" name="password" id="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required/>
+        <label id="icon" for="password"><i class="icon-shield"></i></label>
+        <input type="password" class="repass" name="confirm_password" id="confirm_password" placeholder="Confirm Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required/>
+        
         <div class="gender">
           <input type="radio" value="None" id="male" name="gender" checked/>
           <label for="male" class="radio" chec>Male</label>
