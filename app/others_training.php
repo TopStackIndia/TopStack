@@ -54,21 +54,21 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="index.html#about">about</a></li>
-                        <li><a href="index.html#services">services</a></li>
-                        <li><a href="index.html#team">team</a></li>
-                        <li><a href="index.html#ourwork">our work</a></li>
-                        <li><a href="index.html#contact">contact</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="index.php#about">about</a></li>
+                        <li><a href="index.php#services">services</a></li>
+                        <li><a href="index.php#team">team</a></li>
+                        <li><a href="index.php#ourwork">our work</a></li>
+                        <li><a href="index.php#contact">contact</a></li>
 
                         <li>
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training Details <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="php_training.html">PHP/MySQL Training</a>
+                                <a href="php_training.php">PHP/MySQL Training</a>
                             </li>
                             <li>
-                                <a href="android_training.html">Android Training</a>
+                                <a href="android_training.php">Android Training</a>
                             </li>
                             <li>
                                 <a href="others_training.php">Others Training</a>
@@ -100,7 +100,7 @@
                     </div>
                     <div class="col-md-6">
                         <ol class="breadcrumb">
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.php">Home</a></li>
                             <li class="active">Professional Modern Technology Training</li>
                         </ol>
                     </div>

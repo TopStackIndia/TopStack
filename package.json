@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "lastComment": "updates",
   "description": "Free One Page Bootstrap Template",
-  "main": "app/index.html",
+  "main": "app/index.php",
   "dependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-sass": "~0.7.3"

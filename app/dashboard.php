@@ -1,6 +1,20 @@
 <?php
+session_start();
+require_once 'class.user.php';
+$user_home = new USER();
+
+if(!$user_home->is_logged_in())
+{
+ $user_home->redirect('login.php');
+}
+
+$stmt = $user_home->runQuery("SELECT * FROM tbl_users WHERE userID=:uid");
+$stmt->execute(array(":uid"=>$_SESSION['userSession']));
+$row = $stmt->fetch(PDO::FETCH_ASSOC);
 
 ?>
+
+
 <!doctype html>
 <!--[if lt IE 7]><html lang="en" class="no-js ie6"><![endif]-->
 <!--[if IE 7]><html lang="en" class="no-js ie7"><![endif]-->
@@ -54,21 +68,21 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="index.html#about">about</a></li>
-                        <li><a href="index.html#services">services</a></li>
-                        <li><a href="index.html#team">team</a></li>
-                        <li><a href="index.html#ourwork">our work</a></li>
-                        <li><a href="index.html#contact">contact</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="index.php#about">about</a></li>
+                        <li><a href="index.php#services">services</a></li>
+                        <li><a href="index.php#team">team</a></li>
+                        <li><a href="index.php#ourwork">our work</a></li>
+                        <li><a href="index.php#contact">contact</a></li>
 
                         <li>
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training Details <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="php_training.html">PHP/MySQL Training</a>
+                                <a href="php_training.php">PHP/MySQL Training</a>
                             </li>
                             <li>
-                                <a href="android_training.html">Android Training</a>
+                                <a href="android_training.php">Android Training</a>
                             </li>
                             <li>
                                 <a href="others_training.php">OThers Training</a>
@@ -76,8 +90,21 @@
 
                         </ul>
                     </li>
-                    <li><a href="login.php">Login</a>
-                        </li>
+
+                     <li> 
+                          <a  href="dashboard.php" role="button" class="dropdown-toggle" data-toggle="dropdown"> <i class="fa fa-user"></i> <?php echo $row['userName']; ?>
+                           <i class="caret"></i>
+                          </a>
+                         
+                        <ul class="dropdown-menu">
+                            <li>
+                                        <a tabindex="-1" href="logout.php">Logout</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    
+                    
                         <li class="social-nav">
                             <a href="#"><i class="fa fa-twitter"></i></a>
                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -96,12 +123,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <h2>Training Details</h2>
+                        <h2>User Area</h2>
                     </div>
                     <div class="col-md-6">
                         <ol class="breadcrumb">
-                            <li><a href="index.html">Home</a></li>
-                            <li class="active">PHP Training</li>
+                            <li><a href="index.php">Home</a></li>
+                            <li class="active">DashBoard</li>
                         </ol>
                     </div>
                 </div>
@@ -112,9 +139,12 @@
             <div class="container">
 
                 <div class="col-md-12">
-                   <div class="panel panel-default">
-                    <div class="panel-heading">UserName</div>
-                    <div class="panel-body">Details</div>
+                   <div class="panel panel-info">
+                    <div class="panel-heading"><?php echo $row['userName']; ?></div>
+                    <div class="panel-body"><h3>Your Details</h3>
+                    <h5>Email:<?php echo $row['userEmail']; ?></h5>
+                    <h5>Phone:<?php echo $row['userPhone']; ?></h5>
+                    <h5>User Role:<?php echo $row['userType']; ?></h5></div>
                     </div>
                 </div>
                
@@ -188,7 +218,7 @@
             </div>
         </section>
 
-        <section id="map"></section>
+     <!--   <section id="map"></section>-->
 
         <footer id="site-footer">
             <div class="container">
@@ -211,7 +241,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/stellar.js"></script>
     <script src="js/jquery.circliful.min.js"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
+   
     <script src="js/script.js"></script>
 </body>
 

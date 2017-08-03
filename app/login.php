@@ -1,6 +1,26 @@
 <?php
+session_start();
+require_once 'class.user.php';
+$user_login = new USER();
 
+if($user_login->is_logged_in()!="")
+{
+ $user_login->redirect('dashboard.php');
+}
+
+if(isset($_POST['btn-login']))
+{
+ $email = trim($_POST['username']);
+ $upass = trim($_POST['password']);
+ 
+ if($user_login->login($email,$upass))
+ {
+  $user_login->redirect('dashboard.php');
+ }
+}
 ?>
+
+
 <!doctype html>
 <!--[if lt IE 7]><html lang="en" class="no-js ie6"><![endif]-->
 <!--[if IE 7]><html lang="en" class="no-js ie7"><![endif]-->
@@ -55,21 +75,21 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="index.html#about">about</a></li>
-                        <li><a href="index.html#services">services</a></li>
-                        <li><a href="index.html#team">team</a></li>
-                        <li><a href="index.html#ourwork">our work</a></li>
-                        <li><a href="index.html#contact">contact</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="index.php#about">about</a></li>
+                        <li><a href="index.php#services">services</a></li>
+                        <li><a href="index.php#team">team</a></li>
+                        <li><a href="index.php#ourwork">our work</a></li>
+                        <li><a href="index.php#contact">contact</a></li>
 
                         <li>
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training Details <b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="php_training.html">PHP/MySQL Training</a>
+                                    <a href="php_training.php">PHP/MySQL Training</a>
                                 </li>
                                 <li>
-                                    <a href="android_training.html">Android Training</a>
+                                    <a href="android_training.php">Android Training</a>
                                 </li>
                                 <li>
                                     <a href="others_training.php">Others Training</a>
@@ -100,14 +120,46 @@
                     </div>
                     <div class="col-md-6">
                         <ol class="breadcrumb">
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.php">Home</a></li>
                             <li class="active">Login</li>
                         </ol>
                     </div>
                 </div>
             </div>
         </section>
-
+        <section>
+            <div class="cotainer">
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                  <?php 
+                   if(isset($_GET['inactive']))
+                  {
+                    ?>
+                    <div class='alert alert-danger'>
+                   <button class='close' data-dismiss='alert'>&times;</button>
+                   <strong>Sorry!</strong> This Account is not Activated Go to your Inbox and Activate it. 
+                   </div>
+                  <?php
+                }
+                ?>
+       
+               <?php
+                     if(isset($_GET['error']))
+                        {
+                    ?>
+                      <div class='alert alert-danger'>
+                    <button class='close' data-dismiss='alert'>&times;</button>
+                    <strong>Wrong Details!</strong> 
+                    </div>
+                     <?php
+                     }
+                      ?>
+                    </div>
+                    <div class="col-md-3"></div>
+                 </div>
+               </div>
+        </section>
         <section id="login_detils">
             <div class="container">
                 <div class="row">
@@ -142,7 +194,7 @@
                                   </label>
                                                 <p class="help-block">(if this is a private computer)</p>
                                             </div>
-                                            <button type="submit" class="btn btn-success btn-block" id="btnLogin">Login</button>
+                                            <button type="submit" class="btn btn-success btn-block" id="btnLogin" name="btn-login">Login</button>
                                             <a href="#" class="btn btn-default btn-block" onclick="forgot_pass_contact()">Help to login</a>
                                             <button id="btnLogout" class="btn btn-action hide">Logout</button>
                                             </form>
