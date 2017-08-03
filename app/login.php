@@ -212,7 +212,7 @@ if(isset($_POST['btn-login']))
                                         </ul>
                                         </br>
                                         </br>
-                                        <p><a href="signup_popup.html" target="_blank" class="btn btn-info btn-block">Yes please, Register Now!</a></p>
+                                        <p><a href="Signup.php" target="_blank" class="btn btn-info btn-block">Yes please, Register Now!</a></p>
                                     </div>
                                 </div>
                             </div>
