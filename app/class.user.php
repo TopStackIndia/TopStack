@@ -45,6 +45,28 @@ class USER
             echo $ex->getMessage();
         }
     }
+    /*Myadded Extended Funtions tbl_userdetils */
+    public function update_detils_new($name, $email,$number,$address,$cgpa,$institute_name,$qualification)
+    {
+         try
+         {$stmt = $this->conn->prepare("INSERT INTO tbl_userdetails(std_Name,std_Email,std_address,std_number,std_cgpa,std_institutename,std_qualification) 
+                                                VALUES(:std_Name, :std_Email,:std_address,:std_number,:std_cgpa,:std_institutename,:std_qualification)");
+            $stmt->bindparam(":std_Name", $name);
+            $stmt->bindparam(":std_Email", $email);
+            $stmt->bindparam(":std_address", $address);
+            $stmt->bindparam(":std_number", $number);
+            $stmt->bindparam(":std_cgpa", $cgpa);
+            $stmt->bindparam(":std_institutename", $institute_name);
+            $stmt->bindparam(":std_qualification",$qualification);
+        
+            $stmt->execute();
+            return $stmt;
+         }catch(PDOException $ex)
+         {
+             echo $ex->getMessage();
+         }
+    }
+
  
     public function login($email, $upass)
     {
