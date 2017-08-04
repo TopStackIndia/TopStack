@@ -1,3 +1,29 @@
+<?php
+session_start();
+require_once 'class.user.php';
+$user_home = new USER();
+
+if(!$user_home->is_logged_in())
+{
+ //$user_home->redirect('index.php');
+   $menu_val="<a href='login.php'>Login</a>";
+
+}else
+{
+ $stmt = $user_home->runQuery("SELECT * FROM tbl_users WHERE userID=:uid");
+ $stmt->execute(array(":uid"=>$_SESSION['userSession']));
+ $row = $stmt->fetch(PDO::FETCH_ASSOC);
+
+//Custom 
+
+$username= $row['userName'];
+ $menu_val="<a  href='dashboard.php'> <i class='fa fa-user'></i></a>";
+}
+?>
+
+
+
+
 <!doctype html>
 <!--[if lt IE 7]><html lang="en" class="no-js ie6"><![endif]-->
 <!--[if IE 7]><html lang="en" class="no-js ie7"><![endif]-->
@@ -174,6 +200,7 @@
                             </li>
                             <li><a href="#">Carrier</a>
                             </li>
+                            
 
                             <!-- my Drop Down -->
                              <li>
@@ -191,11 +218,15 @@
 
                         </ul>
                         </li>
-                        <li><a href="login.php">Login</a>
-                        </li>
-
-
-
+                      <!--  <li><a href="login.php">Login</a>
+                        </li>-->
+                        <li>
+                         <?php echo $menu_val; ?>
+                        <li>
+                   
+                        
+                          
+                       
 
                             <!---<li><a href="blog-archive.html">blog</a>-->
                             
