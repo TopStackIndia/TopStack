@@ -195,7 +195,7 @@ if(isset($_POST['btn-login']))
                                                 <p class="help-block">(if this is a private computer)</p>
                                             </div>
                                             <button type="submit" class="btn btn-success btn-block" id="btnLogin" name="btn-login">Login</button>
-                                            <a href="#" class="btn btn-default btn-block" onclick="forgot_pass_contact()">Help to login</a>
+                                            <a href="fpass.php" class="btn btn-default btn-block" >Forget PassWord</a>
                                             <button id="btnLogout" class="btn btn-action hide">Logout</button>
                                             </form>
                                         </div>
