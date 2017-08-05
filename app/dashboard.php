@@ -98,7 +98,7 @@ $row = $stmt->fetch(PDO::FETCH_ASSOC);
                          
                         <ul class="dropdown-menu">
                             <li>        <a href="dashboard.php">DashBoard</a>
-                                        <a href="userdetails.php">Billing Details</a>
+                                        <a href="userdetails.php">Update Details</a>
                                         <a tabindex="-1" href="logout.php">Logout</a>
                             </li>
 

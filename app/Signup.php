@@ -15,6 +15,11 @@ if(isset($_POST['btn-signup']))
   $type=trim($_POST['account']);
   $gender=trim($_POST['gender']);
   $phone=trim($_POST['phone']);
+  /*************************
+  $Cgpa=trim($_POST['Cgpa']);
+  $Institute_name=($_POST['Institute_name']);
+  $Qualification=($_POST['Qualification']);
+  $address=($_POST['address']);
  /**************************/   
  $uname = ($_POST['name']);
  $email = trim($_POST['email']);
@@ -131,7 +136,7 @@ if(isset($_POST['btn-signup']))
       .testbox {
         margin: 20px auto;
         width: 410px;  
-        height: 664px; 
+        height: 864px; 
         -webkit-border-radius: 8px/7px; 
         -moz-border-radius: 8px/7px; 
         border-radius: 8px/7px; 
@@ -239,7 +244,10 @@ if(isset($_POST['btn-signup']))
         margin-left: 60px;
         margin-bottom: 10px;
       }
-
+      .address_div{
+        margin-left: 10px;
+        margin-bottom:10px;
+      }
       .accounttype{
         margin-left: 25px;
         margin-top: 20px;
@@ -305,6 +313,20 @@ if(isset($_POST['btn-signup']))
         box-shadow: none;
 
       }
+      .textarea{
+      width: 320px; 
+        height: 90px; 
+        -webkit-border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
+        -moz-border-radius: 0px 4px 4px 0px/0px 0px 4px 4px; 
+        border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
+        background-color: #fff; 
+        -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+        -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+        box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+        border: solid 1px #cbc9c9;
+        margin-left: 0px;
+        margin-top: 13px; 
+        padding-left: 10px;}
 </style>
  
 <style>
@@ -366,25 +388,30 @@ if(isset($_POST['btn-signup']))
         <label id="icon" for="text"><i class="icon-phone"></i></label>
         <input type="text" name="phone" pattern="^\d{10}$"  placeholder="Mobile Number" title="10 numeric characters only" required />
 
-
+       <!--
         <label id="icon" for="email"><i class="icon-user"></i></label>
         <input type="text" id="cgpa" placeholder="Enter current cgpa or percentage" name="Cgpa">
 
         <label id="icon" for="text"><i class="icon-user"></i></label>
         <input type="text" id="Institute" placeholder="Enter Institute name" name="Institute_name">
 
+
         <label id="icon" for="text"><i class="icon-user"></i></label>
         <input type="text" id="qualification" placeholder="Enter qualification" name="Qualification">
+      -->
 
         <label id="icon" for="password"><i class="icon-shield"></i></label>
         <input type="password" name="password" id="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required/>
 
         <label id="icon" for="password"><i class="icon-shield"></i></label>
         <input type="password" class="repass" name="confirm_password" id="confirm_password" placeholder="Confirm Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required/>
-        
-        
-
+       
+       <!--
+       <div class="address_div">
+       <textarea class="textarea" id="address" name="address" placeholder="Please fill up your full address"></textarea>
+       </div>-->
         <div class="gender">
+        
           <input type="radio" value="Male" id="male" name="gender" checked/>
           <label for="male" class="radio" chec>Male</label>
           <input type="radio" value="Female" id="female" name="gender" />

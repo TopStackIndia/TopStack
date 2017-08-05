@@ -38,6 +38,14 @@ class USER
             $stmt->bindparam(":user_phone",$phone);
             $stmt->bindparam(":user_gender",$gender);
             $stmt->bindparam(":user_type",$type);
+            /**********************************/
+            /*
+            $stmt->bindparam(":cgpa",$cgpa);
+            $stmt->bindparam(":qualification",$qualification);
+            $stmt->bindparam(":address",$address);
+            $stmt->bindparam(":institute_name",$institute_name);
+            */
+             
 
             $stmt->execute();
             return $stmt;
@@ -46,18 +54,29 @@ class USER
         }
     }
     /*Myadded Extended Funtions tbl_userdetils */
-    public function update_detils_new($name, $email,$number,$address,$cgpa,$institute_name,$qualification)
+    public function update_details_std($name,$number,$address,$cgpa,$institute_name,$qualification,$dob,$userid)
     {
          try
-         {$stmt = $this->conn->prepare("INSERT INTO tbl_userdetails(std_Name,std_Email,std_address,std_number,std_cgpa,std_institutename,std_qualification) 
-                                                VALUES(:std_Name, :std_Email,:std_address,:std_number,:std_cgpa,:std_institutename,:std_qualification)");
+         {  $query="UPDATE  tbl_users  SET  userName=:std_Name,
+                                            userPhone=:std_number,
+                                            address=:std_address,
+                                            cgpa=:std_cgpa,
+                                            institute_name=:std_institutename,
+                                            qualification=:std_qualification,
+                                            DOB=:DOB WHERE  userID = :std_userid";
+            
+            $stmt = $this->conn->prepare($query);
             $stmt->bindparam(":std_Name", $name);
-            $stmt->bindparam(":std_Email", $email);
-            $stmt->bindparam(":std_address", $address);
+            //$stmt->bindparam(":std_Email", $email);
             $stmt->bindparam(":std_number", $number);
+            $stmt->bindparam(":std_address", $address);
+
+            $stmt->bindparam(":std_userid",$userid);
+           
             $stmt->bindparam(":std_cgpa", $cgpa);
             $stmt->bindparam(":std_institutename", $institute_name);
             $stmt->bindparam(":std_qualification",$qualification);
+            $stmt->bindparam(":DOB",$dob);
         
             $stmt->execute();
             return $stmt;

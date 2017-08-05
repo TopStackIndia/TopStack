@@ -21,28 +21,17 @@
 {
   /**************************/   
  $name = ($_POST['name']);
- $email = trim($_POST['email']);
+ //$email = $_POST['email'];
  $phone=trim($_POST['phone']);
  $cgpa=($_POST['cgpa']);
  $institute_name=($_POST['institute_name']);
  $qualification=($_POST['qualification']);
  $address=($_POST['address']);
+ $dob=($_POST['DOB']);
  
- $stmt = $user->runQuery("SELECT * FROM tbl_userdetails WHERE std_Email=:email_id");
- $stmt->execute(array(":email_id"=>$email));
- $row = $stmt->fetch(PDO::FETCH_ASSOC);
- if($stmt->rowCount() > 0)
- {/*
-  $msg = "
-        <div class='alert alert-error'>
-    <button class='close' data-dismiss='alert'>&times;</button>
-     <strong>Sorry !</strong>  email allready exists , Please Try another one
-     </div>
-     ";*/
-     $user->redirect('dashboard.php');
-    
- }else{
-   if($user->update_detils_new($name, $email,$phone,$address,$cgpa,$institute_name,$qualification))
+ $userid=$row['userID'];
+  
+   if($user->update_details_std($name,$phone,$address,$cgpa,$institute_name,$qualification,$dob,$userid))
    {
       $msg=" <div class='alert alert-success'>
             
@@ -56,7 +45,7 @@
    echo "sorry , Query could no execute...";
   } 
  }
-}
+
 
 ?>
 
@@ -91,11 +80,11 @@
                 <form role="form" id="userdetils-form" autocomplete="off" method="post">
                 <div class="form-group">
                  <label for="email">Name:</label>
-                 <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name" value="<?php echo $row['userName']; ?>">
+                 <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name" value="<?php echo $row['userName']; ?>" >
                </div>
                <div class="form-group">
                  <label for="email">Email:</label>
-                 <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" value="<?php echo $row['userEmail']; ?>">
+                 <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" value="<?php echo $row['userEmail']; ?>" disabled>
                </div>
                 <div class="form-group">
                  <label for="pwd">Phone:</label>
@@ -103,22 +92,28 @@
                </div>
                <div class="form-group">
                  <label for="email">Current CGPA or Percentage of last appeared exam:</label>
-                 <input type="text" class="form-control" id="cgpa" placeholder="Enter cgpa" name="cgpa">
+                 <input type="text" class="form-control" id="cgpa" placeholder="Enter cgpa" name="cgpa" value="<?php echo $row['cgpa']; ?>">
                </div>
                <div class="form-group">
                  <label for="email">Intitute Name:</label>
-                 <input type="text" class="form-control" id="institute_name" placeholder="Enter Institute Name" name="institute_name">
+                 <input type="text" class="form-control" id="institute_name" placeholder="Enter Institute Name" name="institute_name" value="<?php 
+                 echo $row['institute_name']; ?>">
                </div>
                <div class="form-group">
                  <label for="email">Qualification:</label>
-                 <input type="text" class="form-control" id="qualification" placeholder="Enter qualification" name="qualification">
+                 <input type="text" class="form-control" id="qualification" placeholder="Enter qualification" name="qualification" value="<?php 
+                 echo $row['qualification']; ?>" >
+               </div>
+               <div class="form-group">
+                 <label for="dob">Date of Birth:</label>
+                 <input type="text" class="form-control" id="DOB" placeholder="Enter qualification" name="DOB" value="<?php echo $row['DOB']; ?>">
                </div>
                 <div class="form-group">
                  <label for="email">Address:</label>
-                 <textarea class="form-control" id="address" placeholder="Enter Address" name="address" value=""></textarea>
+                 <textarea class="form-control" id="address" placeholder="Enter Address" name="address"><?php echo $row['address']; ?></textarea>
                </div>
     
-                <button type="submit" class="btn btn-success btn-lg" name="btn-signup">Submit</button>
+                <button type="submit" class="btn btn-success btn-lg" name="btn-signup">Update Details</button>
                 </form>
                </div>
               </div>
