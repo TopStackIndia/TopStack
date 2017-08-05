@@ -81,42 +81,7 @@ if(isset($_POST['btn-signup']))
  }
 }
 ?>
-<!--
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Signup | Coding Cage</title>
-    <!-- Bootstrap -->
-    <!--
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
-    <link href="assets/styles.css" rel="stylesheet" media="screen">
-     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--
-    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-  </head>
-  <body id="login">
-    <div class="container">
-    <?php if(isset($msg)) echo $msg;  ?>
-      <form class="form-signin" method="post">
-        <h2 class="form-signin-heading">Sign Up</h2><hr />
-        <input type="text" class="input-block-level" placeholder="Username" name="txtuname" required />
-        <input type="email" class="input-block-level" placeholder="Email address" name="txtemail" required />
-        <input type="password" class="input-block-level" placeholder="Password" name="txtpass" required />
-      <hr />
-        <button class="btn btn-large btn-primary" type="submit" name="btn-signup">Sign Up</button>
-        <a href="index.php" style="float:right;" class="btn btn-large">Sign In</a>
-      </form>
 
-    </div> <!-- /container -->
-    <!--
-    <script src="vendors/jquery-1.9.1.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-  </body>
-</html>-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -165,8 +130,8 @@ if(isset($_POST['btn-signup']))
 
       .testbox {
         margin: 20px auto;
-        width: 343px;  
-        height: 564px; 
+        width: 410px;  
+        height: 664px; 
         -webkit-border-radius: 8px/7px; 
         -moz-border-radius: 8px/7px; 
         border-radius: 8px/7px; 
@@ -235,7 +200,7 @@ if(isset($_POST['btn-signup']))
       }
 
       input[type=text],input[type=password],input[type=email]{
-        width: 200px; 
+        width: 260px; 
         height: 39px; 
         -webkit-border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
         -moz-border-radius: 0px 4px 4px 0px/0px 0px 4px 4px; 
@@ -271,12 +236,12 @@ if(isset($_POST['btn-signup']))
       }
 
       .gender {
-        margin-left: 30px;
+        margin-left: 60px;
         margin-bottom: 10px;
       }
 
       .accounttype{
-        margin-left: 8px;
+        margin-left: 25px;
         margin-top: 20px;
       }
 
@@ -341,6 +306,7 @@ if(isset($_POST['btn-signup']))
 
       }
 </style>
+ 
 <style>
        .alert {
     padding: 20px;
@@ -389,19 +355,35 @@ if(isset($_POST['btn-signup']))
           <input type="radio" value="Personal" id="radioTwo" name="account" />
           <label for="radioTwo" class="radio">Personal</label>
         </div>
-        
         <hr>
         <label id="icon" for="email"><i class="icon-envelope "></i></label>
         <input type="email" name="email" id="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="xyz@something.com" required/>
+
+
         <label id="icon" for="name"><i class="icon-user"></i></label>
         <input type="text" name="name" id="name" placeholder="Name"  required />
+
         <label id="icon" for="text"><i class="icon-phone"></i></label>
         <input type="text" name="phone" pattern="^\d{10}$"  placeholder="Mobile Number" title="10 numeric characters only" required />
+
+
+        <label id="icon" for="email"><i class="icon-user"></i></label>
+        <input type="text" id="cgpa" placeholder="Enter current cgpa or percentage" name="Cgpa">
+
+        <label id="icon" for="text"><i class="icon-user"></i></label>
+        <input type="text" id="Institute" placeholder="Enter Institute name" name="Institute_name">
+
+        <label id="icon" for="text"><i class="icon-user"></i></label>
+        <input type="text" id="qualification" placeholder="Enter qualification" name="Qualification">
+
         <label id="icon" for="password"><i class="icon-shield"></i></label>
         <input type="password" name="password" id="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required/>
+
         <label id="icon" for="password"><i class="icon-shield"></i></label>
         <input type="password" class="repass" name="confirm_password" id="confirm_password" placeholder="Confirm Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required/>
         
+        
+
         <div class="gender">
           <input type="radio" value="Male" id="male" name="gender" checked/>
           <label for="male" class="radio" chec>Male</label>
