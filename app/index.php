@@ -1059,7 +1059,7 @@ $username= $row['userName'];
             </div>
         </section>
 
-        <section id="map"></section>
+       <!-- <section id="map"></section>-->
 
         <footer id="site-footer">
             <div class="container">
