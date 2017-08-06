@@ -316,7 +316,7 @@ $username= $row['userName'];
                 <div class="row">
                     <div class="col-md-8 col-md-push-2 clearfix">
                         <div class="section-heading scrollpoint sp-effect3">
-                            <h1>about TopSta<span>K</span> </h1>
+                            <h1>about TopStac<span>K</span> </h1>
                             <h4>We are Software Development & Training Firm.In these tough times, where it is hard to maintain the top line, we can help share the bottom-line for you.We will be happy to help execute SEO & Web Design and Development,Sofware Development Projects at a much significantly lesser cost! We never Compromise on Quality</h4>
                             <span class="divider"></span>
                         </div>
