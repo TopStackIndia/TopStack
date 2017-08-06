@@ -136,7 +136,7 @@ if(isset($_POST['btn-signup']))
       .testbox {
         margin: 20px auto;
         width: 410px;  
-        height: 864px; 
+        height: 564px; 
         -webkit-border-radius: 8px/7px; 
         -moz-border-radius: 8px/7px; 
         border-radius: 8px/7px; 
