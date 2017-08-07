@@ -85,6 +85,25 @@ class USER
              echo $ex->getMessage();
          }
     }
+    /* Method for uploading profile picture */
+
+    public function update_profile_picture($dp_url,$userid)
+    {
+        try{
+            $query ="UPDATE tbl_users SET  dp_url=:dp_url WHERE userID =:std_userid";
+            $stmt = $this->conn->prepare($query);
+
+            $stmt->bindparam(":std_userid",$userid);
+            $stmt->bindparam(":dp_url",$dp_url);
+
+            $stmt->execute();
+            return $stmt;
+
+        }catch(PDOException $ex)
+        {
+            echo $ex->getMessage();
+        }
+    }
 
  
     public function login($email, $upass)
