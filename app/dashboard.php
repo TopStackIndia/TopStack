@@ -155,7 +155,7 @@ $row = $stmt->fetch(PDO::FETCH_ASSOC);
 
                     if($dp_url=="")
                     {
-                        $dp_url="http://topstackindia.com/custom_code/uploads/default.png";  // TODO: Change In Prodcution Server
+                        $dp_url="http://www.topstackindia.com/custom_code/uploads/default.png";  // TODO: Change In Prodcution Server
 
                     }
                   

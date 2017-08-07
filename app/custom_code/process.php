@@ -25,7 +25,7 @@ $config["thumbnail_size"]  				= 200; //Thumbnails will be cropped to 200x200 pi
 $config["thumbnail_prefix"]				= "thumb_"; //Normal thumb Prefix
 $config["destination_folder"]			= 'uploads/'; //upload directory ends with / (slash)
 $config["thumbnail_destination_folder"]	= 'uploads/'; //upload directory ends with / (slash)
-$config["upload_url"] 					= "http://topstackindia.com/custom_code/uploads/";       // TODO: change with prodction server url
+$config["upload_url"] 					= "http://www.topstackindia.com/custom_code/uploads/";       // TODO: change with prodction server url
 $config["quality"] 						= 90; //jpeg quality
 $config["random_file_name"]				= true; //randomize each file name
 
