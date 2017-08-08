@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> origin/master
+
     <?php
     session_start();
     require_once 'class.user.php';
@@ -98,12 +95,13 @@
                             </li>
 
                             <li> 
-                              <a  href="dashboard.php" role="button" class="dropdown-toggle" data-toggle="dropdown"> <i class="fa fa-user"></i> <?php echo $row['userName']; ?>
+                              <a  href="dashboard.php" role="button" class="dropdown-toggle" data-toggle="dropdown"> <i class="fa fa-user"></i> 
+                              <?php echo $row['userName']; ?>
                                  <i class="caret"></i>
                              </a>
 
                              <ul class="dropdown-menu">
-                                <li>        <a href="dashboard.php">DashBoard</a>
+                                <li><a href="dashboard.php">DashBoard</a>
                                     <a href="userdetails.php">Update Details</a>
                                     <a tabindex="-1" href="logout.php">Logout</a>
                                 </li>
@@ -125,20 +123,13 @@
             <!--/.container -->
         </div>
         <!--/.navbar -->
-<<<<<<< HEAD
-    
-=======
-    <!--
->>>>>>> origin/master
+
         <section class="well well-lg">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-<<<<<<< HEAD
+
                         <h2>Welcome &nbsp;<?php echo $row['userName'];?></h2>
-=======
-                        <h2>User Area</h2>
->>>>>>> origin/master
                     </div>
                     <div class="col-md-6">
                         <ol class="breadcrumb">
@@ -148,13 +139,10 @@
                     </div>
                 </div>
             </div>
-<<<<<<< HEAD
+
         </section>
-        <!-- Section Made by Me-->
-        <!--
-=======
-        </section>-->
-        <!-- Section Made by Me  -->
+        
+        <!-- Section Made by Me 
          <section>
          <div class="well ">
             <div class="container">
@@ -167,7 +155,7 @@
             </div>
 
          </div>
-       </section>
+       </section>-->
 
         <!-- My Sction Add -->
 
