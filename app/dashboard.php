@@ -123,7 +123,7 @@
         <!--/.navbar -->
 
     
-
+       <!--
         <section class="well well-lg">
             <div class="container">
                 <div class="row">
@@ -140,12 +140,12 @@
                 </div>
             </div>
 
-        </section>
+        </section>-->
         
         
 
   
-        <!-- Section Made by Me 
+       
          <section>
          <div class="well ">
             <div class="container">
@@ -158,7 +158,7 @@
             </div>
 
          </div>
-       </section>-->
+       </section>
 
         <!-- My Sction Add -->
 
