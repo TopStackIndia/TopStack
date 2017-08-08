@@ -54,11 +54,12 @@ try{
 	//output thumbnails
 	foreach($responses["thumbs"] as $response){
 		echo '<img src="'.$config["upload_url"].$response.'" class="thumbnails" title="'.$response.'" />';
-		echo $config["upload_url"].$response;
+	//	echo $config["upload_url"].$response;
        
        $main_dp_url=$config["upload_url"].$response;
 		
 	}
+	
 	
 	echo '<h3>Images</h3>';
 	//output images
@@ -66,7 +67,7 @@ try{
 		echo '<img src="'.$config["upload_url"].$response.'" class="images" title="'.$response.'" />';
 	}
 
-     $userid=$row['userID'];
+    $userid=$row['userID'];
     $user->update_profile_picture($main_dp_url,$userid);
 	
 }catch(Exception $e){
