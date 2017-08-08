@@ -190,7 +190,8 @@
                
 
                     <!-- Trigger the modal with a button -->
-                    <button type="button" class="btn btn-info " data-toggle="modal" data-target="#myModal">Change</button>
+                    <button type="button" class="btn btn-info " data-toggle="modal" data-target="#myModal">Profile Picture</button>
+                    &nbsp;&nbsp;&nbsp;<a href="userdetails.php"  type="button" class="btn btn-success" >Edit info</a>
                     <div class="col-md-12">
                         <!-- Testing For Image Upload -->
                         <div class="container">
@@ -235,7 +236,7 @@
              <!-- End of Profile Section -->
              
              <!-- Start of Desciption and Course Section-->
-            <div class="col-md-8">
+            <div class="col-md-8 ">
             
              <h3>Course Details</h3>
              <h5>Your Detils Information</h5>
