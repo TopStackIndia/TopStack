@@ -5,7 +5,7 @@
 
     if(!$user_home->is_logged_in())
     {
-    //$user_home->redirect('login.php');
+     $user_home->redirect('login.php');
     }
 
     $stmt = $user_home->runQuery("SELECT * FROM tbl_users WHERE userID=:uid");
@@ -138,7 +138,7 @@
             </div>
         </section>-->
         <!-- Section Made by Me  -->
-         
+         <section>
          <div class="well ">
             <div class="container">
                 <div class="row">
@@ -150,7 +150,7 @@
             </div>
 
          </div>
-
+       </section>
 
         <!-- My Sction Add -->
 
