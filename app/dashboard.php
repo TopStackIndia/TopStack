@@ -121,12 +121,12 @@
             <!--/.container -->
         </div>
         <!--/.navbar -->
-    <!--
+    
         <section class="well well-lg">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <h2>User Area</h2>
+                        <h2>Welcome &nbsp;<?php echo $row['userName'];?></h2>
                     </div>
                     <div class="col-md-6">
                         <ol class="breadcrumb">
@@ -136,21 +136,22 @@
                     </div>
                 </div>
             </div>
-        </section>-->
-        <!-- Section Made by Me  -->
+        </section>
+        <!-- Section Made by Me-->
+        <!--
          <section>
          <div class="well ">
             <div class="container">
                 <div class="row">
                  <div class="col-md-12">
-                    <h4> Welcome &nbsp;<?php echo $row['userName'];?></h4> 
+                    <h4> Welcome &nbsp;</h4> 
                  </div>
                     
                 </div>
             </div>
 
          </div>
-       </section>
+       </section>-->
 
         <!-- My Sction Add -->
 
