@@ -96,8 +96,8 @@ else
              </div>
              <div class="form-group">
                <label for="email">Intitute Name:</label>
-               <input type="text" class="form-control" id="institute_name" placeholder="Enter Institute Name" name="institute_name" value="<?php 
-               echo $row['institute_name']; ?>">
+               <input type="text" class="form-control" id="institute_name" placeholder="Enter Institute Name" name="institute_name" 
+               value="<?php echo $row['institute_name']; ?>">
              </div>
              <div class="form-group">
                <label for="email">Qualification:</label>

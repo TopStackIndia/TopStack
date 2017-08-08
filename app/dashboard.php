@@ -143,7 +143,7 @@
             <div class="container">
                 <div class="row">
                  <div class="col-md-12">
-                    <h5>Dashboard</h5> 
+                    <h4> Welcome &nbsp;<?php echo $row['userName'];?></h4> 
                  </div>
                     
                 </div>
