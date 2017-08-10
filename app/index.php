@@ -149,7 +149,7 @@ $username= $row['userName'];
                                     Websites, Bradings & Web Apps
                                 </div>
                                 <div class="tp-caption sfb hidden-xs" data-x="520" data-y="center" data-hoffset="0" data-voffset="150" data-speed="2400" data-start="1700" data-easing="Power4.easeOut">
-                                    <a href="#about" class="btn btn-primary btn-lg">LEARN MORE</a>
+                                    <a href="##myhidden" class="btn btn-primary btn-lg">LEARN MORE</a>
                                 </div>
                             </li>
 
