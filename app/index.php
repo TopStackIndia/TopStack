@@ -1066,7 +1066,7 @@ $username= $row['userName'];
                             </div>
                             <div class="detail">
                                 <h4>email us</h4>
-                                <p>training.topstackindia.com</p>
+                                <p>training@topstackindia.com</p>
                             </div>
                             <div class="detail">
                                 <ul class="clearfix">
@@ -1114,7 +1114,7 @@ $username= $row['userName'];
                     <span class="divider grey"></span>
                    <!-- <h4>TopStack<span class="brandy">2017</span> India.com.</h4>-->
                     <h4>Copyright <span class="brandy">&copy;2017</span> TopStackindia.com</h4>
-                    <!--<h5>by <a href="http://www.scoopthemes.com" target="_blank">ScoopThemes</a>-->
+                    
                     
                     <a href="#" class="scroll-top">
                         <img src="img/top.png" alt="" class="top">
