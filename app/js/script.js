@@ -1,5 +1,5 @@
 /*
- * Runek
+ *Rajdeep
  * http://www.scoopthemes.com/
  *
  * Copyright (c) 2014, ScoopThemes
@@ -44,7 +44,7 @@ var appMaster = {
                 if (target.length) {
                     $('html,body').animate({
                         scrollTop: target.offset().top
-                    }, 1000);
+                    }, 2400);                                                 //original ->1000
                     return false;
                 }
             }
@@ -56,7 +56,7 @@ var appMaster = {
         $('.scroll-top').click(function() {
             $('body,html').animate({
                 scrollTop: 0
-            }, 1000);
+            }, 2400);                                                      //original ->1000
         });
     },
 

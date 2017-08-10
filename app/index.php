@@ -190,15 +190,15 @@ $username= $row['userName'];
                             </li>
                             <li><a href="#services">services</a>
                             </li>
-                            <li><a href="#team">team</a>
+                            <li><a href="comming_soon\comming_soon.html">team</a>   <!-- original #team-->
                             </li>
-                            <li><a href="#portfolio">our work</a>
+                            <li><a href="comming_soon\comming_soon.html">our work</a>                      <!-- #portfollio -->
                             </li>
                             <li><a href="#get-in-touch">contact</a>
                             </li>
-                            <li><a href="#">Education</a>
+                            <li><a href="comming_soon\comming_soon.html">Education</a>
                             </li>
-                            <li><a href="#">Carrier</a>
+                            <li><a href="comming_soon\comming_soon.html">Carrier</a>
                             </li>
                             
 
@@ -256,7 +256,7 @@ $username= $row['userName'];
          </br>
          </br>
          </br>
-         </br>
+         <p></p>
         
 
             <div class="container">
