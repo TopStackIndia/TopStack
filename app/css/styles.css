@@ -85,6 +85,7 @@ header.masthead h1, header.masthead h2, header.masthead h3 {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   background: white;
   min-height: 70px;
+  
 }
 #nav.affix {
   position: fixed;
@@ -157,6 +158,13 @@ section#whoWeAre {
 section#whoWeAre .media .media-body h4 {
   font-weight: bold;
 }
+
+section#myhidden {
+  padding: 40px 0;
+}
+
+
+
 section#about {
   padding: 40px 0;
 }

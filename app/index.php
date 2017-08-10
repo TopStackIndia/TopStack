@@ -105,8 +105,8 @@ $username= $row['userName'];
                                 <div class="tp-caption italic large_white_light sfr hidden-xs" data-x="left" data-y="center" data-hoffset="335" data-voffset="-50" data-speed="700" data-start="1900" data-easing="Power4.easeOut">
                                     Functional
                                 </div>
-                                <div class="tp-caption lfb " data-x="left" data-y="center" data-hoffset="0" data-voffset="25" data-speed="1000" data-start="1900" data-easing="Power4.easeOut">
-                                    <a href="#about" class="btn btn-naked">Learn More About Us <span class="fa fa-angle-right"></span></a>
+                                <div class="tp-caption lfb " data-x="left" data-y="center" data-hoffset="30" data-voffset="25" data-speed="2400" data-start="1900" data-easing="Power4.easeOut">
+                                    <a href="##myhidden" class="btn btn-naked">Learn More About Us <span class="fa fa-angle-right"></span></a>
                                 </div>
 
                             </li>
@@ -120,10 +120,10 @@ $username= $row['userName'];
                                     <img src="img/samples/macbook-bl.png" class="macbook-image" alt="">
                                 </div>
 
-                                <div class="tp-caption large_white_light italic sfb hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
+                                <div class="tp-caption large_white_light italic sfb hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="0" data-speed="2400" data-start="1300" data-easing="Power4.easeOut">
                                     <a href="#portfolio" class="btn btn-naked">Check Our Work</a>
                                 </div>
-                                <div class="tp-caption italic large_white_light sft hidden-xs" data-x="right" data-y="center" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
+                                <div class="tp-caption italic large_white_light sft hidden-xs" data-x="right" data-y="center" data-hoffset="0" data-voffset="0" data-speed="2400" data-start="1300" data-easing="Power4.easeOut">
                                     <a href="#team" class="btn btn-naked">Meet The Team</a>
                                 </div>
                             </li>
@@ -148,7 +148,7 @@ $username= $row['userName'];
                                 <div class="tp-caption large_white_light sfb" data-x="520" data-y="center" data-hoffset="0" data-voffset="60" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
                                     Websites, Bradings & Web Apps
                                 </div>
-                                <div class="tp-caption sfb hidden-xs" data-x="520" data-y="center" data-hoffset="0" data-voffset="150" data-speed="1000" data-start="1700" data-easing="Power4.easeOut">
+                                <div class="tp-caption sfb hidden-xs" data-x="520" data-y="center" data-hoffset="0" data-voffset="150" data-speed="2400" data-start="1700" data-easing="Power4.easeOut">
                                     <a href="#about" class="btn btn-primary btn-lg">LEARN MORE</a>
                                 </div>
                             </li>
@@ -322,7 +322,25 @@ $username= $row['userName'];
                 </div>
             </div>
         </section>
+
+        <!--- My hidden section for set currect topstack postion by akash -->
        
+        <section id="#myhidden">
+            <div class ="container">
+                    <div class="row">
+                     <div class="col-md-8 col-md-push-2 clearfix">
+                        <div class="section-heading scrollpoint sp-effect3">
+                        </br>
+                        </br>
+                        </div>
+                               
+                    </div>
+                  
+                    </div>
+            </div>
+        </section>
+
+
         <section id="about">
          </br>
          </br>
