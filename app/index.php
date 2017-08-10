@@ -1019,7 +1019,7 @@ $username= $row['userName'];
                             </div>
                             <div class="detail">
                                 <h4>email us</h4>
-                                <p>training.topstack@gmail.com</p>
+                                <p>training.topstackindia.com</p>
                             </div>
                             <div class="detail">
                                 <ul class="clearfix">
