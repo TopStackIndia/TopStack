@@ -247,6 +247,18 @@ $username= $row['userName'];
         </header>
 
         <section id="whoWeAre">
+        </br>
+         </br>
+         </br>
+         </br>
+         </br>
+         </br>
+         </br>
+         </br>
+         </br>
+         </br>
+        
+
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-push-2 clearfix">
@@ -310,8 +322,14 @@ $username= $row['userName'];
                 </div>
             </div>
         </section>
-
+       
         <section id="about">
+         </br>
+         </br>
+         </br>
+         </br>
+         </br>
+         
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-push-2 clearfix">
@@ -469,6 +487,12 @@ $username= $row['userName'];
         </section>-->
 
         <section id="services">
+        </br>
+         </br>
+         </br>
+         </br>
+         </br>
+         </br>
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-push-2 clearfix">
@@ -993,6 +1017,11 @@ $username= $row['userName'];
         </section> -->
 
         <section id="get-in-touch">
+        </br>
+         </br>
+         </br>
+         </br>
+         
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-push-2 clearfix">
