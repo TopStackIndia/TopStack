@@ -105,7 +105,7 @@ $username= $row['userName'];
                                 <div class="tp-caption italic large_white_light sfr hidden-xs" data-x="left" data-y="center" data-hoffset="335" data-voffset="-50" data-speed="700" data-start="1900" data-easing="Power4.easeOut">
                                     Functional
                                 </div>
-                                <div class="tp-caption lfb " data-x="left" data-y="center" data-hoffset="30" data-voffset="25" data-speed="2400" data-start="1900" data-easing="Power4.easeOut">
+                                <div class="tp-caption lfb " data-x="left" data-y="center" data-hoffset="0" data-voffset="25" data-speed="2400" data-start="1900" data-easing="Power4.easeOut">
                                     <a href="##myhidden" class="btn btn-naked">Learn More About Us <span class="fa fa-angle-right"></span></a>
                                 </div>
 
