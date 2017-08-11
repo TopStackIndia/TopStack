@@ -1,4 +1,13 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400,600,700);
+@font-face {
+  font-family: graphik;
+  src: url(fonts/graphik/Graphik-Regular-Web.woff);
+}
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400);
+/*@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400,600,700);*/ /*original */
+
+
+
 .backgroundCover, section#features, section#buyNow, section#twitter, section.well {
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -7,7 +16,10 @@
 }
 
 body {
-  font-family: "Open Sans", Tahoma, Arial;
+  /*font-family: "Open Sans", Tahoma, Arial;*/
+  /*font-family: 'Josefin Slab', serif;*/
+  font-family: 'Lato', sans-serif;
+  /*font-family: 'graphik';*/
 }
 
 header {
@@ -33,7 +45,10 @@ header.masthead .tp-bannertimer {
   height: 3px;
 }
 header.masthead .tp-caption {
-  font-family: "Open Sans", Tahoma, Arial;
+  /*font-family: "Open Sans", Tahoma, Arial;*/
+  /*font-family: 'Josefin Slab', serif;*/
+  font-family: 'Lato', sans-serif;
+  /*font-family: 'graphik';*/
 }
 header.masthead .tp-caption a {
   color: white;
@@ -120,7 +135,11 @@ header.masthead h1, header.masthead h2, header.masthead h3 {
   text-transform: uppercase;
   padding-top: 25px;
   padding-bottom: 24px;
-  font-family: "Open Sans", Tahoma, Arial;
+  /*font-family: "Open Sans", Tahoma, Arial;*/
+ /* font-family: 'Josefin Slab', serif;*/
+ font-family: 'Lato', sans-serif;
+ /*font-family: 'graphik';*/
+
   font-weight: bold;
   color: #222222;
   -webkit-transition: all 0.25s ease-in-out;

@@ -58,6 +58,9 @@ $username= $row['userName'];
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <!-- For Animation the Boostrap Icons -->
+    <link rel="stylesheet" href="animation_css/font-awesome-animation.min.css">
+   <!-- Referrence Library Use: http://l-lin.github.io/font-awesome-animation/-->
 
 </head>
 
@@ -75,12 +78,15 @@ $username= $row['userName'];
     </div>
     <div class="go-down">
         <a href="#whoWeAre">
-            <i class="fa fa-angle-down fa-3x"></i>
+         
+        <i class="fa fa-angle-down fa-3x faa-bounce animated"></i></br>
+        <i class="fa fa-angle-down fa-3x faa-bounce animated"></i>
+          
         </a>
     </div>
     <!-- Wrap all page content here -->
     <div id="wrap" class="home">
-
+     
         <header class="masthead">
             <div class="slider-container" id="slider">
                 <div class="tp-banner-container">
@@ -279,7 +285,7 @@ $username= $row['userName'];
                                 <i class="media-object fa fa-bug  fa-4x"></i>
                             </a>
                             <div class="media-body">
-                                <h4 class="media-heading">clean & clear web developemt & Responsive WebDesign</h4>
+                                <h4 class="media-heading">Web developemt & Responsive WebDesign</h4>
                                 <p>We are Software Development & Training Firm.In these tough times, where it is hard to maintain the top line, we can help share the bottom-line for you.We will be happy to help execute SEO & Web Design and Development,Sofware Development
                                 Projects at a much significantly lesser cost  than what you have in house -
                                 <font color="#1fad1f"> No Compromise on quality! </font></p>
