@@ -79,7 +79,7 @@ $username= $row['userName'];
     <div class="go-down">
         <a href="#whoWeAre">
          
-        <i class="fa fa-angle-down fa-3x faa-bounce animated"></i></br>
+        
         <i class="fa fa-angle-down fa-3x faa-bounce animated"></i>
           
         </a>
