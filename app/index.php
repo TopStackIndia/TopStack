@@ -406,7 +406,7 @@ $username= $row['userName'];
                                         <i class="media-object fa fa-taxi fa-2x"></i>
                                     </a>
                                     <div class="media-body">
-                                        <h4 class="media-heading">our vission</h4>
+                                        <h4 class="media-heading">our vision</h4>
                                         <p>To become a leading product developing and training company in the field of Information & Technology in tomorrow's market.</p>
                                     </div>
                                 </div>
@@ -515,7 +515,7 @@ $username= $row['userName'];
                     <div class="col-md-8 col-md-push-2 clearfix">
                         <div class="section-heading scrollpoint sp-effect3">
                             <h1>Services we offer</h1>
-                            <h4>We provide Highy Quality WebDevelopent & Apllication Developemt Services.We also Designed Application for Mobile and Embeded Systems & IoT(Internet of things) Services.</h4>
+                            <h4>We provide Highy Quality WebDevelopent & Apllication Developemt Services.We also Design Application for Mobile and Embeded Systems & IoT(Internet of things) Services.</h4>
                             <span class="divider"></span>
                         </div>
                     </div>
@@ -527,7 +527,7 @@ $username= $row['userName'];
                                         <i class="media-object fa fa-mobile fa-2x"></i>
                                     </a>
                                     <div class="media-body">
-                                        <h4 class="media-heading">Mobile development</h4>
+                                        <h4 class="media-heading">Mobile app development</h4>
                                         <p>TopStack’s talent pool of mobile app developers includes highly-skilled analysts, UX experts and certified software engineers who are well-versed in building apps for all the major platforms — whether it’s iOS, Android, or both. Apps can be developed natively, or by using cross-platform frameworks like React Native and platforms such as PhoneGap or Xamarin.</p>
                                     </div>
                                 </div>
@@ -537,7 +537,7 @@ $username= $row['userName'];
                                     </a>
                                     <div class="media-body">
                                         <h4 class="media-heading">Web Application</h4>
-                                        <p>TopStack uses structured framework programming, best programming practices, coding guidelines and standards.
+                                        <p>TopStack uses structured framework programming, coding guidelines and standards.
                                         As the technology advances and the programming landscape changes to accomodate the world's growing technological needs,TopStack constantly evaluates the latest trends in the development community. We improve ourselves to provide our clients the best possible development solutions.</p>
                                     </div>
                                 </div>
@@ -546,7 +546,7 @@ $username= $row['userName'];
                                         <i class="media-object fa fa-film fa-2x"></i>
                                     </a>
                                     <div class="media-body">
-                                        <h4 class="media-heading">Multimedia & Graphics Design.</h4>
+                                        <h4 class="media-heading">Multimedia & Graphic Design.</h4>
                                         <p>We also provide professional multimedia services like video editing,animation,grphics design and logo design.</p>
                                     </div>
                                 </div>
@@ -557,7 +557,7 @@ $username= $row['userName'];
                                         <i class="media-object fa fa fa-desktop fa-2x"></i>
                                     </a>
                                     <div class="media-body">
-                                        <h4 class="media-heading">Custom Software Development Services</h4>
+                                        <h4 class="media-heading">Custom Software Development</h4>
                                         <p>Whether you are a start-up or an established business, we will be happy to assist you at any and every stage of the software development life cycle: from conceptualization, business analysis and prototyping to the development and deployment of a complete solution.</p>
                                     </div>
                                 </div>
@@ -1053,13 +1053,13 @@ $username= $row['userName'];
                     <div class="col-md-6">
                         <div class="contact-details">
                             <div class="detail">
-                                 <h4>TopStack
-                                    <span class="brandy">I</span>ndia</h4>
+                                 <h4>TopStacK
+                                  </h4>
                                 <p>Hooghly-Chinsurah ,West Bengal, India,712105</p>
                             </div>
                             <div class="detail">
                                 <h4>call us</h4>
-                                <p>(+91) 8981426926 </p>
+                                <p>(+91) 8961705845 </p>
                                 <p>(+91) 8658852591 </p>
                                 <p>(+91) 8981426926 </p>
                             </div>
@@ -1090,7 +1090,7 @@ $username= $row['userName'];
                                 <i class="fa fa-user form-control-feedback"></i>
                             </div>
                             <div class="form-group has-feedback left">
-                                <input type="email" class="form-control" placeholder="Email">
+                                <input type="email" class="form-control" placeholder="EMAIL">
                                 <i class="fa fa-envelope-o form-control-feedback"></i>
                             </div>
                             <div class="form-group has-feedback left">
