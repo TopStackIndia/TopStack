@@ -312,9 +312,8 @@ $username= $row['userName'];
                             </a>
                             <div class="media-body">
                                 <h4 class="media-heading">iOs Development</h4>
-                                <p>Charge very competitive price for Traing and also for Developemt.</p>
-                                <p>PHP - 3000 &#8377; </p>
-                                <p>Android - 5000 &#8377; </p>
+                                <p>To put your business on the iOS domain, you need to hire expert developers with the best exposure to various iOS development. TopStack proudly announces to serve you the best with the help of its experienced team of iOS developers..</p>
+                               
 
                             </div>
                         </div>
