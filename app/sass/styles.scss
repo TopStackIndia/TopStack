@@ -1,5 +1,5 @@
-/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400,600,700);*/
-@import url(https://fonts.googleapis.com/css?family=Lato:300,400);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400,600,700);
+/*@import url(https://fonts.googleapis.com/css?family=Lato:300,400);*/
 
 //Colors
 $brand-primary : 		#22a3df;
@@ -22,8 +22,8 @@ $white-color : 			#FFFFFF;
 $black-color: 			#000000;
 
 //Font Styling & Sizing
-/*$font-stack : 			'Open Sans', Tahoma, Arial;*/
-$font-stack : 			'Lato',' sans-serif';
+$font-stack : 			'Open Sans', Tahoma, Arial;
+
 
 $font-size-base:        14px; //Important To Be 14px For FontAwesome Rendering
 $font-size-large:       ceil(($font-size-base * 1.25)); // ~18px
