@@ -198,7 +198,7 @@ $username= $row['userName'];
                             </li>
                             <li><a href="comming_soon\comming_soon.html">Education</a>
                             </li>
-                            <li><a href="comming_soon\comming_soon.html">Carrier</a>
+                            <li><a href="comming_soon\comming_soon.html">Careers</a>
                             </li>
                             
 
@@ -287,10 +287,10 @@ $username= $row['userName'];
                         </div>
                         <div class="media scrollpoint sp-effect2">
                             <a class="pull-left" href="#">
-                                <i class="media-object fa fa-mobile  fa-4x"></i>
+                                <i class="media-object fa fa-android fa-4x" ></i>
                             </a>
                             <div class="media-body">
-                                <h4 class="media-heading">Android App Developemnt & Training</h4>
+                                <h4 class="media-heading">Android App Developemnt</h4>
                                 <p>Android is growing rapidly, so there is always going to be a need for android developers.
                                     Learn the Android programming concepts and build a variety of apps.We also Develop Android App.</p>
                             </div>
@@ -308,10 +308,10 @@ $username= $row['userName'];
                         </div>
                         <div class="media right scrollpoint sp-effect1">
                             <a class="pull-right" href="#">
-                                <i class="media-object fa fa-rupee fa-4x"></i>
+                                <i class="media-object 	fa fa-mobile-phone fa-4x"></i>
                             </a>
                             <div class="media-body">
-                                <h4 class="media-heading">Trainig Charges</h4>
+                                <h4 class="media-heading">iOs Development</h4>
                                 <p>Charge very competitive price for Traing and also for Developemt.</p>
                                 <p>PHP - 3000 &#8377; </p>
                                 <p>Android - 5000 &#8377; </p>
