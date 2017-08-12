@@ -274,8 +274,8 @@ $username= $row['userName'];
                             <h4>Founded in August,2017 topstack is a group of vibrant inquisitive mind ventured on the array of technical education and software
                                 development to zero down the gap of academic education and industry needs. Our integrated in-house software development and
                                 technical training programme is perfect model fit to equip resources with latest technology trends. Stepped out on the line
-                                of project based learning our organizational motto is learn smart earn smarter. From spanish saying we are surely
-                                “e pluribus unum”  but  “Al hombre osado la fortuna le da la mano”.</h4>
+                                of project based learning our organizational motto is learn smart earn smarter. From latin saying we are surely
+                                “e pluribus unum”  but  "fortuna audaces iuvat”.</h4>
                             <span class="divider"></span>
                         </div>
                     </div>
