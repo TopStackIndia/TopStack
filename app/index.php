@@ -562,7 +562,7 @@ $username= $row['userName'];
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="media media-services scrollpoint sp-effect2">
+                                <div class="media media-services scrollpoint sp-effect2ch">
                                     <a class="pull-left" href="#">
                                         <i class="media-object fa fa fa-desktop fa-2x"></i>
                                     </a>
