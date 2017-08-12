@@ -230,11 +230,7 @@ $username= $row['userName'];
                          <?php echo $menu_val; ?>
                         <li>
                    
-                        
-                          
-                       
-
-                            <!---<li><a href="blog-archive.html">blog</a>-->
+                        <!---<li><a href="blog-archive.html">blog</a>-->
                             
                             <li class="social-nav visible-lg">
                                 <a href="#"><i class="fa fa-twitter"></i></a>
@@ -254,7 +250,7 @@ $username= $row['userName'];
 
         <section id="whoWeAre">
         
-        </br>
+         </br>
          </br>
          </br>
          </br>
@@ -266,9 +262,7 @@ $username= $row['userName'];
          <p></p>
          <p></p>
          </br>
-        
-
-            <div class="container">
+             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-push-2 clearfix">
                         <div class="section-heading scrollpoint sp-effect3">
@@ -560,7 +554,7 @@ $username= $row['userName'];
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="media media-services scrollpoint sp-effect2ch">
+                                <div class="media media-services scrollpoint sp-effect2">
                                     <a class="pull-left" href="#">
                                         <i class="media-object fa fa fa-desktop fa-2x"></i>
                                     </a>
