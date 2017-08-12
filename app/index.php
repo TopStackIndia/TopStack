@@ -80,8 +80,8 @@ $username= $row['userName'];
         <a href="#whoWeAre">
          
         
-        <i class="fa fa-angle-down fa-3x faa-bounce animated"></i>
-          
+       <i class="fa fa-angle-down fa-4x faa-bounce animated"></i>
+      
         </a>
     </div>
     <!-- Wrap all page content here -->
@@ -548,7 +548,7 @@ $username= $row['userName'];
                                         <i class="media-object fa fa-film fa-2x"></i>
                                     </a>
                                     <div class="media-body">
-                                        <h4 class="media-heading">Multimedia & Graphic Design.</h4>
+                                        <h4 class="media-heading"> Graphics & Multimedia </h4>
                                         <p>We also provide professional multimedia services like video editing,animation,grphics design and logo design.</p>
                                     </div>
                                 </div>
@@ -1118,7 +1118,9 @@ $username= $row['userName'];
                     
                     
                     <a href="#" class="scroll-top">
-                        <img src="img/top.png" alt="" class="top">
+                        <!--<img src="img/top.png" alt="" class="top">-->
+                        <i class="fa fa-angle-up fa-4x faa-bounce animated"></i>
+      
                     </a>
                     
                 </div>
