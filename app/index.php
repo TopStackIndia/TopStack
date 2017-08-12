@@ -254,26 +254,24 @@ $username= $row['userName'];
 
         <section id="whoWeAre">
         
-         
+        </br>
+         </br>
+         </br>
+         </br>
+         </br>
+         </br>
+         </br>
+         </br>
+         <p></p>
+         <p></p>
+         <p></p>
+         </br>
         
 
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-push-2 clearfix">
                         <div class="section-heading scrollpoint sp-effect3">
-                        </br>
-         </br>
-         </br>
-         </br>
-         </br>
-         </br>
-         </br>
-         </br>
-         </br>
-         <p></p>
-         <p></p>
-         <p></p>
-         </br>
                             <h1>We are TopStac<span>k</span>
                             </h1>
                             <h4>Founded in August,2017 topstack is a group of vibrant inquisitive mind ventured on the array of technical education and software
