@@ -79,7 +79,7 @@ $username= $row['userName'];
     <div class="go-down">
         <a href="#whoWeAre">
          
-        <i class="fa fa-angle-down fa-3x faa-bounce animated"></i></br>
+        
         <i class="fa fa-angle-down fa-3x faa-bounce animated"></i>
           
         </a>
@@ -253,6 +253,7 @@ $username= $row['userName'];
         </header>
 
         <section id="whoWeAre">
+        
         </br>
          </br>
          </br>
@@ -261,8 +262,10 @@ $username= $row['userName'];
          </br>
          </br>
          </br>
-         </br>
          <p></p>
+         <p></p>
+         <p></p>
+         </br>
         
 
             <div class="container">
@@ -338,7 +341,6 @@ $username= $row['userName'];
                         </br>
                         </br>
                         </div>
-                               
                     </div>
                   
                     </div>
@@ -558,7 +560,7 @@ $username= $row['userName'];
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="media media-services scrollpoint sp-effect2">
+                                <div class="media media-services scrollpoint sp-effect2ch">
                                     <a class="pull-left" href="#">
                                         <i class="media-object fa fa fa-desktop fa-2x"></i>
                                     </a>

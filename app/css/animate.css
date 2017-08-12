@@ -26,8 +26,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .animated.hinge {
-  -webkit-animation-duration: 1.3s /* 2.0 soriginal */;
-  animation-duration: 1.3s /* 2.0s original */;
+  -webkit-animation-duration: 2.0s /* 2.0 soriginal */;
+  animation-duration: 2.0s /* 2.0s original */;
 }
 
 @-webkit-keyframes bounce {
