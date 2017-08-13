@@ -9,7 +9,7 @@
     
     src: url(fonts/pabel/Myriad_Pro_Regular.ttf ) format("truetype");
     
-    } 
+    }
 
 
 /*@import url(https://fonts.googleapis.com/css?family=Lato:300,400);*/
@@ -39,7 +39,7 @@ body {
    /* font-family: 'san';*/
     /* font-family: 'Pontano Sans', sans-serif;*/
    
-    font-family: Myriad Pro;
+    font-family: "Myriad Pro";
 }
 
 header {
@@ -76,7 +76,8 @@ header.masthead .tp-caption {
     /*font-family: 'graphik';*/
     /*font-family: 'Pontano Sans', sans-serif;*/
     /*font-family: 'san';*/
-    font-family: Myriad Pro;
+   /* font-family: Myriad Pro;*/
+   font-family: "Myriad Pro";
     
 }
 
@@ -188,7 +189,7 @@ header.masthead h3 {
     /*font-family: 'graphik';*/
     /*font-family: 'Pontano Sans', sans-serif;*/
     /*font-family: 'san';*/
-    font-family: Myriad Pro;
+    font-family: "Myriad Pro";
     
 
     
