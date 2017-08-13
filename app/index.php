@@ -61,6 +61,7 @@ $username= $row['userName'];
     <!-- For Animation the Boostrap Icons -->
     <link rel="stylesheet" href="animation_css/font-awesome-animation.min.css">
    <!-- Referrence Library Use: http://l-lin.github.io/font-awesome-animation/-->
+   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
 
 </head>
 
@@ -255,21 +256,14 @@ $username= $row['userName'];
          </br>
          </br>
          </br>
-         </br>
-         </br>
-         </br>
-         <p></p>
-         <p></p>
-         <p></p>
-         </br>
-         </br>
-         </br>
-         </br>
+         
+       
+        
              <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-push-2 clearfix">
                         <div class="section-heading scrollpoint sp-effect3">
-                            <h1>We are TopStac<span>k</span>
+                        <font style="text-transform: lowercase; ">  <h1><span><font style="text-transform: uppercase;">W</font>e are <font style="text-transform: uppercase;">T</font>opStack</font></span>
                             </h1>
                             <h4>Founded in August,2017 topstack is a group of vibrant inquisitive mind ventured on the array of technical education and software
                                 development to zero down the gap of academic education and industry needs. Our integrated in-house software development and
@@ -303,8 +297,8 @@ $username= $row['userName'];
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="media right scrollpoint sp-effect1">
-                            <a class="pull-right" href="#">
+                        <div class="media  scrollpoint sp-effect1">
+                            <a class="pull-left" href="#">
                                 <i class="media-object fa fa-male fa-4x"></i>
                             </a>
                             <div class="media-body">
@@ -312,11 +306,11 @@ $username= $row['userName'];
                                <p>In this training, you’ll learn how to design and build beautiful websites.Because of it’s easy to learn and high demand in the industry it’s easy for WebDeveloper fresher to get job.You’ll learn HTML,HTML5 and CSS3,JavaScript,jQuery,which are the common code languages that all modern websites are built on. You will also learn modern Resposive WebDesign For mobile & desktop platform using <a href="http://getbootstrap.com/">Bootstrap</a> Framework and Serverside Development Using PHP</p>
                             </div>
                         </div>
-                        <div class="media right scrollpoint sp-effect1">
-                            <a class="pull-right" href="#">
+                        <div class="media  scrollpoint sp-effect1">
+                            <a class="pull-left" href="#">
                                 <i class="media-object 	fa fa-mobile-phone fa-4x"></i>
                             </a>
-                            <div class="media-body">
+                            <div class="media-body" >
                                 <h4 class="media-heading">iOs Development</h4>
                                 <p>To put your business on the iOS domain, you need to hire expert developers with the best exposure to various iOS development. TopStack proudly announces to serve you the best with the help of its experienced team of iOS developers..</p>
                                
@@ -356,7 +350,7 @@ $username= $row['userName'];
                 <div class="row">
                     <div class="col-md-8 col-md-push-2 clearfix">
                         <div class="section-heading scrollpoint sp-effect3">
-                            <h1>about TopStac<span>K</span> </h1>
+                            <h1><span>about TopStacK</span> </h1>
                             <h4>We are Software Development & Training Firm.In these tough times, where it is hard to maintain the top line, we can help share the bottom-line for you.We will be happy to help execute SEO & Web Design and Development,Sofware Development Projects at a much significantly lesser cost! We never Compromise on Quality</h4>
                             <span class="divider"></span>
                         </div>
@@ -374,7 +368,7 @@ $username= $row['userName'];
                                         <i class="media-object fa fa-university fa-2x"></i>
                                     </a>
                                     <div class="media-body">
-                                        <h4 class="media-heading">Why TopStack</h4>
+                                      <span>  <h4 class="media-heading">Why TopStack</h4></span>
                                         <p>Charge very competitive price.Cover basic as well as advanced contents.Completely target-oriented training, students know what they are going to learn beforehand.</p>
                                     </div>
                                 </div>
@@ -512,14 +506,12 @@ $username= $row['userName'];
         </br>
          </br>
          </br>
-         </br>
-         </br>
-         </br>
-            <div class="container">
+
+             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-push-2 clearfix">
                         <div class="section-heading scrollpoint sp-effect3">
-                            <h1>Services we offer</h1>
+                            <h1><span>Services we offer</span></h1>
                             <h4>We provide Highy Quality WebDevelopent & Apllication Developemt Services.We also Design Application for Mobile and Embeded Systems & IoT(Internet of things) Services.</h4>
                             <span class="divider"></span>
                         </div>
@@ -528,7 +520,7 @@ $username= $row['userName'];
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="media media-services right scrollpoint sp-effect1">
-                                    <a class="pull-right" href="#">
+                                    <a class="pull-left" href="#">
                                         <i class="media-object fa fa-mobile fa-2x"></i>
                                     </a>
                                     <div class="media-body">
@@ -537,7 +529,7 @@ $username= $row['userName'];
                                     </div>
                                 </div>
                                 <div class="media media-services right scrollpoint sp-effect2">
-                                    <a class="pull-right" href="#">
+                                    <a class="pull-left" href="#">
                                         <i class="media-object  fa fa-globe fa-2x"></i>
                                     </a>
                                     <div class="media-body">
@@ -547,7 +539,7 @@ $username= $row['userName'];
                                     </div>
                                 </div>
                                 <div class="media media-services right scrollpoint sp-effect1">
-                                    <a class="pull-right" href="#">
+                                    <a class="pull-left" href="#">
                                         <i class="media-object fa fa-film fa-2x"></i>
                                     </a>
                                     <div class="media-body">
@@ -792,7 +784,7 @@ $username= $row['userName'];
                 <div class="row">
                     <div class="col-md-8 col-md-push-2 clearfix">
                         <div class="section-heading scrollpoint sp-effect3">
-                            <h3>We got skills</h3>
+                            <h3><span>We got skills</span></h3>
                             <span class="divider"></span>
                         </div>
                     </div>
@@ -1048,7 +1040,7 @@ $username= $row['userName'];
                 <div class="row">
                     <div class="col-md-8 col-md-push-2 clearfix">
                         <div class="section-heading scrollpoint sp-effect3">
-                            <h1>get in touch</h1>
+                            <h1><span>get in touch</span></h1>
                             <h4>You Can Send Us Message or Follow our Facebook Page!</h4>
                             <span class="divider"></span>
                         </div>
