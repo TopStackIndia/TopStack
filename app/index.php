@@ -210,7 +210,7 @@ $username= $row['userName'];
 
                             <!-- my Drop Down -->
                              <li>
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training Details <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training<b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
                                 <a href="php_training.php">PHP/MySQL Training</a>
