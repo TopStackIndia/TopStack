@@ -191,7 +191,7 @@ if (!$user_home->is_logged_in()) {
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="active"><a href="#slider">Home</a>
+                            <li><a href="#slider">Home</a>
                             </li>
                             <li><a href="#about">about</a>
                             </li>
@@ -280,7 +280,7 @@ if (!$user_home->is_logged_in()) {
                             </a>
                             <div class="media-body">
                                 <h4 class="media-heading">Web development & Responsive Web Design</h4>
-                                <p>We are software development & training firm .In these tough times, where it is hard to maintain the top line, we can help share the bottom-line for you.We will be happy to help execute SEO, web design and development, sofware development
+                                <p>We are software development & training firm .In these tough times, where it is hard to maintain the top line, we can help share the bottom-line for you. We will be happy to help execute SEO, web design and development, sofware development
                                 projects at a much significantly lesser cost than what you have in house.
                                </p>
                             </div>
@@ -292,7 +292,7 @@ if (!$user_home->is_logged_in()) {
                             <div class="media-body">
                                 <h4 class="media-heading">Android App Development</h4>
                                 <p>Android is growing rapidly, so there is always going to be a need for android developers.
-                                    Learn the Android programming concepts and build a variety of apps. We also develop android app.</p>
+                                    Learn the android programming concepts and build a variety of apps. We also develop android apps.</p>
                             </div>
                         </div>
                     </div>
@@ -303,7 +303,7 @@ if (!$user_home->is_logged_in()) {
                             </a>
                             <div class="media-body">
                                 <h4 class="media-heading">industrial training</h4>
-                               <p>In this training, you’ll learn how to design and build beautiful websites. Because of it’s easy to learn and high demand in the industry. It’s easy for webdeveloper fresher to get job. You’ll learn HTML, HTML5 and CSS3, JavaScript, jQuery which are the common code languages that all modern websites are built on. You will also learn modern resposive web design for mobile & desktop platform using <a href="http://getbootstrap.com/">Bootstrap</a> Framework and serverside development using PHP.</p>
+                               <p>In this training, you’ll learn how to design and build beautiful websites. Because of it’s easy to learn and high demand in the industry. It’s easy for webdeveloper fresher to get job. You’ll learn HTML, HTML5 and CSS3, JavaScript, jQuery which are the common code languages that all modern websites are built on. You will also learn modern responsive web design for mobile & desktop platform using <a href="http://getbootstrap.com/">Bootstrap</a> Framework and serverside development using PHP.</p>
                             </div>
                         </div>
                         <div class="media  scrollpoint sp-effect1">
@@ -351,7 +351,7 @@ if (!$user_home->is_logged_in()) {
                     <div class="col-md-8 col-md-push-2 clearfix">
                         <div class="section-heading scrollpoint sp-effect3">
                             <h1><span>About TopStack</span> </h1>
-                            <h4>We are Software Development & Training Firm. In these tough times, where it is hard to maintain the top line, we can help share the bottom-line for you. We will be happy to help execute SEO & web design and development, sofware development projects at a much significantly lesser cost.</h4>
+                            <h4>We are software development and training firm. In these tough times, where it is hard to maintain the top line, we can help share the bottom-line for you. We will be happy to help execute SEO & web design and development, sofware development projects at a much significantly lesser cost.</h4>
                             <span class="divider"></span>
                         </div>
                     </div>
@@ -1048,7 +1048,7 @@ if (!$user_home->is_logged_in()) {
                             <div class="detail">
                                  <h4>TopStacK
                                   </h4>
-                                <p>Hooghly-Chinsurah ,West Bengal, India,712105</p>
+                                <p>Hooghly-Chinsurah, West Bengal, India,712105</p>
                             </div>
                             <div class="detail">
                                 <h4>call us</h4>
