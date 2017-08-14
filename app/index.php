@@ -66,7 +66,8 @@ if (!$user_home->is_logged_in()) {
 
     <div class="pre-loader">
         <div class="load-con">
-            <img src="img/logo-blue.png" class="animated fadeFFFown" alt="">
+            <img src="img/logo.png" class="animated fadeFFFown" alt="" width=110 height=110 style=" vertical-align: middle;
+                                                                                             margin-bottom: 0.80em;">
             <div class="spinner">
                 <div class="bounce1"></div>
                 <div class="bounce2"></div>
@@ -172,7 +173,8 @@ if (!$user_home->is_logged_in()) {
                         <a href="javascript:void(0)" class="orange"></a>
                         <a href="javascript:void(0)" class="red"></a>
                     </div>
-                    <a href="javascript:void(0)" class="Switcher"><span class="fa fa-pencil fa-lg"></span></a>
+                  <!--  <a href="javascript:void(0)" class="Switcher"><span class="fa fa-pencil fa-lg"></span></a>-->
+                  
                 </div>
                 <div class="container">
                     <div class="navbar-header">
@@ -181,7 +183,8 @@ if (!$user_home->is_logged_in()) {
                             <i class="fa fa-align-justify"></i>
                         </button>
                         <a class="navbar-brand" href="#">
-                            <img src="img/logo-blue.png" alt="">
+                            <img src="img/logo-blue.png" alt="" width=150 height=50 style=" vertical-align: middle;
+                                                                                             margin-bottom: 0.80em;">
                         </a>
                     </div>
 
