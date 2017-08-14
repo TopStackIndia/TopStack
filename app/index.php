@@ -3,21 +3,18 @@ session_start();
 require_once 'class.user.php';
 $user_home = new USER();
 
-if(!$user_home->is_logged_in())
-{
+if (!$user_home->is_logged_in()) {
  //$user_home->redirect('index.php');
-   $menu_val="<a href='login.php'>Login</a>";
-
-}else
-{
- $stmt = $user_home->runQuery("SELECT * FROM tbl_users WHERE userID=:uid");
- $stmt->execute(array(":uid"=>$_SESSION['userSession']));
- $row = $stmt->fetch(PDO::FETCH_ASSOC);
+    $menu_val="<a href='login.php'>Login</a>";
+} else {
+    $stmt = $user_home->runQuery("SELECT * FROM tbl_users WHERE userID=:uid");
+    $stmt->execute(array(":uid"=>$_SESSION['userSession']));
+    $row = $stmt->fetch(PDO::FETCH_ASSOC);
 
 //Custom 
 
-$username= $row['userName'];
- $menu_val="<a  href='dashboard.php'> <i class='fa fa-user'></i></a>";
+    $username= $row['userName'];
+    $menu_val="<a  href='dashboard.php'> <i class='fa fa-user'></i></a>";
 }
 ?>
 
@@ -228,7 +225,7 @@ $username= $row['userName'];
                       <!--  <li><a href="login.php">Login</a>
                         </li>-->
                         <li>
-                         <?php echo $menu_val; ?>
+                            <?php echo $menu_val; ?>
                         <li>
                    
                         <!---<li><a href="blog-archive.html">blog</a>-->
@@ -308,7 +305,7 @@ $username= $row['userName'];
                         </div>
                         <div class="media  scrollpoint sp-effect1">
                             <a class="pull-left" href="#">
-                                <i class="media-object 	fa fa-mobile-phone fa-4x"></i>
+                                <i class="media-object  fa fa-mobile-phone fa-4x"></i>
                             </a>
                             <div class="media-body" >
                                 <h4 class="media-heading">iOs Development</h4>
@@ -1033,8 +1030,7 @@ $username= $row['userName'];
         <section id="get-in-touch">
         </br>
          </br>
-         </br>
-         </br>
+         
          
             <div class="container">
                 <div class="row">
@@ -1102,25 +1098,70 @@ $username= $row['userName'];
             </div>
         </section>
 
+
        <!-- <section id="map"></section>-->
 
         <footer id="site-footer">
-            <div class="container">
-                <div class="row">
-                    <span class="divider grey"></span>
-                   <!-- <h4>TopStack<span class="brandy">2017</span> India.com.</h4>-->
-                    <h4>Copyright <span class="brandy">&copy;2017</span> TopStackindia.com</h4>
+          <!--  <div class="container">-->
+                    <div class="row">
+                     <!--  <div class="col-md-12">-->
+                        <div class="col-md-4 md-margin-bottom-40">
+                            <div class="col-md-6"></div>
+                             <div class="col-md-6" style="text-align:left;">
+                              <div class="headline"><p>Useful Links</p></div>
+                             
+                            
+                               <ul class="list-unstyled link-list">
+                                  <li><a href="#">About us</a>
+                                  <li><a href="#">Training Methodology</a>
+                                  <li><a href="#">Infrastructure</a>
+                      
+                                   <li><a href="#">Clients</a>
+                                </ul>
+                            </div>
+                          
+                        </div>
+                        <div class="col-md-4">
+                           <span class="divider grey"></span>
+                            <!-- <h4>TopStack<span class="brandy">2017</span> India.com.</h4>-->
+                            <h4>Copyright <span class="brandy">&copy;2017</span> TopStackindia.com</h4>
                     
                     
-                    <a href="#" class="scroll-top">
-                        <!--<img src="img/top.png" alt="" class="top">-->
-                        <i class="fa fa-angle-up fa-4x faa-bounce animated"></i>
-      
-                    </a>
-                    
-                </div>
+                            <a href="#" class="scroll-top">
+                            <!--<img src="img/top.png" alt="" class="top">-->
+                            <i class="fa fa-angle-up fa-4x faa-bounce animated"></i>
+                            </a>
+                        </div>
+                        <div class="col-md-4"> 
+                            <div class="col-md-6 md-margin-bottom-40">
+                             <p>Quick Notification</p>
+                             
+                             <ul class="list-unstyled link-list">
+                                  <li><a href="#">PHP Training Admission</a>
+                                  <li><a href="#">Android Trainig Admission</a>
+                                  
+                                </ul>
+                             </div>
+
+                             <div class="col-md-6" style="text-align:left;">
+                              <div class="headline"><p>Latest Posts</p></div>
+                             
+                            
+                               <ul class="list-unstyled link-list">
+                                  <li><a href="#">Current Jobs</a>
+                                  <li><a href="#">Future Technology</a>
+                                  <li><a href="#">IT Market</a>
+                      
+                                   <li><a href="#">Research & Development</a>
+                                </ul>
+                            </div>
+                          
+                        
+                        </div>
+                    </div>
+            
                 <a href="http://www.dmca.com/Protection/Status.aspx?ID=feaa580d-787a-41c7-97ae-5b6f4b40349a" title="DMCA.com Protection Status" class="dmca-badge"> <img src="//images.dmca.com/Badges/dmca-badge-w200-5x1-09.png?ID=feaa580d-787a-41c7-97ae-5b6f4b40349a" alt="DMCA.com Protection Status"></a> <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
-            </div>
+           <!-- </div> container div-->
         </footer>
     </div>
     <!--/wrap-->
