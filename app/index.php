@@ -183,7 +183,7 @@ if (!$user_home->is_logged_in()) {
                             <i class="fa fa-align-justify"></i>
                         </button>
                         <a class="navbar-brand" href="#">
-                            <img src="img/logo-blue.png" alt="" width=150 height=50 style=" vertical-align: middle;
+                            <img src="img/logo-blue.png" alt="" width=150 height=42 style=" vertical-align: middle;
                                                                                              margin-bottom: 0.80em;">
                         </a>
                     </div>
