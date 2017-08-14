@@ -18,6 +18,7 @@
 /*@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');*/
 
 
+
 /*@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400,600,700); /*original */
 
 /*@import url('https://fonts.googleapis.com/css?family=Pontano+Sans');*/
@@ -87,7 +88,7 @@ header.masthead .tp-caption {
     /*font-family: 'san';*/
    /* font-family: Myriad Pro;*/
   /* font-family: "Myriad Pro";*/
-  font-family: 'Rubik','Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
     
 }
 
@@ -98,13 +99,13 @@ header.masthead .tp-caption a {
 header.masthead .tp-caption a:hover {
     color: #eeeeee;
 }
-
+/*
 header.masthead .tp-caption.italic {
     font-style: italic;
-}
+}*/
 
 header.masthead .tp-caption .light_bold {
-    font-weight: 300;
+    font-weight: 100;
     font-size: 30px;
     color: white;
     padding-top: 10px;
@@ -112,16 +113,16 @@ header.masthead .tp-caption .light_bold {
 }
 
 header.masthead .tp-caption.large_white_light {
-    font-weight: 300;
-    font-size: 40px;
+    font-weight: 100;
+    font-size: 100px;
     color: white;
 }
 
 header.masthead .tp-caption .btn.btn-naked {
-    background: rgba(255, 255, 255, 0.3);
-    font-size: 30px;
-    font-style: italic;
-    font-weight: 300;
+    background: rgba(255, 255, 255, 0.00);
+    font-size: 20px;
+    /*font-style: italic;*/
+    font-weight: 100;
 }
 
 header.masthead h1,
@@ -1192,7 +1193,7 @@ section.well .breadcrumb .active {
 
 footer#site-footer {
     padding: 40px 0;
-    background: #222222;
+    background: #999999;
     color: white;
     text-align: center;
 }
@@ -1339,7 +1340,7 @@ footer#site-footer a img.top {
 .section-heading h2,
 .section-heading h3 {
     font-family: 'Roboto';
-   /* text-transform: capitalize;*/
+    text-transform: capitalize;
     font-weight: 100;
     font-size: 70px
    
@@ -1357,7 +1358,7 @@ footer#site-footer a img.top {
     line-height: 22px;
     font-family: 'Rubik';
     font-weight: 300;
-    text-align: left;
+    text-align: center;
 }
 
 .section-heading i {

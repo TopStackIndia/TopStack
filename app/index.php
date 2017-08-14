@@ -93,24 +93,25 @@ if (!$user_home->is_logged_in()) {
                         <ul>
                             <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="500">
                                 <!-- MAIN IMAGE -->
-                                <img src="img/dummy.png" data-lazyload="img/samples/slider-bk.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                                <img src="img/dummy.png" data-lazyload="img/samples/slider-bk.png" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
                                 <!-- LAYERS -->
 
 
 
-                                <div class="tp-caption italic large_white_light sft hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="-100" data-speed="700" data-start="1300" data-easing="Power4.easeOut">
-                                    We Develop
+                                <div class="tp-caption italic large_white_light sft hidden-xs" data-x="right" data-y="center" data-hoffset="0" data-voffset="-100" data-speed="700" data-start="1300" data-easing="Power4.easeOut">
+                                    We don't just sell websites,
                                 </div>
-                                <div class="tp-caption italic large_white_light sfl hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="-50" data-speed="700" data-start="1500" data-easing="Power4.easeOut">
-                                    Strong .
+                                <div class="tp-caption italic large_white_light sfl hidden-xs" data-x="right" data-y="center" data-hoffset="0" data-voffset="-20" data-speed="700" data-start="1500" data-easing="Power4.easeOut">
+                                 
                                 </div>
-                                <div class="tp-caption italic large_white_light sfb hidden-xs" data-x="left" data-y="center" data-hoffset="147" data-voffset="-50" data-speed="700" data-start="1700" data-easing="Power4.easeOut">
-                                    Beautiful .
+                                <div class="tp-caption italic large_white_light sfb hidden-xs" data-x="right" data-y="center" data-hoffset="147" data-voffset="-5" data-speed="700" data-start="1700" data-easing="Power4.easeOut">
+                               
+                                We create websites that sell.
                                 </div>
-                                <div class="tp-caption italic large_white_light sfr hidden-xs" data-x="left" data-y="center" data-hoffset="335" data-voffset="-50" data-speed="700" data-start="1900" data-easing="Power4.easeOut">
-                                    Functional
+                                <div class="tp-caption italic large_white_light sfr hidden-xs" data-x="left" data-y="center" data-hoffset="335" data-voffset="-0" data-speed="700" data-start="1900" data-easing="Power4.easeOut">
+                                  
                                 </div>
-                                <div class="tp-caption lfb " data-x="left" data-y="center" data-hoffset="0" data-voffset="25" data-speed="2400" data-start="1900" data-easing="Power4.easeOut">
+                                <div class="tp-caption lfb " data-x="right" data-y="center" data-hoffset="147" data-voffset="220" data-speed="2400" data-start="1900" data-easing="Power4.easeOut">
                                     <a href="##myhidden" class="btn btn-naked">Learn More About Us <span class="fa fa-angle-right"></span></a>
                                 </div>
 
