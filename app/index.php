@@ -67,7 +67,7 @@ if (!$user_home->is_logged_in()) {
     <div class="pre-loader">
         <div class="load-con">
             <img src="img/logo.png" class="animated fadeFFFown" alt="" width=110 height=110 style=" vertical-align: middle;
-                                                                                             margin-bottom: 0.80em;">
+                                                                                             margin-bottom: 0.95em;">
             <div class="spinner">
                 <div class="bounce1"></div>
                 <div class="bounce2"></div>
@@ -350,7 +350,7 @@ if (!$user_home->is_logged_in()) {
                 <div class="row">
                     <div class="col-md-8 col-md-push-2 clearfix">
                         <div class="section-heading scrollpoint sp-effect3">
-                            <h1><span>about TopStacK</span> </h1>
+                            <h1><span>About TopStack</span> </h1>
                             <h4>We are Software Development & Training Firm.In these tough times, where it is hard to maintain the top line, we can help share the bottom-line for you.We will be happy to help execute SEO & Web Design and Development,Sofware Development Projects at a much significantly lesser cost! We never Compromise on Quality</h4>
                             <span class="divider"></span>
                         </div>
@@ -1031,17 +1031,14 @@ if (!$user_home->is_logged_in()) {
         </section> -->
 
         <section id="get-in-touch">
-        </br>
-         </br>
-         
          
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-push-2 clearfix">
                         <div class="section-heading scrollpoint sp-effect3">
-                            <h1><span>get in touch</span></h1>
-                            <h4>You Can Send Us Message or Follow our Facebook Page!</h4>
-                            <span class="divider"></span>
+                            <h1><span>Get in touch</span></h1>
+                            <h4 style=" text-align: center;">Connect with us.</h4>
+                           <!-- <span class="divider"></span>-->
                         </div>
                     </div>
                 </div>

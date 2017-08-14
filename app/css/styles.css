@@ -1339,7 +1339,7 @@ footer#site-footer a img.top {
 .section-heading h2,
 .section-heading h3 {
     font-family: 'Roboto';
-    text-transform: capitalize;
+   /* text-transform: capitalize;*/
     font-weight: 100;
     font-size: 70px
    
@@ -1357,7 +1357,7 @@ footer#site-footer a img.top {
     line-height: 22px;
     font-family: 'Rubik';
     font-weight: 300;
-    text-align: center;
+    text-align: left;
 }
 
 .section-heading i {
