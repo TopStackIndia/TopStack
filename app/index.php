@@ -34,7 +34,7 @@ if (!$user_home->is_logged_in()) {
     <title>TopStack - Learn Code Today</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="img/favicon.png">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -183,7 +183,7 @@ if (!$user_home->is_logged_in()) {
                             <i class="fa fa-align-justify"></i>
                         </button>
                         <a class="navbar-brand" href="#">
-                            <img src="img/logo-blue.png" alt="" width=150 height=42 style=" vertical-align: middle;
+                            <img src="img/logo-blue.png" alt="" width=152 height=43.64 style=" vertical-align: middle;
                                                                                              margin-bottom: 0.80em;">
                         </a>
                     </div>
