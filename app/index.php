@@ -265,7 +265,7 @@ if (!$user_home->is_logged_in()) {
                         <div class="section-heading scrollpoint sp-effect3">
                         <font style="text-transform: lowercase; ">  <h1><span><font style="text-transform: uppercase;">W</font>e are <font style="text-transform: uppercase;">T</font>opStack</font></span>
                             </h1>
-                            <h4>Founded in August,2017 topstack is a group of vibrant inquisitive mind ventured on the array of technical education and software
+                            <h4>Founded in August, 2017 topstack is a group of vibrant inquisitive mind ventured on the array of technical education and software
                                 development to zero down the gap of academic education and industry needs. Our integrated in-house software development and
                                 technical training programme is perfect model fit to equip resources with latest technology trends. Stepped out on the line
                                 of project based learning our organizational motto is learn smart earn smarter. From latin saying we are surely
@@ -279,10 +279,10 @@ if (!$user_home->is_logged_in()) {
                                 <i class="media-object fa fa-bug  fa-4x"></i>
                             </a>
                             <div class="media-body">
-                                <h4 class="media-heading">Web developemt & Responsive WebDesign</h4>
-                                <p>We are Software Development & Training Firm.In these tough times, where it is hard to maintain the top line, we can help share the bottom-line for you.We will be happy to help execute SEO & Web Design and Development,Sofware Development
-                                Projects at a much significantly lesser cost  than what you have in house -
-                                <font color="#1fad1f"> No Compromise on quality! </font></p>
+                                <h4 class="media-heading">Web development & Responsive Web Design</h4>
+                                <p>We are software development & training firm .In these tough times, where it is hard to maintain the top line, we can help share the bottom-line for you.We will be happy to help execute SEO, web design and development, sofware development
+                                projects at a much significantly lesser cost than what you have in house.
+                               </p>
                             </div>
                         </div>
                         <div class="media scrollpoint sp-effect2">
@@ -290,9 +290,9 @@ if (!$user_home->is_logged_in()) {
                                 <i class="media-object fa fa-android fa-4x" ></i>
                             </a>
                             <div class="media-body">
-                                <h4 class="media-heading">Android App Developemnt</h4>
+                                <h4 class="media-heading">Android App Development</h4>
                                 <p>Android is growing rapidly, so there is always going to be a need for android developers.
-                                    Learn the Android programming concepts and build a variety of apps.We also Develop Android App.</p>
+                                    Learn the Android programming concepts and build a variety of apps. We also develop android app.</p>
                             </div>
                         </div>
                     </div>
@@ -303,7 +303,7 @@ if (!$user_home->is_logged_in()) {
                             </a>
                             <div class="media-body">
                                 <h4 class="media-heading">industrial training</h4>
-                               <p>In this training, you’ll learn how to design and build beautiful websites.Because of it’s easy to learn and high demand in the industry it’s easy for WebDeveloper fresher to get job.You’ll learn HTML,HTML5 and CSS3,JavaScript,jQuery,which are the common code languages that all modern websites are built on. You will also learn modern Resposive WebDesign For mobile & desktop platform using <a href="http://getbootstrap.com/">Bootstrap</a> Framework and Serverside Development Using PHP</p>
+                               <p>In this training, you’ll learn how to design and build beautiful websites. Because of it’s easy to learn and high demand in the industry. It’s easy for webdeveloper fresher to get job. You’ll learn HTML, HTML5 and CSS3, JavaScript, jQuery which are the common code languages that all modern websites are built on. You will also learn modern resposive web design for mobile & desktop platform using <a href="http://getbootstrap.com/">Bootstrap</a> Framework and serverside development using PHP.</p>
                             </div>
                         </div>
                         <div class="media  scrollpoint sp-effect1">
@@ -311,8 +311,8 @@ if (!$user_home->is_logged_in()) {
                                 <i class="media-object  fa fa-mobile-phone fa-4x"></i>
                             </a>
                             <div class="media-body" >
-                                <h4 class="media-heading">iOs Development</h4>
-                                <p>To put your business on the iOS domain, you need to hire expert developers with the best exposure to various iOS development. TopStack proudly announces to serve you the best with the help of its experienced team of iOS developers..</p>
+                                <h4 class="media-heading">iOS Development</h4>
+                                <p>To put your business on the iOS domain, you need to hire expert developers with the best exposure to various iOS development. TopStack proudly announces to serve you the best with the help of its experienced team of iOS developers.</p>
                                
 
                             </div>
@@ -351,7 +351,7 @@ if (!$user_home->is_logged_in()) {
                     <div class="col-md-8 col-md-push-2 clearfix">
                         <div class="section-heading scrollpoint sp-effect3">
                             <h1><span>About TopStack</span> </h1>
-                            <h4>We are Software Development & Training Firm.In these tough times, where it is hard to maintain the top line, we can help share the bottom-line for you.We will be happy to help execute SEO & Web Design and Development,Sofware Development Projects at a much significantly lesser cost! We never Compromise on Quality</h4>
+                            <h4>We are Software Development & Training Firm. In these tough times, where it is hard to maintain the top line, we can help share the bottom-line for you. We will be happy to help execute SEO & web design and development, sofware development projects at a much significantly lesser cost.</h4>
                             <span class="divider"></span>
                         </div>
                     </div>
@@ -369,7 +369,7 @@ if (!$user_home->is_logged_in()) {
                                     </a>
                                     <div class="media-body">
                                       <span>  <h4 class="media-heading">Why TopStack</h4></span>
-                                        <p>Charge very competitive price.Cover basic as well as advanced contents.Completely target-oriented training, students know what they are going to learn beforehand.</p>
+                                        <p>We charge very competitive price. Cover basic as well as advanced contents. Completely target-oriented training, students know what they are going to learn beforehand.</p>
                                     </div>
                                 </div>
                             </div>
@@ -380,7 +380,7 @@ if (!$user_home->is_logged_in()) {
                                     </a>
                                     <div class="media-body">
                                         <h4 class="media-heading">what we do</h4>
-                                        <p>Proper analysis of industry need before designing course.Impart training by highly qualified and experienced industry experts.At the end of course students are aligned with the live industrial projects.</p>
+                                        <p>Proper analysis of industry need before designing course. Impart training by highly qualified and experienced industry experts. At the end of course students are aligned with the live industrial projects.</p>
                                     </div>
                                 </div>
                             </div>
@@ -512,7 +512,7 @@ if (!$user_home->is_logged_in()) {
                     <div class="col-md-8 col-md-push-2 clearfix">
                         <div class="section-heading scrollpoint sp-effect3">
                             <h1><span>Services we offer</span></h1>
-                            <h4>We provide Highy Quality WebDevelopent & Apllication Developemt Services.We also Design Application for Mobile and Embeded Systems & IoT(Internet of things) Services.</h4>
+                            <h4>We provide high quality web developent & apllication developemt services. We also design application for mobile, embeded systems & IoT(Internet of things) services.</h4>
                             <span class="divider"></span>
                         </div>
                     </div>
@@ -525,7 +525,7 @@ if (!$user_home->is_logged_in()) {
                                     </a>
                                     <div class="media-body">
                                         <h4 class="media-heading">Mobile app development</h4>
-                                        <p>TopStack’s talent pool of mobile app developers includes highly-skilled analysts, UX experts and certified software engineers who are well-versed in building apps for all the major platforms — whether it’s iOS, Android, or both. Apps can be developed natively, or by using cross-platform frameworks like React Native and platforms such as PhoneGap or Xamarin.</p>
+                                        <p>TopStack’s talent pool of mobile app developers includes highly-skilled analysts, UX experts and certified software engineers who are well-versed in building apps for all the major platforms — whether it’s iOS, Android or both. Apps can be developed natively, or by using cross-platform frameworks like React Native and platforms such as PhoneGap or Xamarin.</p>
                                     </div>
                                 </div>
                                 <div class="media media-services right scrollpoint sp-effect2">
@@ -535,7 +535,7 @@ if (!$user_home->is_logged_in()) {
                                     <div class="media-body">
                                         <h4 class="media-heading">Web Application</h4>
                                         <p>TopStack uses structured framework programming, coding guidelines and standards.
-                                        As the technology advances and the programming landscape changes to accomodate the world's growing technological needs,TopStack constantly evaluates the latest trends in the development community. We improve ourselves to provide our clients the best possible development solutions.</p>
+                                        As the technology advances and the programming landscape changes to accomodate the world's growing technological needs, TopStack constantly evaluates the latest trends in the development community. We improve ourselves to provide our clients the best possible development solutions.</p>
                                     </div>
                                 </div>
                                 <div class="media media-services right scrollpoint sp-effect1">
@@ -564,7 +564,7 @@ if (!$user_home->is_logged_in()) {
                                     </a>
                                     <div class="media-body">
                                         <h4 class="media-heading">Internet of Things</h4>
-                                        <p>TopStack Provide mobile-enabled Internet of Things (IoT) solutions for equipment and appliances controlled via mobile, including connected home solutions, real-time tracking and monitoring services, video surveillance, and many more.</p>
+                                        <p>TopStack provide mobile-enabled Internet of Things (IoT) solutions for equipment and appliances controlled via mobile, including connected home solutions, real-time tracking and monitoring services, video surveillance, and many more.</p>
                                     </div>
                                 </div>
                                 <div class="media media-services scrollpoint sp-effect2">
@@ -573,7 +573,7 @@ if (!$user_home->is_logged_in()) {
                                     </a>
                                     <div class="media-body">
                                         <h4 class="media-heading">Education</h4>
-                                        <p>Getting good grades in academics is important to build up a successful career. Have guidance from reputed Tuition Centres and Coaching classes to do well in the final examination. Here we provide also Coaching Classes in Technical & Science Related Courses. Classes for all subjects and boards are available. Get course details, timing, tuition fees, location and contact details from our contact page.</p>
+                                        <p>Getting good grades in academics is important to build up a successful career. Have guidance from reputed tuition centres and coaching classes to do well in the final examination. Here we provide also coaching classes in technical & science related courses. Classes for all subjects and boards are available. Get course details, timing, tuition fees, location and contact details from our contact page.</p>
                                     </div>
                                 </div>
                             </div>
@@ -794,13 +794,13 @@ if (!$user_home->is_logged_in()) {
                         <div class="chart" data-percent="95">
                             <span>95%</span>
                         </div>
-                        <h4 class="skill-detail">html/css</h4>
+                        <h4 class="skill-detail">html & css</h4>
                     </div>
                     <div class="col-md-3 col-sm-6 scrollpoint sp-effect6 text-center">
                         <div class="chart" data-percent="88">
                             <span>88%</span>
                         </div>
-                        <h4 class="skill-detail">PHP/JSP/DataBase</h4>
+                        <h4 class="skill-detail">PHP, JSP & DataBase</h4>
                     </div>
                     <div class="col-md-3 col-sm-6 scrollpoint sp-effect6 text-center">
                         <div class="chart" data-percent="85">
@@ -812,7 +812,7 @@ if (!$user_home->is_logged_in()) {
                         <div class="chart" data-percent="75">
                             <span>75%</span>
                         </div>
-                        <h4 class="skill-detail">Python/Django</h4>
+                        <h4 class="skill-detail">Python & Django</h4>
                     </div>
 
             </div>
