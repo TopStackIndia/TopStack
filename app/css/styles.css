@@ -1193,7 +1193,7 @@ section.well .breadcrumb .active {
 
 footer#site-footer {
     padding: 40px 0;
-    background: #272727;
+    background: #3b3b3b;
     color: white;
     text-align: center;
 }
@@ -1596,7 +1596,7 @@ ul {
 }
 
 a {
-    color: #22a3df;
+    color: #FFFFFF;
     -webkit-transition: all 0.25s ease-in-out;
     -o-transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
@@ -1605,7 +1605,7 @@ a {
 }
 
 a:hover {
-    color: #146387;
+    color: #69CBF8;
     text-decoration: none;
 }
 

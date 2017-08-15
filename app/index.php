@@ -21,413 +21,413 @@ if (!$user_home->is_logged_in()) {
 
 
 
-<!doctype html>
-<!--[if lt IE 7]><html lang="en" class="no-js ie6"><![endif]-->
-<!--[if IE 7]><html lang="en" class="no-js ie7"><![endif]-->
-<!--[if IE 8]><html lang="en" class="no-js ie8"><![endif]-->
-<!--[if gt IE 8]><!-->
-<html lang="en" class="no-js">
-<!--<![endif]-->
+    <!doctype html>
+    <!--[if lt IE 7]><html lang="en" class="no-js ie6"><![endif]-->
+    <!--[if IE 7]><html lang="en" class="no-js ie7"><![endif]-->
+    <!--[if IE 8]><html lang="en" class="no-js ie8"><![endif]-->
+    <!--[if gt IE 8]><!-->
+    <html lang="en" class="no-js">
+    <!--<![endif]-->
 
-<head>
-    <meta charset="UTF-8">
-    <title>TopStack - Learn Code Today</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <link rel="shortcut icon" href="img/favicon.png">
+    <head>
+        <meta charset="UTF-8">
+        <title>TopStack - Learn Code Today</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <link rel="shortcut icon" href="img/favicon.png">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/jquery.easy-pie-chart.css">
-    <link rel="stylesheet" href="css/styles.css" title="mainStyle">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/jquery.easy-pie-chart.css">
+        <link rel="stylesheet" href="css/styles.css" title="mainStyle">
 
-    <!-- REVOLUTION BANNER CSS SETTINGS -->
-    <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+        <!-- REVOLUTION BANNER CSS SETTINGS -->
+        <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
 
-    <script src="js/modernizr.custom.32033.js"></script>
+        <script src="js/modernizr.custom.32033.js"></script>
 
-    <!--[if IE]><script type="text/javascript" src="js/excanvas.compiled.js"></script><![endif]-->
+        <!--[if IE]><script type="text/javascript" src="js/excanvas.compiled.js"></script><![endif]-->
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <!-- For Animation the Boostrap Icons -->
-    <link rel="stylesheet" href="animation_css/font-awesome-animation.min.css">
-   <!-- Referrence Library Use: http://l-lin.github.io/font-awesome-animation/-->
-   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+        <!-- For Animation the Boostrap Icons -->
+        <link rel="stylesheet" href="animation_css/font-awesome-animation.min.css">
+        <!-- Referrence Library Use: http://l-lin.github.io/font-awesome-animation/-->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
 
-</head>
+    </head>
 
-<body>
+    <body>
 
-    <div class="pre-loader">
-        <div class="load-con">
-            <img src="img/logo.png" class="animated fadeFFFown" alt="" width=110 height=110 style=" vertical-align: middle;
+        <div class="pre-loader">
+            <div class="load-con">
+                <img src="img/logo.png" class="animated fadeFFFown" alt="" width=110 height=110 style=" vertical-align: middle;
                                                                                              margin-bottom: 0.95em;">
-            <div class="spinner">
-                <div class="bounce1"></div>
-                <div class="bounce2"></div>
-                <div class="bounce3"></div>
+                <div class="spinner">
+                    <div class="bounce1"></div>
+                    <div class="bounce2"></div>
+                    <div class="bounce3"></div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="go-down">
-        <a href="#whoWeAre">
-         
-        
-       <i class="fa fa-angle-down fa-4x faa-bounce animated"></i>
-      
-        </a>
-    </div>
-    <!-- Wrap all page content here -->
-    <div id="wrap" class="home">
-     
-        <header class="masthead">
-            <div class="slider-container" id="slider">
-                <div class="tp-banner-container">
-                    <div class="tp-banner">
-                        <ul>
-                            <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="500">
-                                <!-- MAIN IMAGE -->
-                                <img src="img/dummy.png" data-lazyload="img/samples/slider-bk.png" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-                                <!-- LAYERS -->
+        <div class="go-down">
+            <a href="#whoWeAre">
+
+
+                <i class="fa fa-angle-down fa-4x faa-bounce animated"></i>
+
+            </a>
+        </div>
+        <!-- Wrap all page content here -->
+        <div id="wrap" class="home">
+
+            <header class="masthead">
+                <div class="slider-container" id="slider">
+                    <div class="tp-banner-container">
+                        <div class="tp-banner">
+                            <ul>
+                                <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="500">
+                                    <!-- MAIN IMAGE -->
+                                    <img src="img/dummy.png" data-lazyload="img/samples/slider-bk.png" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                                    <!-- LAYERS -->
 
 
 
-                                <div class="tp-caption italic large_white_light sft hidden-xs" data-x="right" data-y="center" data-hoffset="0" data-voffset="-100" data-speed="700" data-start="1300" data-easing="Power4.easeOut">
-                                    We don't just sell websites,
-                                </div>
-                                <div class="tp-caption italic large_white_light sfl hidden-xs" data-x="right" data-y="center" data-hoffset="0" data-voffset="-20" data-speed="700" data-start="1500" data-easing="Power4.easeOut">
-                                 
-                                </div>
-                                <div class="tp-caption italic large_white_light sfb hidden-xs" data-x="right" data-y="center" data-hoffset="147" data-voffset="-5" data-speed="700" data-start="1700" data-easing="Power4.easeOut">
-                               
-                                    We create websites that sell.
-                                </div>
-                                <div class="tp-caption italic large_white_light sfr hidden-xs" data-x="left" data-y="center" data-hoffset="335" data-voffset="-0" data-speed="700" data-start="1900" data-easing="Power4.easeOut">
-                                  
-                                </div>
-                                <div class="tp-caption lfb " data-x="right" data-y="center" data-hoffset="147" data-voffset="220" data-speed="2400" data-start="1900" data-easing="Power4.easeOut">
-                                    <a href="##myhidden" class="btn btn-naked">Learn More About Us <span class="fa fa-angle-right"></span></a>
-                                </div>
+                                    <div class="tp-caption italic large_white_light sft hidden-xs" data-x="right" data-y="center" data-hoffset="0" data-voffset="-100" data-speed="700" data-start="1300" data-easing="Power4.easeOut">
+                                        We don't just sell websites,
+                                    </div>
+                                    <div class="tp-caption italic large_white_light sfl hidden-xs" data-x="right" data-y="center" data-hoffset="0" data-voffset="-20" data-speed="700" data-start="1500" data-easing="Power4.easeOut">
 
-                            </li>
-                            <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="500">
-                                <!-- MAIN IMAGE -->
-                                <img src="img/dummy.png" data-lazyload="img/samples/slider-bk3.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-                                <!-- LAYERS -->
+                                    </div>
+                                    <div class="tp-caption italic large_white_light sfb hidden-xs" data-x="right" data-y="center" data-hoffset="147" data-voffset="-5" data-speed="700" data-start="1700" data-easing="Power4.easeOut">
 
-                                <!-- LAYER NR. 1 -->
-                                
-                                <div class="tp-caption sft fadeout" data-x="center" data-y="center" data-hoffset="0" data-voffset="0" data-speed="500" data-start="700" data-easing="Power4.easeOut">
-                                    <img src="img/samples/macbook-bl.png" class="macbook-image" alt="">
-                                </div>
+                                        We create websites that sell.
+                                    </div>
+                                    <div class="tp-caption italic large_white_light sfr hidden-xs" data-x="left" data-y="center" data-hoffset="335" data-voffset="-0" data-speed="700" data-start="1900" data-easing="Power4.easeOut">
 
-                                <div class="tp-caption large_white_light italic sfb hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="0" data-speed="2400" data-start="1300" data-easing="Power4.easeOut">
-                                    <a href="#portfolio" class="btn btn-naked">Check Our Work</a>
-                                </div>
-                                <div class="tp-caption italic large_white_light sft hidden-xs" data-x="right" data-y="center" data-hoffset="0" data-voffset="0" data-speed="2400" data-start="1300" data-easing="Power4.easeOut">
-                                    <a href="#team" class="btn btn-naked">Meet The Team</a>
-                                </div>
-                            </li>
-                            <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="500">
-                                <!-- MAIN IMAGE -->
-                                <img src="img/dummy.png" data-lazyload="img/samples/slider-bk2.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-                                <!-- LAYERS -->
+                                    </div>
+                                    <div class="tp-caption lfb " data-x="right" data-y="center" data-hoffset="147" data-voffset="220" data-speed="2400" data-start="1900" data-easing="Power4.easeOut">
+                                        <a href="##myhidden" class="btn btn-naked">Learn More About Us <span class="fa fa-angle-right"></span></a>
+                                    </div>
 
-                            
-                                
-                                <div class="tp-caption lfl fadeout" data-x="left" data-y="center" data-hoffset="0" data-voffset="0" data-speed="500" data-start="700" data-easing="Power4.easeOut">
-                                    <img src="img/samples/iphone.png" alt="">
-                                </div>
-                                <div class="tp-caption large_white_bold sft" data-x="520" data-y="center" data-hoffset="0" data-voffset="-120" data-speed="500" data-start="1200" data-easing="Power4.easeOut">
-                                    <h1>Welcome</h1>
-                                </div>
-                                <div class="tp-caption large_white_light sfb" data-x="520" data-y="center" data-hoffset="0" data-voffset="-40" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
-                                    We Develop
-                                </div>
-                                <div class="tp-caption large_white_light sfb" data-x="520" data-y="center" data-hoffset="0" data-voffset="10" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
-                                    Beautiful & Functional Applications
-                                </div>
-                                <div class="tp-caption large_white_light sfb" data-x="520" data-y="center" data-hoffset="0" data-voffset="60" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
-                                    Websites, Bradings & Web Apps
-                                </div>
-                                <div class="tp-caption sfb hidden-xs" data-x="520" data-y="center" data-hoffset="0" data-voffset="150" data-speed="2400" data-start="1700" data-easing="Power4.easeOut">
-                                    <a href="##myhidden" class="btn btn-primary btn-lg">LEARN MORE</a>
-                                </div>
-                            </li>
+                                </li>
+                                <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="500">
+                                    <!-- MAIN IMAGE -->
+                                    <img src="img/dummy.png" data-lazyload="img/samples/slider-bk3.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                                    <!-- LAYERS -->
 
-                        </ul>
-                        <div class="tp-bannertimer"></div>
+                                    <!-- LAYER NR. 1 -->
+
+                                    <div class="tp-caption sft fadeout" data-x="center" data-y="center" data-hoffset="0" data-voffset="0" data-speed="500" data-start="700" data-easing="Power4.easeOut">
+                                        <img src="img/samples/macbook-bl.png" class="macbook-image" alt="">
+                                    </div>
+
+                                    <div class="tp-caption large_white_light italic sfb hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="0" data-speed="2400" data-start="1300" data-easing="Power4.easeOut">
+                                        <a href="#portfolio" class="btn btn-naked">Check Our Work</a>
+                                    </div>
+                                    <div class="tp-caption italic large_white_light sft hidden-xs" data-x="right" data-y="center" data-hoffset="0" data-voffset="0" data-speed="2400" data-start="1300" data-easing="Power4.easeOut">
+                                        <a href="#team" class="btn btn-naked">Meet The Team</a>
+                                    </div>
+                                </li>
+                                <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="500">
+                                    <!-- MAIN IMAGE -->
+                                    <img src="img/dummy.png" data-lazyload="img/samples/slider-bk2.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                                    <!-- LAYERS -->
+
+
+
+                                    <div class="tp-caption lfl fadeout" data-x="left" data-y="center" data-hoffset="0" data-voffset="0" data-speed="500" data-start="700" data-easing="Power4.easeOut">
+                                        <img src="img/samples/iphone.png" alt="">
+                                    </div>
+                                    <div class="tp-caption large_white_bold sft" data-x="520" data-y="center" data-hoffset="0" data-voffset="-120" data-speed="500" data-start="1200" data-easing="Power4.easeOut">
+                                        <h1>Welcome</h1>
+                                    </div>
+                                    <div class="tp-caption large_white_light sfb" data-x="520" data-y="center" data-hoffset="0" data-voffset="-40" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
+                                        We Develop
+                                    </div>
+                                    <div class="tp-caption large_white_light sfb" data-x="520" data-y="center" data-hoffset="0" data-voffset="10" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
+                                        Beautiful & Functional Applications
+                                    </div>
+                                    <div class="tp-caption large_white_light sfb" data-x="520" data-y="center" data-hoffset="0" data-voffset="60" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
+                                        Websites, Bradings & Web Apps
+                                    </div>
+                                    <div class="tp-caption sfb hidden-xs" data-x="520" data-y="center" data-hoffset="0" data-voffset="150" data-speed="2400" data-start="1700" data-easing="Power4.easeOut">
+                                        <a href="##myhidden" class="btn btn-primary btn-lg">LEARN MORE</a>
+                                    </div>
+                                </li>
+
+                            </ul>
+                            <div class="tp-bannertimer"></div>
+                        </div>
                     </div>
+
                 </div>
 
-            </div>
+                <!-- Fixed navbar -->
+                <div class="navbar navbar-static-top" id="nav" role="navigation">
+                    <div class="theme-switcher">
+                        <div class="colors">
+                            <a href="javascript:void(0)" class="blue"></a>
+                            <a href="javascript:void(0)" class="orange"></a>
+                            <a href="javascript:void(0)" class="red"></a>
+                        </div>
+                        <!--  <a href="javascript:void(0)" class="Switcher"><span class="fa fa-pencil fa-lg"></span></a>-->
 
-            <!-- Fixed navbar -->
-            <div class="navbar navbar-static-top" id="nav" role="navigation">
-                <div class="theme-switcher">
-                    <div class="colors">
-                        <a href="javascript:void(0)" class="blue"></a>
-                        <a href="javascript:void(0)" class="orange"></a>
-                        <a href="javascript:void(0)" class="red"></a>
                     </div>
-                  <!--  <a href="javascript:void(0)" class="Switcher"><span class="fa fa-pencil fa-lg"></span></a>-->
-                  
-                </div>
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                             <span class="sr-only">Toggle navigation</span>
                             <i class="fa fa-align-justify"></i>
                         </button>
-                        <a class="navbar-brand" href="#">
-                            <img src="img/logo-blue.png" alt="" width=152 height=43.64 style=" vertical-align: middle;
+                            <a class="navbar-brand" href="#">
+                                <img src="img/logo-blue.png" alt="" width=152 height=43.64 style=" vertical-align: middle;
                                                                                              margin-bottom: 0.80em;">
-                        </a>
-                    </div>
+                            </a>
+                        </div>
 
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#slider">Home</a>
-                            </li>
-                            <li><a href="#about">about</a>
-                            </li>
-                            <li><a href="#services">services</a>
-                            </li>
-                            <li><a href="comming_soon\comming_soon.html">team</a>   <!-- original #team-->
-                            </li>
-                            <li><a href="comming_soon\comming_soon.html">Earn with us</a>                      <!-- #portfollio -->
-                            </li>
-                            <li><a href="#get-in-touch">contact</a>
-                            </li>
-                        <!--    <li><a href="comming_soon\comming_soon.html">Education</a>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#slider">Home</a>
+                                </li>
+                                <li><a href="#about">about</a>
+                                </li>
+                                <li><a href="#services">services</a>
+                                </li>
+                                <li><a href="comming_soon\comming_soon.html">team</a>
+                                    <!-- original #team-->
+                                </li>
+                                <li><a href="comming_soon\comming_soon.html">Earn with us</a>
+                                    <!-- #portfollio -->
+                                </li>
+                                <li><a href="#get-in-touch">contact</a>
+                                </li>
+                                <!--    <li><a href="comming_soon\comming_soon.html">Education</a>
                             </li>-->
-                          <!--  <li><a href="comming_soon\comming_soon.html">Careers</a>
+                                <!--  <li><a href="comming_soon\comming_soon.html">Careers</a>
                             </li>-->
-                            
-                            
 
-                            <!-- my Drop Down -->
-                             <li>
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="php_training.php">PHP/MySQL Training</a>
-                            </li>
-                            <li>
-                                <a href="android_training.php">Android Training</a>
-                            </li>
-                            <li>
-                                <a href="others_training.php">Others Training</a>
-                            </li>
 
-                        </ul>
-                        </li>
-                      <!--  <li><a href="login.php">Login</a>
+
+                                <!-- my Drop Down -->
+                                <li>
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training<b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="php_training.php">PHP/MySQL Training</a>
+                                        </li>
+                                        <li>
+                                            <a href="android_training.php">Android Training</a>
+                                        </li>
+                                        <li>
+                                            <a href="others_training.php">Others Training</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <!--  <li><a href="login.php">Login</a>
                         </li>-->
-                        <li>
-                            <?php echo $menu_val; ?>
-                        <li>
-                   
-                        <!---<li><a href="blog-archive.html">blog</a>-->
-                            
-                            <li class="social-nav visible-lg">
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-google-plus"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
+                                <li>
+                                    <?php echo $menu_val; ?>
+                                    <li>
+
+                                        <!---<li><a href="blog-archive.html">blog</a>-->
+
+                                        <li class="social-nav visible-lg">
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                                        </li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
                     </div>
-                    <!-- /.navbar-collapse -->
+                    <!--/.container -->
                 </div>
-                <!--/.container -->
-            </div>
-            <!--/.navbar -->
+                <!--/.navbar -->
 
-        </header>
+            </header>
 
-        <section id="whoWeAre">
-        
-         </br>
-         </br>
-         </br>
-         </br>
-         </br>
-         
-       
-        
-             <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-push-2 clearfix">
-                        <div class="section-heading scrollpoint sp-effect3">
-                        <font style="text-transform: lowercase; ">  <h1><span><font style="text-transform: uppercase;">W</font>e are <font style="text-transform: uppercase;">T</font>opStack</font></span>
-                            </h1>
-                            <h4>Founded in August, 2017 topstack is a group of vibrant inquisitive mind ventured on the array of technical education and software
-                                development to zero down the gap of academic education and industry needs. Our integrated in-house software development and
-                                technical training programme is perfect model fit to equip resources with latest technology trends. Stepped out on the line
-                                of project based learning our organizational motto is learn smart earn smarter. From latin saying we are surely
-                                “e pluribus unum”  but  "fortuna audaces iuvat”.</h4>
-                            <span class="divider"></span>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="media scrollpoint sp-effect2">
-                            <a class="pull-left" href="#">
-                                <i class="media-object fa fa-bug  fa-4x"></i>
-                            </a>
-                            <div class="media-body">
-                                <h4 class="media-heading">Web development & Responsive Web Design</h4>
-                                <p>We are software development & training firm .In these tough times, where it is hard to maintain the top line, we can help share the bottom-line for you. We will be happy to help execute SEO, web design and development, sofware development
-                                projects at a much significantly lesser cost than what you have in house.
-                               </p>
-                            </div>
-                        </div>
-                        <div class="media scrollpoint sp-effect2">
-                            <a class="pull-left" href="#">
-                                <i class="media-object fa fa-android fa-4x" ></i>
-                            </a>
-                            <div class="media-body">
-                                <h4 class="media-heading">Android App Development</h4>
-                                <p>Android is growing rapidly, so there is always going to be a need for android developers.
-                                    Learn the android programming concepts and build a variety of apps. We also develop android apps.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="media  scrollpoint sp-effect1">
-                            <a class="pull-left" href="#">
-                                <i class="media-object fa fa-male fa-4x"></i>
-                            </a>
-                            <div class="media-body">
-                                <h4 class="media-heading">industrial training</h4>
-                               <p>In this training, you’ll learn how to design and build beautiful websites. Because of it’s easy to learn and high demand in the industry. It’s easy for webdeveloper fresher to get job. You’ll learn HTML, HTML5 and CSS3, JavaScript, jQuery which are the common code languages that all modern websites are built on. You will also learn modern responsive web design for mobile & desktop platform using <a href="http://getbootstrap.com/">Bootstrap</a> Framework and serverside development using PHP.</p>
-                            </div>
-                        </div>
-                        <div class="media  scrollpoint sp-effect1">
-                            <a class="pull-left" href="#">
-                                <i class="media-object  fa fa-mobile-phone fa-4x"></i>
-                            </a>
-                            <div class="media-body" >
-                                <h4 class="media-heading">iOS Development</h4>
-                                <p>To put your business on the iOS domain, you need to hire expert developers with the best exposure to various iOS development. TopStack proudly announces to serve you the best with the help of its experienced team of iOS developers.</p>
-                               
+            <section id="whoWeAre">
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
 
-        <!--- My hidden section for set currect topstack postion by akash -->
-       
-        <section id="#myhidden">
-            <div class ="container">
+
+
+                <div class="container">
                     <div class="row">
-                     <div class="col-md-8 col-md-push-2 clearfix">
-                        <div class="section-heading scrollpoint sp-effect3">
-                        </br>
-                        </br>
+                        <div class="col-md-8 col-md-push-2 clearfix">
+                            <div class="section-heading scrollpoint sp-effect3">
+                                <font style="text-transform: lowercase; ">
+                                    <h1><span><font style="text-transform: uppercase;">W</font>e are <font style="text-transform: uppercase;">T</font>opStack</font></span>
+                                    </h1>
+                                    <h4>Founded in August, 2017 topstack is a group of vibrant inquisitive mind ventured on the array of technical education and software development to zero down the gap of academic education and industry needs. Our integrated
+                                        in-house software development and technical training programme is perfect model fit to equip resources with latest technology trends. Stepped out on the line of project based learning our organizational motto is
+                                        learn smart earn smarter. From latin saying we are surely “e pluribus unum” but "fortuna audaces iuvat”.</h4>
+                                    <span class="divider"></span>
+                            </div>
                         </div>
-                    </div>
-                  
-                    </div>
-            </div>
-        </section>
+                        <div class="col-md-6">
+                            <div class="media scrollpoint sp-effect2">
+                                <a class="pull-left" href="#">
+                                    <i class="media-object fa fa-bug  fa-4x"></i>
+                                </a>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Web development & Responsive Web Design</h4>
+                                    <p>We are software development & training firm .In these tough times, where it is hard to maintain the top line, we can help share the bottom-line for you. We will be happy to help execute SEO, web design and development,
+                                        sofware development projects at a much significantly lesser cost than what you have in house.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="media scrollpoint sp-effect2">
+                                <a class="pull-left" href="#">
+                                    <i class="media-object fa fa-android fa-4x"></i>
+                                </a>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Android App Development</h4>
+                                    <p>Android is growing rapidly, so there is always going to be a need for android developers. Learn the android programming concepts and build a variety of apps. We also develop android apps.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="media  scrollpoint sp-effect1">
+                                <a class="pull-left" href="#">
+                                    <i class="media-object fa fa-male fa-4x"></i>
+                                </a>
+                                <div class="media-body">
+                                    <h4 class="media-heading">industrial training</h4>
+                                    <p>In this training, you’ll learn how to design and build beautiful websites. Because of it’s easy to learn and high demand in the industry. It’s easy for webdeveloper fresher to get job. You’ll learn HTML, HTML5 and CSS3,
+                                        JavaScript, jQuery which are the common code languages that all modern websites are built on. You will also learn modern responsive web design for mobile & desktop platform using <a href="http://getbootstrap.com/">Bootstrap</a>                                        Framework and serverside development using PHP.</p>
+                                </div>
+                            </div>
+                            <div class="media  scrollpoint sp-effect1">
+                                <a class="pull-left" href="#">
+                                    <i class="media-object  fa fa-mobile-phone fa-4x"></i>
+                                </a>
+                                <div class="media-body">
+                                    <h4 class="media-heading">iOS Development</h4>
+                                    <p>To put your business on the iOS domain, you need to hire expert developers with the best exposure to various iOS development. TopStack proudly announces to serve you the best with the help of its experienced team of
+                                        iOS developers.</p>
 
 
-        <section id="about">
-         </br>
-         </br>
-         </br>
-         </br>
-         </br>
-         
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-push-2 clearfix">
-                        <div class="section-heading scrollpoint sp-effect3">
-                            <h1><span>About TopStack</span> </h1>
-                            <h4>We are software development and training firm. In these tough times, where it is hard to maintain the top line, we can help share the bottom-line for you. We will be happy to help execute SEO & web design and development, sofware development projects at a much significantly lesser cost.</h4>
-                            <span class="divider"></span>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="row">
-                            <div class="col-md-12 scrollpoint sp-effect4">
-                                <img src="img/samples/imac.png" class="img-responsive img-center" alt="">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="media vertical scrollpoint sp-effect5">
-                                    <a href="#">
-                                        <i class="media-object fa fa-university fa-2x"></i>
-                                    </a>
-                                    <div class="media-body">
-                                      <span>  <h4 class="media-heading">Why TopStack</h4></span>
-                                        <p>We charge very competitive price. Cover basic as well as advanced contents. Completely target-oriented training, students know what they are going to learn beforehand.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="media vertical scrollpoint sp-effect5">
-                                    <a href="#">
-                                        <i class="media-object fa fa-user fa-2x"></i>
-                                    </a>
-                                    <div class="media-body">
-                                        <h4 class="media-heading">what we do</h4>
-                                        <p>Proper analysis of industry need before designing course. Impart training by highly qualified and experienced industry experts. At the end of course students are aligned with the live industrial projects.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="media vertical scrollpoint sp-effect5">
-                                    <a href="#">
-                                        <i class="media-object fa fa-umbrella fa-2x"></i>
-                                    </a>
-                                    <div class="media-body">
-                                        <h4 class="media-heading">our mission</h4>
-                                        <p>To provide quality software products with emerging tools and technologies
-                                           to satisfy client's need and deliver product in time with competitive price.
-                                           To impart high quality technical training to under graduate and diploma students
-                                           to bridge their curricular gap and
-                                           to provide first hand industry exposure to the students.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="media vertical scrollpoint sp-effect5">
-                                    <a href="#">
-                                        <i class="media-object fa fa-taxi fa-2x"></i>
-                                    </a>
-                                    <div class="media-body">
-                                        <h4 class="media-heading">our vision</h4>
-                                        <p>To become a leading product developing and training company in the field of Information & Technology in tomorrow's market.</p>
-                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
-            </div>
-        </section>
-        <!--
+            </section>
+
+            <!--- My hidden section for set currect topstack postion by akash -->
+
+            <section id="#myhidden">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-push-2 clearfix">
+                            <div class="section-heading scrollpoint sp-effect3">
+                                </br>
+                                </br>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="about">
+                </br>
+                </br>
+                </br>
+                </br>
+                
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-push-2 clearfix">
+                            <div class="section-heading scrollpoint sp-effect3">
+                                <h1><span>About TopStack</span> </h1>
+                                <h4>We are software development and training firm. In these tough times, where it is hard to maintain the top line, we can help share the bottom-line for you. We will be happy to help execute SEO & web design and development,
+                                    sofware development projects at a much significantly lesser cost.</h4>
+                                <span class="divider"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-12 scrollpoint sp-effect4">
+                                    <img src="img/samples/imac.png" class="img-responsive img-center" alt="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="media vertical scrollpoint sp-effect5">
+                                        <a href="#">
+                                            <i class="media-object fa fa-university fa-2x"></i>
+                                        </a>
+                                        <div class="media-body">
+                                            <span>  <h4 class="media-heading">Why TopStack</h4></span>
+                                            <p>We charge very competitive price. Cover basic as well as advanced contents. Completely target-oriented training, students know what they are going to learn beforehand.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="media vertical scrollpoint sp-effect5">
+                                        <a href="#">
+                                            <i class="media-object fa fa-user fa-2x"></i>
+                                        </a>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">what we do</h4>
+                                            <p>Proper analysis of industry need before designing course. Impart training by highly qualified and experienced industry experts. At the end of course students are aligned with the live industrial projects.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="media vertical scrollpoint sp-effect5">
+                                        <a href="#">
+                                            <i class="media-object fa fa-umbrella fa-2x"></i>
+                                        </a>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">our mission</h4>
+                                            <p>To provide quality software products with emerging tools and technologies to satisfy client's need and deliver product in time with competitive price. To impart high quality technical training to under graduate
+                                                and diploma students to bridge their curricular gap and to provide first hand industry exposure to the students.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="media vertical scrollpoint sp-effect5">
+                                        <a href="#">
+                                            <i class="media-object fa fa-taxi fa-2x"></i>
+                                        </a>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">our vision</h4>
+                                            <p>To become a leading product developing and training company in the field of Information & Technology in tomorrow's market.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!--
         <section id="highlights">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
                         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                             <!-- Indicators -->
-                            <!--
+            <!--
                             <ol class="carousel-indicators vertical">
                                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                                 <li data-target="#carousel-example-generic" data-slide-to="1"></li>
@@ -435,7 +435,7 @@ if (!$user_home->is_logged_in()) {
                             </ol>
 
                             <!-- Wrapper for slides -->
-                            <!--
+            <!--
                             <div class="carousel-inner">
                                 <div class="item active">
                                     <img src="img/samples/600-300/2.jpg" alt="">
@@ -464,7 +464,7 @@ if (!$user_home->is_logged_in()) {
                 </div>
             </div>
         </section>-->
-        <!--
+            <!--
         <section id="features">
             <div class="container">
                 <div class="row">
@@ -506,88 +506,92 @@ if (!$user_home->is_logged_in()) {
             </div>
         </section>-->
 
-        <section id="services">
-        </br>
-         </br>
-         </br>
+            <section id="services">
+                </br>
+                </br>
+                </br>
 
-             <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-push-2 clearfix">
-                        <div class="section-heading scrollpoint sp-effect3">
-                            <h1><span>Services we offer</span></h1>
-                            <h4>We provide high quality web developent & apllication developemt services. We also design application for mobile, embeded systems & IoT(Internet of things) services.</h4>
-                            <span class="divider"></span>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="media media-services right scrollpoint sp-effect1">
-                                    <a class="pull-left" href="#">
-                                        <i class="media-object fa fa-mobile fa-2x"></i>
-                                    </a>
-                                    <div class="media-body">
-                                        <h4 class="media-heading">Mobile app development</h4>
-                                        <p>TopStack’s talent pool of mobile app developers includes highly-skilled analysts, UX experts and certified software engineers who are well-versed in building apps for all the major platforms — whether it’s iOS, Android or both. Apps can be developed natively, or by using cross-platform frameworks like React Native and platforms such as PhoneGap or Xamarin.</p>
-                                    </div>
-                                </div>
-                                <div class="media media-services right scrollpoint sp-effect2">
-                                    <a class="pull-left" href="#">
-                                        <i class="media-object  fa fa-globe fa-2x"></i>
-                                    </a>
-                                    <div class="media-body">
-                                        <h4 class="media-heading">Web Application</h4>
-                                        <p>TopStack uses structured framework programming, coding guidelines and standards.
-                                        As the technology advances and the programming landscape changes to accomodate the world's growing technological needs, TopStack constantly evaluates the latest trends in the development community. We improve ourselves to provide our clients the best possible development solutions.</p>
-                                    </div>
-                                </div>
-                                <div class="media media-services right scrollpoint sp-effect1">
-                                    <a class="pull-left" href="#">
-                                        <i class="media-object fa fa-film fa-2x"></i>
-                                    </a>
-                                    <div class="media-body">
-                                        <h4 class="media-heading"> Graphics & Multimedia </h4>
-                                        <p>We also provide professional multimedia services like video editing,animation,grphics design and logo design.</p>
-                                    </div>
-                                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-push-2 clearfix">
+                            <div class="section-heading scrollpoint sp-effect3">
+                                <h1><span>Services we offer</span></h1>
+                                <h4>We provide high quality web developent & apllication developemt services. We also design application for mobile, embeded systems & IoT(Internet of things) services.</h4>
+                                <span class="divider"></span>
                             </div>
-                            <div class="col-md-6">
-                                <div class="media media-services scrollpoint sp-effect2">
-                                    <a class="pull-left" href="#">
-                                        <i class="media-object fa fa fa-desktop fa-2x"></i>
-                                    </a>
-                                    <div class="media-body">
-                                        <h4 class="media-heading">Custom Software Development</h4>
-                                        <p>Whether you are a start-up or an established business, we will be happy to assist you at any and every stage of the software development life cycle: from conceptualization, business analysis and prototyping to the development and deployment of a complete solution.</p>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="media media-services right scrollpoint sp-effect1">
+                                        <a class="pull-left" href="#">
+                                            <i class="media-object fa fa-mobile fa-2x"></i>
+                                        </a>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Mobile app development</h4>
+                                            <p>TopStack’s talent pool of mobile app developers includes highly-skilled analysts, UX experts and certified software engineers who are well-versed in building apps for all the major platforms — whether it’s iOS,
+                                                Android or both. Apps can be developed natively, or by using cross-platform frameworks like React Native and platforms such as PhoneGap or Xamarin.</p>
+                                        </div>
+                                    </div>
+                                    <div class="media media-services right scrollpoint sp-effect2">
+                                        <a class="pull-left" href="#">
+                                            <i class="media-object  fa fa-globe fa-2x"></i>
+                                        </a>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Web Application</h4>
+                                            <p>TopStack uses structured framework programming, coding guidelines and standards. As the technology advances and the programming landscape changes to accomodate the world's growing technological needs, TopStack
+                                                constantly evaluates the latest trends in the development community. We improve ourselves to provide our clients the best possible development solutions.</p>
+                                        </div>
+                                    </div>
+                                    <div class="media media-services right scrollpoint sp-effect1">
+                                        <a class="pull-left" href="#">
+                                            <i class="media-object fa fa-film fa-2x"></i>
+                                        </a>
+                                        <div class="media-body">
+                                            <h4 class="media-heading"> Graphics & Multimedia </h4>
+                                            <p>We also provide professional multimedia services like video editing,animation,grphics design and logo design.</p>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="media media-services scrollpoint sp-effect1">
-                                    <a class="pull-left" href="#">
-                                        <i class="media-object"><i class="fa fa-cog fa-spin fa-2x"></i></i>
-                                    </a>
-                                    <div class="media-body">
-                                        <h4 class="media-heading">Internet of Things</h4>
-                                        <p>TopStack provide mobile-enabled Internet of Things (IoT) solutions for equipment and appliances controlled via mobile, including connected home solutions, real-time tracking and monitoring services, video surveillance, and many more.</p>
+                                <div class="col-md-6">
+                                    <div class="media media-services scrollpoint sp-effect2">
+                                        <a class="pull-left" href="#">
+                                            <i class="media-object fa fa fa-desktop fa-2x"></i>
+                                        </a>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Custom Software Development</h4>
+                                            <p>Whether you are a start-up or an established business, we will be happy to assist you at any and every stage of the software development life cycle: from conceptualization, business analysis and prototyping
+                                                to the development and deployment of a complete solution.</p>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="media media-services scrollpoint sp-effect2">
-                                    <a class="pull-left" href="#">
-                                        <i class="media-object fa fa-mortar-board fa-2x"></i>
-                                    </a>
-                                    <div class="media-body">
-                                        <h4 class="media-heading">Education</h4>
-                                        <p>Getting good grades in academics is important to build up a successful career. Have guidance from reputed tuition centres and coaching classes to do well in the final examination. Here we provide also coaching classes in technical & science related courses. Classes for all subjects and boards are available. Get course details, timing, tuition fees, location and contact details from our contact page.</p>
+                                    <div class="media media-services scrollpoint sp-effect1">
+                                        <a class="pull-left" href="#">
+                                            <i class="media-object"><i class="fa fa-cog fa-spin fa-2x"></i></i>
+                                        </a>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Internet of Things</h4>
+                                            <p>TopStack provide mobile-enabled Internet of Things (IoT) solutions for equipment and appliances controlled via mobile, including connected home solutions, real-time tracking and monitoring services, video surveillance,
+                                                and many more.</p>
+                                        </div>
+                                    </div>
+                                    <div class="media media-services scrollpoint sp-effect2">
+                                        <a class="pull-left" href="#">
+                                            <i class="media-object fa fa-mortar-board fa-2x"></i>
+                                        </a>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Education</h4>
+                                            <p>Getting good grades in academics is important to build up a successful career. Have guidance from reputed tuition centres and coaching classes to do well in the final examination. Here we provide also coaching
+                                                classes in technical & science related courses. Classes for all subjects and boards are available. Get course details, timing, tuition fees, location and contact details from our contact page.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- client testimonial -->
-        <!--
+            </section>
+            <!-- client testimonial -->
+            <!--
         <section id="testimonials">
             <div class="container">
                 <div class="row">
@@ -602,7 +606,7 @@ if (!$user_home->is_logged_in()) {
                     <div class="col-md-12">
                         <div id="testimonials-carousel" class="carousel slide scrollpoint sp-effect3" data-ride="carousel">
                             <!Wrapper for slides -->
-                            <!--
+            <!--
                             <div class="carousel-inner">
                                 <div class="item active">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, cumque reprehenderit blanditiis consequatur magnam ipsa vitae deserunt odio nesciunt enim sint tempore magni sit alias illo quisquam unde. Laboriosam, minima!</p>
@@ -628,8 +632,8 @@ if (!$user_home->is_logged_in()) {
                                 </div>
                             </div>-->
 
-                            <!-- Controls -->
-                            <!--
+            <!-- Controls -->
+            <!--
                             <a class="left carousel-control" href="#testimonials-carousel" data-slide="prev">
                                 <i class="fa fa-angle-left fa-3x"></i>
                             </a>
@@ -642,7 +646,7 @@ if (!$user_home->is_logged_in()) {
                 </div>
             </div>
         </section>-->
-<!--
+            <!--
         <section id="buyNow">
             <div class="container">
                 <div class="row">
@@ -658,7 +662,7 @@ if (!$user_home->is_logged_in()) {
                 </div>
             </div>
         </section>-->
-    <!-- team
+            <!-- team
         <section id="team">
             <div class="container">
                 <div class="row">
@@ -783,46 +787,46 @@ if (!$user_home->is_logged_in()) {
             </div>
         </section> -->
 
-        <section id="skills">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-push-2 clearfix">
-                        <div class="section-heading scrollpoint sp-effect3">
-                            <h3><span>We got skills</span></h3>
-                            <span class="divider"></span>
+            <section id="skills">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-push-2 clearfix">
+                            <div class="section-heading scrollpoint sp-effect3">
+                                <h3><span>We got skills</span></h3>
+                                <span class="divider"></span>
+                            </div>
                         </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 scrollpoint sp-effect6 text-center">
+                            <div class="chart" data-percent="95">
+                                <span>95%</span>
+                            </div>
+                            <h4 class="skill-detail">html & css</h4>
+                        </div>
+                        <div class="col-md-3 col-sm-6 scrollpoint sp-effect6 text-center">
+                            <div class="chart" data-percent="88">
+                                <span>88%</span>
+                            </div>
+                            <h4 class="skill-detail">PHP, JSP & DataBase</h4>
+                        </div>
+                        <div class="col-md-3 col-sm-6 scrollpoint sp-effect6 text-center">
+                            <div class="chart" data-percent="85">
+                                <span>85%</span>
+                            </div>
+                            <h4 class="skill-detail">Android & Java EE</h4>
+                        </div>
+                        <div class="col-md-3 col-sm-6 scrollpoint sp-effect6 text-center">
+                            <div class="chart" data-percent="75">
+                                <span>75%</span>
+                            </div>
+                            <h4 class="skill-detail">Python & Django</h4>
+                        </div>
+
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 scrollpoint sp-effect6 text-center">
-                        <div class="chart" data-percent="95">
-                            <span>95%</span>
-                        </div>
-                        <h4 class="skill-detail">html & css</h4>
-                    </div>
-                    <div class="col-md-3 col-sm-6 scrollpoint sp-effect6 text-center">
-                        <div class="chart" data-percent="88">
-                            <span>88%</span>
-                        </div>
-                        <h4 class="skill-detail">PHP, JSP & DataBase</h4>
-                    </div>
-                    <div class="col-md-3 col-sm-6 scrollpoint sp-effect6 text-center">
-                        <div class="chart" data-percent="85">
-                            <span>85%</span>
-                        </div>
-                        <h4 class="skill-detail">Android & Java EE</h4>
-                    </div>
-                    <div class="col-md-3 col-sm-6 scrollpoint sp-effect6 text-center">
-                        <div class="chart" data-percent="75">
-                            <span>75%</span>
-                        </div>
-                        <h4 class="skill-detail">Python & Django</h4>
-                    </div>
-
-            </div>
-            </div>
-        </section>
-      <!-- the work section
+            </section>
+            <!-- the work section
         <section id="portfolio">
             <div class="container">
                 <div class="row">
@@ -976,7 +980,7 @@ if (!$user_home->is_logged_in()) {
                 </div>
             </div>
         </section> -->
-       <!-- twitter section
+            <!-- twitter section
         <section id="twitter">
             <div class="container">
                 <div class="row">
@@ -989,7 +993,7 @@ if (!$user_home->is_logged_in()) {
                 <div class="row">
                     <div id="carousel-twitter" class="carousel slide" data-ride="carousel">
                         <!-- Indicators -->
-                        <!--
+            <!--
                         <ol class="carousel-indicators">
                             <li data-target="#carousel-twitter" data-slide-to="0" class="active"></li>
                             <li data-target="#carousel-twitter" data-slide-to="1"></li>
@@ -997,7 +1001,7 @@ if (!$user_home->is_logged_in()) {
                         </ol>
 
                         <!-- Wrapper for slides -->
-                        <!--
+            <!--
                         <div class="carousel-inner">
                             <div class="item active">
                                 <div class="row">
@@ -1034,142 +1038,121 @@ if (!$user_home->is_logged_in()) {
             </div>
         </section> -->
 
-        <section id="get-in-touch">
-         
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-push-2 clearfix">
-                        <div class="section-heading scrollpoint sp-effect3">
-                            <h1><span>Get in touch</span></h1>
-                            <h4 style=" text-align: center;">Connect with us.</h4>
-                           <!-- <span class="divider"></span>-->
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="contact-details">
-                            <div class="detail">
-                                 <h4>TopStacK
-                                  </h4>
-                                <p>Hooghly-Chinsurah, West Bengal, India,712105</p>
-                            </div>
-                            <div class="detail">
-                                <h4>call us</h4>
-                                <p>(+91) 8961705845 </p>
-                                <p>(+91) 8658852591 </p>
-                                <p>(+91) 8981426926 </p>
-                            </div>
-                            <div class="detail">
-                                <h4>email us</h4>
-                                <p>training@topstackindia.com</p>
-                            </div>
-                            <div class="detail">
-                                <ul class="clearfix">
-                                    <li><a href="#"><i class="fa fa-google-plus fa-2x"></i></a>
-                                    </li>
-                                    <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a>
-                                    </li>
-                                    <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a>
-                                    </li>
-                                    <li><a href="#"><i class="fa fa-youtube fa-2x"></i></a>
-                                    </li>
-                                    <li><a href="#"><i class="fa fa-pinterest fa-2x"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <form>
-                            <div class="form-group has-feedback left">
-                                <input type="text" class="form-control" placeholder="NAME">
-                                <i class="fa fa-user form-control-feedback"></i>
-                            </div>
-                            <div class="form-group has-feedback left">
-                                <input type="email" class="form-control" placeholder="EMAIL">
-                                <i class="fa fa-envelope-o form-control-feedback"></i>
-                            </div>
-                            <div class="form-group has-feedback left">
-                                <textarea class="form-control" rows="7" placeholder="MESSAGE"></textarea>
-                                <i class="fa fa-pencil-square-o form-control-feedback"></i>
-                            </div>
-                            <button class="btn btn-primary btn-lg pull-right" type="submit">SUBMIT</button>
+            <section id="get-in-touch">
 
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-       <!-- <section id="map"></section>-->
-
-        <footer id="site-footer">
-              <div class="container">
+                <div class="container">
                     <div class="row">
-                      <div class="col-md-12">
-                        <div class="col-md-4 md-margin-bottom-40">
-                          
-                             <div class="col-md-6" style="text-align:left;">
-                              <div class="headline"><p>Useful Links</p></div>
-                             
-                            
-                               <ul class="list-unstyled link-list">
-                                  <li><a href="#">About us</a>
-                                  <li><a href="#">Training Methodology</a>
-                                  <li><a href="#">Infrastructure</a>
-                      
-                                   <li><a href="#">Clients</a>
-                                </ul>
+                        <div class="col-md-8 col-md-push-2 clearfix">
+                            <div class="section-heading scrollpoint sp-effect3">
+                                <h1><span>Get in touch</span></h1>
+                                <h4 style=" text-align: center;">Connect with us.</h4>
+                                <!-- <span class="divider"></span>-->
                             </div>
-                          
                         </div>
-                      
-                        <div class="col-md-4"> 
-                            <div class="col-md-12 md-margin-bottom-40 ">
-                           
-                            <div class="headline"><p>Quick Notification</p></div>
-                             
-                             <ul class="list-unstyled link-list">
-                                  <li><a href="#">PHP Training Admission</a>
-                                  <li><a href="#">Android Trainig Admission</a>
-                                  
-                                </ul>
-                             </div>
-
-                            
-                            
-                          
-                            <div class="col-md-12" style="margin-top:50px;">
-                        <h6>Copyright <span>&copy;2017</span> TopStackindia.com</h6>
-                        </div>
-                        
                     </div>
-                    <div class="col-md-4 md-margin-bottom-40">
-                            <div class="col-md-6"></div>
-                             <div class="col-md-6" style="text-align:left;">
-                              <div class="headline"><p>Useful Links</p></div>
-                             
-                            
-                               <ul class="list-unstyled link-list">
-                                  <li><a href="#">About us</a>
-                                  <li><a href="#">Training Methodology</a>
-                                  <li><a href="#">Infrastructure</a>
-                      
-                                   <li><a href="#">Clients</a>
-                                </ul>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="contact-details">
+                                <div class="detail">
+                                    <h4>TopStacK
+                                    </h4>
+                                    <p>Hooghly-Chinsurah, West Bengal, India,712105</p>
+                                </div>
+                                <div class="detail">
+                                    <h4>call us</h4>
+                                    <p>(+91) 8961705845 </p>
+                                    <p>(+91) 8658852591 </p>
+                                    <p>(+91) 8981426926 </p>
+                                </div>
+                                <div class="detail">
+                                    <h4>email us</h4>
+                                    <p>training@topstackindia.com</p>
+                                </div>
+                                <div class="detail">
+                                    <ul class="clearfix">
+                                        <li><a href="#"><i class="fa fa-google-plus fa-2x"></i></a>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-youtube fa-2x"></i></a>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-pinterest fa-2x"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                          
                         </div>
-                        
-                        
-                       
-                  </div>
-                   
-            <!--    <a href="http://www.dmca.com/Protection/Status.aspx?ID=feaa580d-787a-41c7-97ae-5b6f4b40349a" title="DMCA.com Protection Status" class="dmca-badge"> <img src="//images.dmca.com/Badges/dmca-badge-w200-5x1-09.png?ID=feaa580d-787a-41c7-97ae-5b6f4b40349a" alt="DMCA.com Protection Status"></a> <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>-->
-           </div> 
-           <!--
+                        <div class="col-md-6">
+                            <form>
+                                <div class="form-group has-feedback left">
+                                    <input type="text" class="form-control" placeholder="NAME">
+                                    <i class="fa fa-user form-control-feedback"></i>
+                                </div>
+                                <div class="form-group has-feedback left">
+                                    <input type="email" class="form-control" placeholder="EMAIL">
+                                    <i class="fa fa-envelope-o form-control-feedback"></i>
+                                </div>
+                                <div class="form-group has-feedback left">
+                                    <textarea class="form-control" rows="7" placeholder="MESSAGE"></textarea>
+                                    <i class="fa fa-pencil-square-o form-control-feedback"></i>
+                                </div>
+                                <button class="btn btn-primary btn-lg pull-right" type="submit">SUBMIT</button>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- <section id="map"></section>-->
+                <!-- Footer Style sheet -->
+               
+                
+            <footer id="site-footer">
+                <div class="container">
+                    <div class="row">
+                        <!--   <div class="col-md-12">-->
+
+                        <div class="col-md-4" >
+                          
+                           <div class="headline"><u><h5>Useful Links</h5></u></div>
+                             <ul class="list-unstyled link-list">
+                               <li><a color=white href="">About us</a>
+                              <li><a href="">Training Methodology</a>
+                              <li><a href="">Infrastructure</a>
+                      
+                              <li><a href="">Clients</a>
+                            </ul>
+                
+                        </div>
+                        <div class="col-md-4">
+                           <u> <h5>Latest post</h5></u>
+                           
+                           
+
+                        </div>
+                        <div class="col-md-4">
+                            <u><h5>Quick Notification</h5></u>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                    <div class="col-md-12">
+                    <a href="http://www.dmca.com/Protection/Status.aspx?ID=feaa580d-787a-41c7-97ae-5b6f4b40349a" title="DMCA.com Protection Status" class="dmca-badge"> <img src="//images.dmca.com/Badges/dmca-badge-w200-5x1-09.png?ID=feaa580d-787a-41c7-97ae-5b6f4b40349a" alt="DMCA.com Protection Status"></a> <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+                    </div>
+                    <h6>Copyright <span>&copy;2017</span> TopStackindia.com</h6>
+
+                    <div>
+                    
+                </div>
+                
+
+                <!--    <a href="http://www.dmca.com/Protection/Status.aspx?ID=feaa580d-787a-41c7-97ae-5b6f4b40349a" title="DMCA.com Protection Status" class="dmca-badge"> <img src="//images.dmca.com/Badges/dmca-badge-w200-5x1-09.png?ID=feaa580d-787a-41c7-97ae-5b6f4b40349a" alt="DMCA.com Protection Status"></a> <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>-->
+                <!-- </div>-->
+                <!--
            <div class="col-md-4">
                            <span class="divider grey"></span>
                            
@@ -1181,40 +1164,40 @@ if (!$user_home->is_logged_in()) {
                             <i class="fa fa-angle-up fa-4x faa-bounce animated"></i>
                             </a>
                         </div>-->
-        </footer>
-    </div>
-    <!--/wrap-->
+            </footer>
+        </div>
+        <!--/wrap-->
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/stellar.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/jquery.easypiechart.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/stellar.js"></script>
+        <script src="js/isotope.pkgd.min.js"></script>
+        <script src="js/jquery.easypiechart.min.js"></script>
 
-    <!-- jQuery REVOLUTION Slider  -->
-    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
-    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+        <!-- jQuery REVOLUTION Slider  -->
+        <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+        <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 
-    <script src="js/waypoints.min.js"></script>
+        <script src="js/waypoints.min.js"></script>
 
-  <!--  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>-->
-    <script src="js/script.js"></script>
+        <!--  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>-->
+        <script src="js/script.js"></script>
 
-    <script>
-    $(document).ready(function() {
-        appMaster.preLoader();
-        appMaster.smoothScroll();
-        appMaster.animateScript();
-        appMaster.navSpy();
-        appMaster.revSlider();
-        appMaster.stellar();
-        appMaster.skillsChart();
-        appMaster.maps();
-        appMaster.isoTop();
-        appMaster.canvasHack();
-    });
-    </script>
+        <script>
+            $(document).ready(function() {
+                appMaster.preLoader();
+                appMaster.smoothScroll();
+                appMaster.animateScript();
+                appMaster.navSpy();
+                appMaster.revSlider();
+                appMaster.stellar();
+                appMaster.skillsChart();
+                appMaster.maps();
+                appMaster.isoTop();
+                appMaster.canvasHack();
+            });
+        </script>
 
-</body>
+    </body>
 
-</html>
+    </html>
