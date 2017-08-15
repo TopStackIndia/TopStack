@@ -44,7 +44,8 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="#">
-                        <img src="img/logo.png" alt="">
+                        <img src="img/logo-blue.png" alt="" width=152 height=43.64 style=" vertical-align: middle;
+                                                                                             margin-bottom: 0.80em;">
                     </a>
                 </div>
 

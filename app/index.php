@@ -200,14 +200,15 @@ if (!$user_home->is_logged_in()) {
                             </li>
                             <li><a href="comming_soon\comming_soon.html">team</a>   <!-- original #team-->
                             </li>
-                            <li><a href="comming_soon\comming_soon.html">our work</a>                      <!-- #portfollio -->
+                            <li><a href="comming_soon\comming_soon.html">Earn with us</a>                      <!-- #portfollio -->
                             </li>
                             <li><a href="#get-in-touch">contact</a>
                             </li>
-                            <li><a href="comming_soon\comming_soon.html">Education</a>
-                            </li>
-                            <li><a href="comming_soon\comming_soon.html">Careers</a>
-                            </li>
+                        <!--    <li><a href="comming_soon\comming_soon.html">Education</a>
+                            </li>-->
+                          <!--  <li><a href="comming_soon\comming_soon.html">Careers</a>
+                            </li>-->
+                            
                             
 
                             <!-- my Drop Down -->
