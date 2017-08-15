@@ -106,7 +106,7 @@ if (!$user_home->is_logged_in()) {
                                 </div>
                                 <div class="tp-caption italic large_white_light sfb hidden-xs" data-x="right" data-y="center" data-hoffset="147" data-voffset="-5" data-speed="700" data-start="1700" data-easing="Power4.easeOut">
                                
-                                We create websites that sell.
+                                    We create websites that sell.
                                 </div>
                                 <div class="tp-caption italic large_white_light sfr hidden-xs" data-x="left" data-y="center" data-hoffset="335" data-voffset="-0" data-speed="700" data-start="1900" data-easing="Power4.easeOut">
                                   
@@ -1106,10 +1106,47 @@ if (!$user_home->is_logged_in()) {
        <!-- <section id="map"></section>-->
 
         <footer id="site-footer">
-          <!--  <div class="container">-->
+              <div class="container">
                     <div class="row">
-                     <!--  <div class="col-md-12">-->
+                      <div class="col-md-12">
                         <div class="col-md-4 md-margin-bottom-40">
+                          
+                             <div class="col-md-6" style="text-align:left;">
+                              <div class="headline"><p>Useful Links</p></div>
+                             
+                            
+                               <ul class="list-unstyled link-list">
+                                  <li><a href="#">About us</a>
+                                  <li><a href="#">Training Methodology</a>
+                                  <li><a href="#">Infrastructure</a>
+                      
+                                   <li><a href="#">Clients</a>
+                                </ul>
+                            </div>
+                          
+                        </div>
+                      
+                        <div class="col-md-4"> 
+                            <div class="col-md-12 md-margin-bottom-40 ">
+                           
+                            <div class="headline"><p>Quick Notification</p></div>
+                             
+                             <ul class="list-unstyled link-list">
+                                  <li><a href="#">PHP Training Admission</a>
+                                  <li><a href="#">Android Trainig Admission</a>
+                                  
+                                </ul>
+                             </div>
+
+                            
+                            
+                          
+                            <div class="col-md-12" style="margin-top:50px;">
+                        <h6>Copyright <span>&copy;2017</span> TopStackindia.com</h6>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-4 md-margin-bottom-40">
                             <div class="col-md-6"></div>
                              <div class="col-md-6" style="text-align:left;">
                               <div class="headline"><p>Useful Links</p></div>
@@ -1125,47 +1162,25 @@ if (!$user_home->is_logged_in()) {
                             </div>
                           
                         </div>
-                        <div class="col-md-4">
+                        
+                        
+                       
+                  </div>
+                   
+            <!--    <a href="http://www.dmca.com/Protection/Status.aspx?ID=feaa580d-787a-41c7-97ae-5b6f4b40349a" title="DMCA.com Protection Status" class="dmca-badge"> <img src="//images.dmca.com/Badges/dmca-badge-w200-5x1-09.png?ID=feaa580d-787a-41c7-97ae-5b6f4b40349a" alt="DMCA.com Protection Status"></a> <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>-->
+           </div> 
+           <!--
+           <div class="col-md-4">
                            <span class="divider grey"></span>
-                            <!-- <h4>TopStack<span class="brandy">2017</span> India.com.</h4>-->
+                           
                             <h4>Copyright <span class="brandy">&copy;2017</span> TopStackindia.com</h4>
                     
                     
                             <a href="#" class="scroll-top">
-                            <!--<img src="img/top.png" alt="" class="top">-->
+                           
                             <i class="fa fa-angle-up fa-4x faa-bounce animated"></i>
                             </a>
-                        </div>
-                        <div class="col-md-4"> 
-                            <div class="col-md-6 md-margin-bottom-40">
-                             <p>Quick Notification</p>
-                             
-                             <ul class="list-unstyled link-list">
-                                  <li><a href="#">PHP Training Admission</a>
-                                  <li><a href="#">Android Trainig Admission</a>
-                                  
-                                </ul>
-                             </div>
-
-                             <div class="col-md-6" style="text-align:left;">
-                              <div class="headline"><p>Latest Posts</p></div>
-                             
-                            
-                               <ul class="list-unstyled link-list">
-                                  <li><a href="#">Current Jobs</a>
-                                  <li><a href="#">Future Technology</a>
-                                  <li><a href="#">IT Market</a>
-                      
-                                   <li><a href="#">Research & Development</a>
-                                </ul>
-                            </div>
-                          
-                        
-                        </div>
-                    </div>
-            
-                <a href="http://www.dmca.com/Protection/Status.aspx?ID=feaa580d-787a-41c7-97ae-5b6f4b40349a" title="DMCA.com Protection Status" class="dmca-badge"> <img src="//images.dmca.com/Badges/dmca-badge-w200-5x1-09.png?ID=feaa580d-787a-41c7-97ae-5b6f4b40349a" alt="DMCA.com Protection Status"></a> <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
-           <!-- </div> container div-->
+                        </div>-->
         </footer>
     </div>
     <!--/wrap-->
