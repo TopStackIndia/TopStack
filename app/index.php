@@ -122,6 +122,7 @@ if (!$user_home->is_logged_in()) {
                                 <!-- LAYERS -->
 
                                 <!-- LAYER NR. 1 -->
+                                <!-- Hello Add Later
                                 <div class="tp-caption sft fadeout" data-x="center" data-y="center" data-hoffset="0" data-voffset="0" data-speed="500" data-start="700" data-easing="Power4.easeOut">
                                     <img src="img/samples/macbook-bl.png" class="macbook-image" alt="">
                                 </div>
@@ -132,13 +133,14 @@ if (!$user_home->is_logged_in()) {
                                 <div class="tp-caption italic large_white_light sft hidden-xs" data-x="right" data-y="center" data-hoffset="0" data-voffset="0" data-speed="2400" data-start="1300" data-easing="Power4.easeOut">
                                     <a href="#team" class="btn btn-naked">Meet The Team</a>
                                 </div>
-                            </li>
+                            </li>-->
                             <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="500">
                                 <!-- MAIN IMAGE -->
                                 <img src="img/dummy.png" data-lazyload="img/samples/slider-bk2.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
                                 <!-- LAYERS -->
 
                                 <!-- LAYER NR. 1 -->
+                                <!-- lekha likhte hobe 
                                 <div class="tp-caption lfl fadeout" data-x="left" data-y="center" data-hoffset="0" data-voffset="0" data-speed="500" data-start="700" data-easing="Power4.easeOut">
                                     <img src="img/samples/iphone.png" alt="">
                                 </div>
@@ -156,7 +158,7 @@ if (!$user_home->is_logged_in()) {
                                 </div>
                                 <div class="tp-caption sfb hidden-xs" data-x="520" data-y="center" data-hoffset="0" data-voffset="150" data-speed="2400" data-start="1700" data-easing="Power4.easeOut">
                                     <a href="##myhidden" class="btn btn-primary btn-lg">LEARN MORE</a>
-                                </div>
+                                </div>--
                             </li>
 
                         </ul>
