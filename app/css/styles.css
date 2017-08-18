@@ -106,7 +106,7 @@ header.masthead .tp-caption.italic {
 
 header.masthead .tp-caption .light_bold {
     font-weight: 100;
-    font-size: 30px;
+    font-size: 60px;
     color: white;
     padding-top: 10px;
     text-align: center;
@@ -114,8 +114,9 @@ header.masthead .tp-caption .light_bold {
 
 header.masthead .tp-caption.large_white_light {
     font-weight: 100;
-    font-size: 100px;
+    font-size: 60px;
     color: white;
+    
 }
 
 header.masthead .tp-caption .btn.btn-naked {
