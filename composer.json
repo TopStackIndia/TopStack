@@ -1,0 +1,5 @@
+{
+    "require": {
+        "entrecore/gtmetrix": "^1.0"
+    }
+}
