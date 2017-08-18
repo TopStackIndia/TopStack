@@ -47,7 +47,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="#">
-                        <img src="img/logo.png" alt="">
+                       <!-- <img src="img/logo.png" alt=""> logo off temporary--> 
                     </a>
                 </div>
 
