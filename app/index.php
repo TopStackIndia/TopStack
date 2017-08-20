@@ -93,7 +93,7 @@ if (!$user_home->is_logged_in()) {
                             <ul>
                                 <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="500">
                                     <!-- MAIN IMAGE -->
-                                    <img src="img/dummy.png" data-lazyload="img/samples/slider-bk.png" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                                    <img src="img/dummy.png" data-lazyload="img/samples/slider-bk.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
                                     <!-- LAYERS -->
 
 
@@ -117,10 +117,10 @@ if (!$user_home->is_logged_in()) {
                                     <div class="tp-caption lfl fadeout" data-x="left" data-y="center" data-hoffset="0" data-voffset="0" data-speed="500" data-start="700" data-easing="Power4.easeOut">
                                       <!--  <img src="img/samples/iphone.png" alt="">-->
                                     </div>
-                                    <div class="tp-caption large_white_light sfb" data-x="420" data-y="center" data-hoffset="0" data-voffset="-120" data-speed="500" data-start="1200" data-easing="Power4.easeOut">
+                                    <div class="tp-caption large_white_light sfb" data-x="420" data-y="center" data-hoffset="0" data-voffset="-80" data-speed="500" data-start="1200" data-easing="Power4.easeOut">
                                            We don't just sell websites,
                                     </div>
-                                    <div class="tp-caption large_white_light sfb" data-x="420" data-y="center" data-hoffset="0" data-voffset="-40" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
+                                    <div class="tp-caption large_white_light sfb" data-x="420" data-y="center" data-hoffset="0" data-voffset="-30" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
                                            We create websites that sell.
                                     </div>
                                    
@@ -140,28 +140,45 @@ if (!$user_home->is_logged_in()) {
                                         <img src="img/samples/macbook-bl.png" class="macbook-image" alt="">
                                     </div>-->
 
-                                    <div class="tp-caption large_white_light italic sfb hidden-xs" data-x="center" data-y="center" data-hoffset="0" data-voffset="-70" data-speed="2400" data-start="1300" data-easing="Power4.easeOut">
+                                    <div class="tp-caption large_white_light italic sfb" data-x="center" data-y="center" data-hoffset="0" data-voffset="-70" data-speed="2400" data-start="1300" data-easing="Power4.easeOut">
                                        <!-- <a href="#portfolio" class="btn btn-naked">Check Our Work</a>-->
                                        That touches your heart.
+                                    </div>
+                                  
+                                </li>
+                                <!-- Image For Extra Training-->
+                                <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="500">
+                                    <!-- MAIN IMAGE -->
+                                    <img src="img/dummy.png" data-lazyload="img/samples/slider-bk4.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                                    <!-- LAYERS -->
+
+                                    <!-- LAYER NR. 1 -->
+                                   <!--
+                                   <div class="tp-caption sft fadeout" data-x="center" data-y="center" data-hoffset="0" data-voffset="0" data-speed="500" data-start="700" data-easing="Power4.easeOut">
+                                        <img src="img/samples/macbook-bl.png" class="macbook-image" alt="">
+                                    </div>-->
+
+                                    <div class="tp-caption large_white_bold sft" data-x="center" data-y="center" data-hoffset="0" data-voffset="-70" data-speed="2400" data-start="1300" data-easing="Power4.easeOut">
+                                       <!-- <a href="#portfolio" class="btn btn-naked">Check Our Work</a>-->
+                                       <h2 style="color:black;">Learn smart , earn smart.</h2>
                                     </div>
                                     <div class="tp-caption italic large_white_light sft hidden-xs" data-x="right" data-y="center" data-hoffset="0" data-voffset="0" data-speed="2400" data-start="1300" data-easing="Power4.easeOut">
                                      <!--   <a href="#team" class="btn btn-naked">Meet The Team</a>-->
                                     </div>
                                 </li>
+
+                                
                                 <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="500">
                                     <!-- MAIN IMAGE -->
                                     <img src="img/dummy.png" data-lazyload="img/samples/slider-bk2.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
                                     <!-- LAYERS -->
-
-
-
                                     <div class="tp-caption lfl fadeout" data-x="left" data-y="center" data-hoffset="0" data-voffset="0" data-speed="500" data-start="700" data-easing="Power4.easeOut">
                                         <img src="img/samples/iphone.png" alt="">
                                     </div>
-                                    <div class="tp-caption large_white_light sfb" data-x="520" data-y="center" data-hoffset="0" data-voffset="-120" data-speed="500" data-start="1200" data-easing="Power4.easeOut">
+                                    <div class="tp-caption large_white_light sfb" data-x="520" data-y="center" data-hoffset="0" data-voffset="-120" data-speed="900" data-start="1200" data-easing="Power4.easeOut">
                                         We Develop 
                                     </div>
-                                    <div class="tp-caption large_white_light sfb" data-x="520" data-y="center" data-hoffset="0" data-voffset="-40" data-speed="500" data-start="1200" data-easing="Power4.easeOut">
+                                    <div class="tp-caption large_white_light sfb" data-x="520" data-y="center" data-hoffset="0" data-voffset="-40" data-speed="900" data-start="1200" data-easing="Power4.easeOut">
                                         Beautiful & Functional Applications
                                     </div>
                                     <!-- Temp off 
@@ -182,6 +199,8 @@ if (!$user_home->is_logged_in()) {
                                     <div class="tp-caption sfb hidden-xs" data-x="520" data-y="center" data-hoffset="0" data-voffset="150" data-speed="2400" data-start="1700" data-easing="Power4.easeOut">
                                         <a href="##myhidden" class="btn btn-primary btn-lg">LEARN MORE</a>
                                     </div>-->
+
+                                  
                                 </li>
 
                             </ul>
