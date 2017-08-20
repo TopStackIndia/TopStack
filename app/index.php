@@ -135,16 +135,17 @@ if (!$user_home->is_logged_in()) {
                                     <!-- LAYERS -->
 
                                     <!-- LAYER NR. 1 -->
-
+                                   <!--
                                    <div class="tp-caption sft fadeout" data-x="center" data-y="center" data-hoffset="0" data-voffset="0" data-speed="500" data-start="700" data-easing="Power4.easeOut">
                                         <img src="img/samples/macbook-bl.png" class="macbook-image" alt="">
-                                    </div>
+                                    </div>-->
 
-                                    <div class="tp-caption large_white_light italic sfb hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="0" data-speed="2400" data-start="1300" data-easing="Power4.easeOut">
-                                        <a href="#portfolio" class="btn btn-naked">Check Our Work</a>
+                                    <div class="tp-caption large_white_light italic sfb hidden-xs" data-x="center" data-y="center" data-hoffset="0" data-voffset="-70" data-speed="2400" data-start="1300" data-easing="Power4.easeOut">
+                                       <!-- <a href="#portfolio" class="btn btn-naked">Check Our Work</a>-->
+                                       That touches your heart.
                                     </div>
                                     <div class="tp-caption italic large_white_light sft hidden-xs" data-x="right" data-y="center" data-hoffset="0" data-voffset="0" data-speed="2400" data-start="1300" data-easing="Power4.easeOut">
-                                        <a href="#team" class="btn btn-naked">Meet The Team</a>
+                                     <!--   <a href="#team" class="btn btn-naked">Meet The Team</a>-->
                                     </div>
                                 </li>
                                 <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="500">
@@ -157,21 +158,30 @@ if (!$user_home->is_logged_in()) {
                                     <div class="tp-caption lfl fadeout" data-x="left" data-y="center" data-hoffset="0" data-voffset="0" data-speed="500" data-start="700" data-easing="Power4.easeOut">
                                         <img src="img/samples/iphone.png" alt="">
                                     </div>
-                                    <div class="tp-caption large_white_bold sft" data-x="520" data-y="center" data-hoffset="0" data-voffset="-120" data-speed="500" data-start="1200" data-easing="Power4.easeOut">
-                                        <h1>Welcome</h1>
+                                    <div class="tp-caption large_white_light sfb" data-x="520" data-y="center" data-hoffset="0" data-voffset="-120" data-speed="500" data-start="1200" data-easing="Power4.easeOut">
+                                        We Develop 
                                     </div>
-                                    <div class="tp-caption large_white_light sfb" data-x="520" data-y="center" data-hoffset="0" data-voffset="-40" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
-                                        We Develop
-                                    </div>
-                                    <div class="tp-caption large_white_light sfb" data-x="520" data-y="center" data-hoffset="0" data-voffset="10" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
+                                    <div class="tp-caption large_white_light sfb" data-x="520" data-y="center" data-hoffset="0" data-voffset="-40" data-speed="500" data-start="1200" data-easing="Power4.easeOut">
                                         Beautiful & Functional Applications
                                     </div>
+                                    <!-- Temp off 
+                                    <div class="tp-caption large_white_bold sft" data-x="520" data-y="center" data-hoffset="0" data-voffset="-120" data-speed="500" data-start="1200" data-easing="Power4.easeOut">
+                                        <h2>Welcome</h2>
+                                    </div>
+                                    <div class="tp-caption large_white_light sfb" data-x="520" data-y="center" data-hoffset="0" data-voffset="-40" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
+                                       <p> We Develop</p>
+                                    </div>
+                                    <div class="tp-caption large_white_light sfb" data-x="520" data-y="center" data-hoffset="0" data-voffset="10" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
+                                       <p> Beautiful & Functional Applications</p>
+                                       <br></br>
+                                    </div>
                                     <div class="tp-caption large_white_light sfb" data-x="520" data-y="center" data-hoffset="0" data-voffset="60" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
-                                        Websites, Bradings & Web Apps
+                                    <br></br>
+                                       <p> Websites, Bradings & Web Apps</p>
                                     </div>
                                     <div class="tp-caption sfb hidden-xs" data-x="520" data-y="center" data-hoffset="0" data-voffset="150" data-speed="2400" data-start="1700" data-easing="Power4.easeOut">
                                         <a href="##myhidden" class="btn btn-primary btn-lg">LEARN MORE</a>
-                                    </div>
+                                    </div>-->
                                 </li>
 
                             </ul>
