@@ -142,7 +142,11 @@ if (!$user_home->is_logged_in()) {
 
                                     <div class="tp-caption large_white_light italic sfb" data-x="center" data-y="center" data-hoffset="0" data-voffset="-70" data-speed="2400" data-start="1300" data-easing="Power4.easeOut">
                                        <!-- <a href="#portfolio" class="btn btn-naked">Check Our Work</a>-->
-                                       That touches your heart.
+                                       Don't be satisfied with others stories,
+                                    </div>
+                                    <div class="tp-caption large_white_light italic sfb" data-x="center" data-y="center" data-hoffset="0" data-voffset="-20" data-speed="2400" data-start="1300" data-easing="Power4.easeOut">
+                                       <!-- <a href="#portfolio" class="btn btn-naked">Check Our Work</a>-->
+                                       unfold your own myth with us.
                                     </div>
                                   
                                 </li>
