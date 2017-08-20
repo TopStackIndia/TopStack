@@ -164,7 +164,7 @@ if (!$user_home->is_logged_in()) {
 
                                     <div class="tp-caption large_white_bold sft" data-x="center" data-y="center" data-hoffset="0" data-voffset="-70" data-speed="2400" data-start="1300" data-easing="Power4.easeOut">
                                        <!-- <a href="#portfolio" class="btn btn-naked">Check Our Work</a>-->
-                                       <h2 style="color:black;">Learn smart , earn smart.</h2>
+                                       <h2 style="color:black;"> learn smart, earn smarter.</h2>
                                     </div>
                                     <div class="tp-caption italic large_white_light sft hidden-xs" data-x="right" data-y="center" data-hoffset="0" data-voffset="0" data-speed="2400" data-start="1300" data-easing="Power4.easeOut">
                                      <!--   <a href="#team" class="btn btn-naked">Meet The Team</a>-->
