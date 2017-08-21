@@ -93,7 +93,7 @@ if (!$user_home->is_logged_in()) {
                             <ul>
                                 <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="500">
                                     <!-- MAIN IMAGE -->
-                                    <img src="img/dummy.png" data-lazyload="img/samples/slider-bk.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                                    <img src="img/dummy.png" data-lazyload="img/samples/slider-bk.jpg" alt="web developmet" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
                                     <!-- LAYERS -->
 
 
@@ -131,7 +131,7 @@ if (!$user_home->is_logged_in()) {
                                 </li>
                                 <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="500">
                                     <!-- MAIN IMAGE -->
-                                    <img src="img/dummy.png" data-lazyload="img/samples/slider-bk3.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                                    <img src="img/dummy.png" data-lazyload="img/samples/slider-bk3.jpg" alt="creative design" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
                                     <!-- LAYERS -->
 
                                     <!-- LAYER NR. 1 -->
@@ -142,18 +142,18 @@ if (!$user_home->is_logged_in()) {
 
                                     <div class="tp-caption large_white_light italic sfb" data-x="center" data-y="center" data-hoffset="0" data-voffset="-70" data-speed="2400" data-start="1300" data-easing="Power4.easeOut">
                                        <!-- <a href="#portfolio" class="btn btn-naked">Check Our Work</a>-->
-                                       Don't be satisfied with others stories,
+                                       Creativity the way of life
                                     </div>
                                     <div class="tp-caption large_white_light italic sfb" data-x="center" data-y="center" data-hoffset="0" data-voffset="-20" data-speed="2400" data-start="1300" data-easing="Power4.easeOut">
                                        <!-- <a href="#portfolio" class="btn btn-naked">Check Our Work</a>-->
-                                       unfold your own myth with us.
+                                      <!-- unfold your own myth with us.-->
                                     </div>
                                   
                                 </li>
                                 <!-- Image For Extra Training-->
                                 <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="500">
                                     <!-- MAIN IMAGE -->
-                                    <img src="img/dummy.png" data-lazyload="img/samples/slider-bk4.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                                    <img src="img/dummy.png" data-lazyload="img/samples/slider-bk4.jpg" alt="education" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
                                     <!-- LAYERS -->
 
                                     <!-- LAYER NR. 1 -->
@@ -164,7 +164,7 @@ if (!$user_home->is_logged_in()) {
 
                                     <div class="tp-caption large_white_bold sft" data-x="center" data-y="center" data-hoffset="0" data-voffset="-70" data-speed="2400" data-start="1300" data-easing="Power4.easeOut">
                                        <!-- <a href="#portfolio" class="btn btn-naked">Check Our Work</a>-->
-                                       <h2 style="color:black;"> learn smart, earn smarter.</h2>
+                                       <h2 style="color:#3b3b3b;"> learn smart, earn smarter.</h2>
                                     </div>
                                     <div class="tp-caption italic large_white_light sft hidden-xs" data-x="right" data-y="center" data-hoffset="0" data-voffset="0" data-speed="2400" data-start="1300" data-easing="Power4.easeOut">
                                      <!--   <a href="#team" class="btn btn-naked">Meet The Team</a>-->
@@ -266,13 +266,13 @@ if (!$user_home->is_logged_in()) {
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training<b class="caret"></b></a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a href="php_training.php">PHP/MySQL Training</a>
+                                            <a href="php_training.php">Web Technology</a>
                                         </li>
                                         <li>
-                                            <a href="android_training.php">Android Training</a>
+                                            <a href="android_training.php">Mobile Technology</a>
                                         </li>
                                         <li>
-                                            <a href="others_training.php">Others Training</a>
+                                            <a href="others_training.php">Desktop Application</a>
                                         </li>
 
                                     </ul>
@@ -1164,8 +1164,8 @@ if (!$user_home->is_logged_in()) {
 
                         <div class="col-md-4" >
                           
-                           <div class="headline"><u><h5>Useful Links</h5></u></div>
-                             <ul class="list-unstyled link-list">
+                           <div class="headline" align="left" ><u><h5>Useful Links</h5></u></div>
+                             <ul class="list-unstyled link-list" align="left">
                                <li><a color=white href="">About us</a>
                               <li><a href="">Training Methodology</a>
                               <li><a href="">Infrastructure</a>
