@@ -1166,7 +1166,7 @@ if (!$user_home->is_logged_in()) {
                           
                            <div class="headline" style="text-align:justify;" ;><h5>Useful Links</h5></div>
                              <ul class="list-unstyled link-list" style="text-align:justify;" ;>
-                               <li><a color=white href="">About us</a>
+                               <li><a href="">About us</a>
                               <li><a href="">Training Methodology</a>
                               <li><a href="">Infrastructure</a>
                               <li><a href="">Clients</a>
@@ -1177,7 +1177,7 @@ if (!$user_home->is_logged_in()) {
                            
                             <div class="headline" style="text-align:justify;" ;><h5>Latest post</div>
                              <ul class="list-unstyled link-list" style="text-align:justify;" ; >
-                               <li><a color=white href="">About us</a>
+                               <li><a href="">About us</a>
                               <li><a href="">Training Methodology</a>
                               <li><a href="">Infrastructure</a>
                               <li><a href="">Clients</a>
@@ -1199,6 +1199,7 @@ if (!$user_home->is_logged_in()) {
                         </div>
                         <div class="col-md-3" style =" margin-top: 50px;">
                         <p style="font-size:30px;">TopStack</p>
+                        <p>Excellence guaranteed</p>
                         </div>
 
                     </div>
@@ -1208,7 +1209,7 @@ if (!$user_home->is_logged_in()) {
                     </div>
                     <hr></hr>
                     <h6>Copyright <span>&copy;2017</span> TopStackindia.com</h6>
-
+                    <a href="//www.dmca.com/Protection/Status.aspx?ID=feaa580d-787a-41c7-97ae-5b6f4b40349a" title="DMCA.com Protection Status" class="dmca-badge"> <img src="//images.dmca.com/Badges/dmca-badge-w100-5x1-11.png?ID=feaa580d-787a-41c7-97ae-5b6f4b40349a" alt="DMCA.com Protection Status"></a> <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
                     <div>
                     
                 </div>

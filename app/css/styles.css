@@ -1197,7 +1197,10 @@ footer#site-footer {
     background: #3b3b3b;
     color: white;
     text-align: center;
+    
 }
+
+
 
 footer#site-footer span.divider {
     float: none;
@@ -1597,7 +1600,7 @@ ul {
 }
 
 a {
-    color: #FFFFFF;
+    color: #767474;
     -webkit-transition: all 0.25s ease-in-out;
     -o-transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
@@ -1606,7 +1609,7 @@ a {
 }
 
 a:hover {
-    color: #69CBF8;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
