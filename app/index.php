@@ -1162,33 +1162,51 @@ if (!$user_home->is_logged_in()) {
                     <div class="row">
                         <!--   <div class="col-md-12">-->
 
-                        <div class="col-md-4" >
+                        <div class="col-md-3" >
                           
-                           <div class="headline" align="left" ><u><h5>Useful Links</h5></u></div>
-                             <ul class="list-unstyled link-list" align="left">
+                           <div class="headline" style="text-align:justify;" ;><h5>Useful Links</h5></div>
+                             <ul class="list-unstyled link-list" style="text-align:justify;" ;>
                                <li><a color=white href="">About us</a>
                               <li><a href="">Training Methodology</a>
                               <li><a href="">Infrastructure</a>
-                      
                               <li><a href="">Clients</a>
                             </ul>
                 
                         </div>
-                        <div class="col-md-4">
-                           <u> <h5>Latest post</h5></u>
+                        <div class="col-md-3">
                            
+                            <div class="headline" style="text-align:justify;" ;><h5>Latest post</div>
+                             <ul class="list-unstyled link-list" style="text-align:justify;" ; >
+                               <li><a color=white href="">About us</a>
+                              <li><a href="">Training Methodology</a>
+                              <li><a href="">Infrastructure</a>
+                              <li><a href="">Clients</a>
+                            </ul>
+                           
+                             
                            
 
                         </div>
-                        <div class="col-md-4">
-                            <u><h5>Quick Notification</h5></u>
+                        <div class="col-md-3">
+                        <div class="headline" style="text-align:justify;" ;><h5>Quick notification</div>
+                             <ul class="list-unstyled link-list" style="text-align:justify;" ; >
+                               <li><a color=white href="">About us</a>
+                              <li><a href="">Training Methodology</a>
+                              <li><a href="">Infrastructure</a>
+                              <li><a href="">Clients</a>
+                            </ul>
+                            
+                        </div>
+                        <div class="col-md-3" style =" margin-top: 50px;">
+                        <p style="font-size:30px;">TopStack</p>
                         </div>
 
                     </div>
                     <div class="row">
                     <div class="col-md-12">
-                    <a href="http://www.dmca.com/Protection/Status.aspx?ID=feaa580d-787a-41c7-97ae-5b6f4b40349a" title="DMCA.com Protection Status" class="dmca-badge"> <img src="//images.dmca.com/Badges/dmca-badge-w200-5x1-09.png?ID=feaa580d-787a-41c7-97ae-5b6f4b40349a" alt="DMCA.com Protection Status"></a> <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+                  <!--  <a href="http://www.dmca.com/Protection/Status.aspx?ID=feaa580d-787a-41c7-97ae-5b6f4b40349a" title="DMCA.com Protection Status" class="dmca-badge"> <img src="//images.dmca.com/Badges/dmca-badge-w200-5x1-09.png?ID=feaa580d-787a-41c7-97ae-5b6f4b40349a" alt="DMCA.com Protection Status"></a> <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>-->
                     </div>
+                    <hr></hr>
                     <h6>Copyright <span>&copy;2017</span> TopStackindia.com</h6>
 
                     <div>
