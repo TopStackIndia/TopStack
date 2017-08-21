@@ -171,11 +171,11 @@ if (!$user_home->is_logged_in()) {
                                     </div>
                                 </li>
 
-                                
+                                <!--
                                 <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="500">
-                                    <!-- MAIN IMAGE -->
+                                    
                                     <img src="img/dummy.png" data-lazyload="img/samples/slider-bk2.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-                                    <!-- LAYERS -->
+                                   
                                     <div class="tp-caption lfl fadeout" data-x="left" data-y="center" data-hoffset="0" data-voffset="0" data-speed="500" data-start="700" data-easing="Power4.easeOut">
                                         <img src="img/samples/iphone.png" alt="">
                                     </div>
