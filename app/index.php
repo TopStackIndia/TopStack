@@ -1177,10 +1177,10 @@ if (!$user_home->is_logged_in()) {
                            
                             <div class="headline" style="text-align:justify;" ;><h5>Latest post</div>
                              <ul class="list-unstyled link-list" style="text-align:justify;" ; >
-                               <li><a href="">About us</a>
-                              <li><a href="">Training Methodology</a>
-                              <li><a href="">Infrastructure</a>
-                              <li><a href="">Clients</a>
+                               <li><a href="">Current project</a>
+                              <li><a href="">Current training</a>
+                              <li><a href="">New services</a>
+                              <li><a href="">Current courses</a>
                             </ul>
                            
                              
@@ -1190,10 +1190,10 @@ if (!$user_home->is_logged_in()) {
                         <div class="col-md-3">
                         <div class="headline" style="text-align:justify;" ;><h5>Quick notification</div>
                              <ul class="list-unstyled link-list" style="text-align:justify;" ; >
-                               <li><a color=white href="">About us</a>
-                              <li><a href="">Training Methodology</a>
-                              <li><a href="">Infrastructure</a>
-                              <li><a href="">Clients</a>
+                               <li><a color=white href="">Traing price</a>
+                              <li><a href="">Web development price</a>
+                              <li><a href="">Course fees</a>
+                             
                             </ul>
                             
                         </div>
