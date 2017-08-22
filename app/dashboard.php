@@ -390,20 +390,82 @@
 
         <!--   <section id="map"></section>-->
 
-        <footer id="site-footer">
-            <div class="container">
-                <div class="row">
+         <!-- Footer Style sheet -->
+               
+                
+         <footer id="site-footer">
+         <div class="container">
+             <div class="row">
+                 <!--   <div class="col-md-12">-->
+
+                 <div class="col-md-3" >
+                   
+                    <div class="headline" style="text-align:justify;" ;><h5>Useful Links</h5></div>
+                      <ul class="list-unstyled link-list" style="text-align:justify;" ;>
+                        <li><a href="">About us</a>
+                       <li><a href="">Training Methodology</a>
+                       <li><a href="">Infrastructure</a>
+                       <li><a href="">Clients</a>
+                     </ul>
+         
+                 </div>
+                 <div class="col-md-3">
+                    
+                     <div class="headline" style="text-align:justify;" ;><h5>Latest post</div>
+                      <ul class="list-unstyled link-list" style="text-align:justify;" ; >
+                        <li><a href="">Current project</a>
+                       <li><a href="">Current training</a>
+                       <li><a href="">New services</a>
+                       <li><a href="">Current courses</a>
+                     </ul>
+                    
+                      
+                    
+
+                 </div>
+                 <div class="col-md-3">
+                 <div class="headline" style="text-align:justify;" ;><h5>Quick notification</div>
+                      <ul class="list-unstyled link-list" style="text-align:justify;" ; >
+                        <li><a color=white href="">Traing price</a>
+                       <li><a href="">Web development price</a>
+                       <li><a href="">Course fees</a>
+                      
+                     </ul>
+                     
+                 </div>
+                 <div class="col-md-3" style =" margin-top: 50px;">
+                 <p style="font-size:30px;">TopStack</p>
+                 <p>Excellence guaranteed</p>
+                 </div>
+
+             </div>
+             <div class="row">
+             <div class="col-md-12">
+           <!--  <a href="http://www.dmca.com/Protection/Status.aspx?ID=feaa580d-787a-41c7-97ae-5b6f4b40349a" title="DMCA.com Protection Status" class="dmca-badge"> <img src="//images.dmca.com/Badges/dmca-badge-w200-5x1-09.png?ID=feaa580d-787a-41c7-97ae-5b6f4b40349a" alt="DMCA.com Protection Status"></a> <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>-->
+             </div>
+             <hr></hr>
+             <h6>Copyright <span>&copy;2017</span> TopStackindia.com</h6>
+             <a href="//www.dmca.com/Protection/Status.aspx?ID=feaa580d-787a-41c7-97ae-5b6f4b40349a" title="DMCA.com Protection Status" class="dmca-badge"> <img src="//images.dmca.com/Badges/dmca-badge-w100-5x1-11.png?ID=feaa580d-787a-41c7-97ae-5b6f4b40349a" alt="DMCA.com Protection Status"></a> <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+             <div>
+             
+         </div>
+         
+
+         <!--    <a href="http://www.dmca.com/Protection/Status.aspx?ID=feaa580d-787a-41c7-97ae-5b6f4b40349a" title="DMCA.com Protection Status" class="dmca-badge"> <img src="//images.dmca.com/Badges/dmca-badge-w200-5x1-09.png?ID=feaa580d-787a-41c7-97ae-5b6f4b40349a" alt="DMCA.com Protection Status"></a> <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>-->
+         <!-- </div>-->
+         <!--
+    <div class="col-md-4">
                     <span class="divider grey"></span>
-                    <!-- <h4>TopStack<span class="brandy">2017</span> India.com.</h4>-->
-                    <h4>Copyright <span class="brandy">&copy;2017</span> TopStackindia.com</h4>
-                    <!--<h5>by <a href="http://www.scoopthemes.com" target="_blank">ScoopThemes</a></h5>-->
-                    <a href="#" class="scroll-top">
-                        <img src="img/top.png" alt="" class="top">
-                    </a>
-                </div>
-                <a href="http://www.dmca.com/Protection/Status.aspx?ID=feaa580d-787a-41c7-97ae-5b6f4b40349a" title="DMCA.com Protection Status" class="dmca-badge"> <img src="//images.dmca.com/Badges/dmca-badge-w200-5x1-09.png?ID=feaa580d-787a-41c7-97ae-5b6f4b40349a" alt="DMCA.com Protection Status"></a> <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
-            </div>
-        </footer>
+                    
+                     <h4>Copyright <span class="brandy">&copy;2017</span> TopStackindia.com</h4>
+             
+             
+                     <a href="#" class="scroll-top">
+                    
+                     <i class="fa fa-angle-up fa-4x faa-bounce animated"></i>
+                     </a>
+                 </div>-->
+     </footer>
     </div>
     <!--/wrap-->
 
