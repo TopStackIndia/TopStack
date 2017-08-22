@@ -246,7 +246,7 @@ if (!$user_home->is_logged_in()) {
                                 </li>
                                 <li><a href="#services">services</a>
                                 </li>
-                                <li><a href="comming_soon\comming_soon.html">team</a>
+                                <li><a href="team.php">team</a>
                                     <!-- original #team-->
                                 </li>
                                 <li><a href="comming_soon\comming_soon.html">Earn with us</a>
