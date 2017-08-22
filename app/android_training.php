@@ -309,7 +309,7 @@
                         <div class="col-md-3">
                         <div class="headline" style="text-align:justify;" ;><h5>Quick notification</div>
                              <ul class="list-unstyled link-list" style="text-align:justify;" ; >
-                               <li><a color=white href="">Traing price</a>
+                               <li><a color=white href="">Training price</a>
                               <li><a href="">Web development price</a>
                               <li><a href="">Course fees</a>
                              
