@@ -93,7 +93,7 @@ if (!$user_home->is_logged_in()) {
                                 </li>
                                 <li><a href="index.php#services">services</a>
                                 </li>
-                                <li><a href="#">team</a>
+                                <li><a href="team.php">team</a>
                                     <!-- original #team-->
                                 </li>
                                 <li><a href="comming_soon\comming_soon.html">Earn with us</a>
@@ -162,11 +162,11 @@ body {
 	text-align: center;
 	border: 1px solid #f0f0f0;
 	color: #777;
-    font-size: 14px;
+    font-size: 16px;
 	padding-left: 0;
 	margin-top: 40px;
     margin-bottom: 25px;
-  font-family: 'Lato';
+  /*font-family: 'Lato';*/
 }
 
 .pricing li:first-child,
@@ -254,6 +254,10 @@ h2{
 p{
     margin-top: 25px;
     text-align:center;
+    font-size:16px;
+}
+.block a{
+    color:#FFFFFF;
 }
 </style>
 <section id="price heading">
@@ -301,7 +305,7 @@ p{
 									<span>* one time.</span>
 								</li>
 								<li>
-									<button>Join Now</button>
+									<button onclick="window.location.href='#'" >Join Now</button>
 								</li>
 							</ul>
 					</div>
@@ -343,7 +347,7 @@ p{
 									<span>* one time.</span>
 								</li>
 								<li>
-									<button>Join Now</button>
+									<button><a href="login.php">Join Now</a></button>
 								</li>
 							</ul>
 					</div>
