@@ -73,22 +73,22 @@
                             <li><a href="index.php">Home</a></li>
                             <li><a href="index.php#about">about</a></li>
                             <li><a href="index.php#services">services</a></li>
-                            <li><a href="index.php#team">team</a></li>
+                            <li><a href="team.php">team</a></li>
                             <li><a href="index.php#ourwork">our work</a></li>
                             <li><a href="index.php#contact">contact</a></li>
 
                             <li>
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training Details <b class="caret"></b></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="php_training.php">PHP/MySQL Training</a>
-                                    </li>
-                                    <li>
-                                        <a href="android_training.php">Android Training</a>
-                                    </li>
-                                    <li>
-                                        <a href="others_training.php">OThers Training</a>
-                                    </li>
+                                <li>
+                                <a href="php_training.php">Web Technology</a>
+                            </li>
+                            <li>
+                                <a href="android_training.php">Mobile Technology</a>
+                            </li>
+                            <li>
+                                <a href="others_training.php">Desktop Application</a>
+                            </li>
 
                                 </ul>
                             </li>

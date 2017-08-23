@@ -99,7 +99,7 @@ if (!$user_home->is_logged_in()) {
                                 <li><a href="comming_soon\comming_soon.html">Earn with us</a>
                                     <!-- #portfollio -->
                                 </li>
-                                <li><a href="index#get-in-touch">contact</a>
+                                <li><a href="index.php#get-in-touch">contact</a>
                                 </li>
                                 <!--    <li><a href="comming_soon\comming_soon.html">Education</a>
                             </li>-->
