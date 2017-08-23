@@ -326,7 +326,7 @@ if (!$user_home->is_logged_in()) {
                         </div>
                         <div class="col-md-6">
                             <div class="media scrollpoint sp-effect2">
-                                <a class="pull-left" href="#">
+                                <a class="pull-left" href="web_pricelist.php">
                                     <i class="media-object fa fa-bug  fa-4x"></i>
                                 </a>
                                 <div class="media-body">
@@ -580,7 +580,7 @@ if (!$user_home->is_logged_in()) {
                                         </div>
                                     </div>
                                     <div class="media media-services right scrollpoint sp-effect2">
-                                        <a class="pull-left" href="#">
+                                        <a class="pull-left" href="web_pricelist.php">
                                             <i class="media-object  fa fa-globe fa-2x"></i>
                                         </a>
                                         <div class="media-body">
