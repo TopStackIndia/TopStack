@@ -39,6 +39,7 @@ if (!$user_home->is_logged_in()) {
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/jquery.easy-pie-chart.css">
         <link rel="stylesheet" href="css/styles.css" title="mainStyle">
+        <!--<link rel="stylesheet" href="css/hostinger.css">-->
 
         <!-- REVOLUTION BANNER CSS SETTINGS -->
         <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
@@ -93,7 +94,7 @@ if (!$user_home->is_logged_in()) {
                                 </li>
                                 <li><a href="index.php#services">services</a>
                                 </li>
-                                <li><a href="#">team</a>
+                                <li><a href="team.php">team</a>
                                     <!-- original #team-->
                                 </li>
                                 <li><a href="earn_with_us.php">Earn with us</a>
@@ -119,7 +120,7 @@ if (!$user_home->is_logged_in()) {
                                             <a href="android_training.php">Mobile Technology</a>
                                         </li>
                                         <li>
-                                            <a href="comming_soon\comming_soon.html">Desktop Application</a>
+                                            <a href="others_training.php">Desktop Application</a>
                                         </li>
 
                                     </ul>
@@ -147,264 +148,102 @@ if (!$user_home->is_logged_in()) {
                 <!--/.navbar -->
 
          <section id="team_detils">
+         
           
-          <!-- this section style-->
-          <style>
-          
-          @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
 
-body {
-    font-family: 'Source Sans Pro', sans-serif;
-    line-height: 1.5;
-    color: #323232;
-    font-size: 15px;
-    font-weight: 400;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
-}
-.heading-title {
-    margin-bottom: 100px;
-}
-.text-center {
-    text-align: center;
-}
-.heading-title h3 {
-    margin-bottom: 0;
-    letter-spacing: 2px;
-    font-weight: normal;
-}
-.p-top-30 {
-    padding-top: 30px;
-}
-.half-txt {
-    width: 60%;
-    margin: 0 auto;
-    display: inline-block;
-    line-height: 25px;
-    color: #7e7e7e;
-}
-.text-uppercase {
-    text-transform: uppercase;
-}
-
-.team-member, .team-member .team-img {
-    position: relative;
-}
-.team-member {
-    overflow: hidden;
-}
-.team-member, .team-member .team-img {
-    position: relative;
-}
-
-.team-hover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: 0;
-    border: 20px solid rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.90);
-    opacity: 0;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-}
-.team-member:hover .team-hover .desk {
-    top: 35%;
-}
-.team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link {
-    opacity: 1;
-}
-.team-hover .desk {
-    position: absolute;
-    top: 0%;
-    width: 100%;
-    opacity: 0;
-    -webkit-transform: translateY(-55%);
-    -ms-transform: translateY(-55%);
-    transform: translateY(-55%);
-    -webkit-transition: all 0.3s 0.2s;
-    transition: all 0.3s 0.2s;
-    padding: 0 20px;
-}
-.desk, .desk h4, .team-hover .s-link a {
-    text-align: center;
-    color: #222;
-}
-.team-member:hover .team-hover .s-link {
-    bottom: 10%;
-}
-.team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link {
-    opacity: 1;
-}
-.team-hover .s-link {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    opacity: 0;
-    text-align: center;
-    -webkit-transform: translateY(45%);
-    -ms-transform: translateY(45%);
-    transform: translateY(45%);
-    -webkit-transition: all 0.3s 0.2s;
-    transition: all 0.3s 0.2s;
-    font-size: 35px;
-}
-.desk, .desk h4, .team-hover .s-link a {
-    text-align: center;
-    color: #222;
-}
-.team-member .s-link a {
-    margin: 0 10px;
-    color: #333;
-    font-size: 16px;
-}
-.team-title {
-    position: static;
-    padding: 20px 0;
-    display: inline-block;
-    letter-spacing: 2px;
-    width: 100%;
-}
-.team-title h5 {
-    margin-bottom: 0px;
-    display: block;
-    text-transform: uppercase;
-}
-.team-title span {
-    font-size: 12px;
-    text-transform: uppercase;
-    color: #a5a5a5;
-    letter-spacing: 1px;
-}
-
-          
-          
-          </style>
          <div class="container">
                     <div class="row">
-                        <div class="heading-title text-center">
-                            <h3 class="text-uppercase">Our professionals </h3>
-                            <p class="p-top-30 half-txt">We enjoy teamwork and encourage ideas to emerge from all members of our team. It is a way to enhance our project through open discussion and encourage ideas. </p>
-                        </div>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-7">
+                    <div class=WordSection1>
 
-                        <div class="col-md-4 col-sm-4">
-                            <div class="team-member">
-                                <div class="team-img">
-                                    <img src="img/profile/age.png" alt="team member" class="img-responsive">
-                                </div>
-                                <div class="team-hover">
-                                    <div class="desk">
-                                        <h4>Hi There !</h4>
-                                        <p>I'am Susanta Sengupta , CEO of TopStack.</p>
-                                    </div>
-                                    <div class="s-link">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-title">
-                                <h5>Sushanta Sengupta</h5>
-                                <span> Cheief Executive Officer</span>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-4">
-                            <div class="team-member">
-                                <div class="team-img">
-                                    <img src="img/profile/age.png" alt="team member" class="img-responsive">
-                                </div>
-                                <div class="team-hover">
-                                    <div class="desk">
-                                        <h4>Hi There !</h4>
-                                        <p>I love to introduce myself as a hardcore programmer & core library developer .</p>
-                                    </div>
-                                    <div class="s-link">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-title">
-                                <h5>Shibdas Bhattacharya</h5>
-                                <span>Industry Principal</span>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-4">
-                            <div class="team-member">
-                                <div class="team-img">
-                                    <img src="img/profile/rajdeep.jpg" alt="team member" class="img-responsive">
-                                </div>
-                                <div class="team-hover">
-                                    <div class="desk">
-                                        <h4>Hi There !</h4>
-                                        <p>I love to introduce myself as a hardcore fullstack web developer and Mobile app developer.</p>
-                                    </div>
-                                    <div class="s-link">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-title">
-                                <h5>Rajdeep Das</h5>
-                                <span>Subject Matter Expert(SME)</span>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-4">
-                            <div class="team-member">
-                                <div class="team-img">
-                                    <img src="img/profile/age.png" alt="team member" class="img-responsive">
-                                </div>
-                                <div class="team-hover">
-                                    <div class="desk">
-                                        <h4>I love to develop</h4>
-                                        <p>I love to introduce myself as a hardcore Java EE Developer.</p>
-                                    </div>
-                                    <div class="s-link">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-title">
-                                <h5>Amarnath Chowdhury</h5>
-                                <span>Cheief Technical Officer(CTO)</span>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-4">
-                            <div class="team-member">
-                                <div class="team-img">
-                                    <img src="img/profile/age.png" alt="team member" class="img-responsive">
-                                </div>
-                                <div class="team-hover">
-                                    <div class="desk">
-                                        <h4>I love to design</h4>
-                                        <p>I love to introduce myself as a hardcore Web Designer, design that touch your heart.</p>
-                                    </div>
-                                    <div class="s-link">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-title">
-                                <h5>Saswata Sarkar</h5>
-                                <span>Lead designer</span>
-                            </div>
-                        </div>
-                        
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
 
-                    </div>
+<table class=MsoTable15Grid4Accent1 border=1 cellspacing=0 cellpadding=0
+ width=0 style='width:474.85pt;border-collapse:collapse;border:none'>
+ <tr style='height:29.4pt'>
+  <td width=633 valign=top style='width:474.85pt;border:solid #4F81BD 1.0pt;
+  background:#4F81BD;padding:0in 5.4pt 0in 5.4pt;height:29.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b><span lang=EN-IN style='color:white'>Refer a friend who is in need
+  of web site development and start to earn money now!</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:27.75pt'>
+  <td width=633 valign=top style='width:474.85pt;border:solid #95B3D7 1.0pt;
+  border-top:none;background:#DBE5F1;padding:0in 5.4pt 0in 5.4pt;height:27.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b><span lang=EN-IN>Wallet sharing:  20% for Websites.</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:29.4pt'>
+  <td width=633 valign=top style='width:474.85pt;border:solid #95B3D7 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt;height:29.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b><span lang=EN-IN>20% for Customized
+  Software.                                                         </span></b></p>
+  </td>
+ </tr>
+ <tr style='height:27.75pt'>
+  <td width=633 valign=top style='width:474.85pt;border:solid #95B3D7 1.0pt;
+  border-top:none;background:#DBE5F1;padding:0in 5.4pt 0in 5.4pt;height:27.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b><span lang=EN-IN>Refer a friend who is in need of Industrial
+  Training and start to earn money now!</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:29.4pt'>
+  <td width=633 valign=top style='width:474.85pt;border:solid #95B3D7 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt;height:29.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b><span lang=EN-IN>Wallet sharing: 10% </span></b></p>
+  </td>
+ </tr>
+ <tr style='height:27.75pt'>
+  <td width=633 valign=top style='width:474.85pt;border:solid #95B3D7 1.0pt;
+  border-top:none;background:#DBE5F1;padding:0in 5.4pt 0in 5.4pt;height:27.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b><span lang=EN-IN>Refer a friend who is in need of guidance for
+  Final Year Projects and start to earn money now!</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:29.4pt'>
+  <td width=633 valign=top style='width:474.85pt;border:solid #95B3D7 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt;height:29.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b><span lang=EN-IN>Wallet sharing 10% </span></b></p>
+  </td>
+ </tr>
+ <tr style='height:29.4pt'>
+  <td width=633 valign=top style='width:474.85pt;border:solid #95B3D7 1.0pt;
+  border-top:none;background:#DBE5F1;padding:0in 5.4pt 0in 5.4pt;height:29.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b><span lang=EN-IN>Refer a friend who is in need coaching and start
+  to earn money now!</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:27.75pt'>
+  <td width=633 valign=top style='width:474.85pt;border:solid #95B3D7 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt;height:27.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b><span lang=EN-IN>Wallet sharing: 10% </span></b></p>
+  </td>
+ </tr>
+</table>
 
-                </div>
+<p class=MsoNormal><b><span lang=EN-IN>&nbsp;</span></b></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+</div>
+
+                   </div> </div>
          
          
          
@@ -417,8 +256,13 @@ body {
          
          
          </section>
-
-
+        </br>
+        
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+       
+        
+        
 
 
 

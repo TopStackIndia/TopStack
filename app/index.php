@@ -249,7 +249,7 @@ if (!$user_home->is_logged_in()) {
                                 <li><a href="team.php">team</a>
                                     <!-- original #team-->
                                 </li>
-                                <li><a href="comming_soon\comming_soon.html">Earn with us</a>
+                                <li><a href="earn_with_us.php">Earn with us</a>
                                     <!-- #portfollio -->
                                 </li>
                                 <li><a href="#get-in-touch">contact</a>
@@ -266,10 +266,10 @@ if (!$user_home->is_logged_in()) {
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training<b class="caret"></b></a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a href="php_training.php">Web Technology</a>
+                                            <a href="web_technology.php">Web Technology</a>
                                         </li>
                                         <li>
-                                            <a href="android_training.php">Mobile Technology</a>
+                                            <a href="mobile_technology.php">Mobile Technology</a>
                                         </li>
                                         <li>
                                             <a href="others_training.php">Desktop Application</a>
@@ -440,9 +440,9 @@ if (!$user_home->is_logged_in()) {
                                 <div class="col-md-3">
                                     <div class="media vertical scrollpoint sp-effect5">
                                         <a href="#">
-                                            <i class="media-object fa fa-umbrella fa-2x"></i>
+                                            <i class="media-object fa fa-rocket fa-2x"></i>
                                         </a>
-                                        <div class="media-body">
+                                        <div class="media-body ">
                                             <h4 class="media-heading">our mission</h4>
                                             <p>To provide quality software products with emerging tools and technologies to satisfy client's need and deliver product in time with competitive price. To impart high quality technical training to under graduate
                                                 and diploma students to bridge their curricular gap and to provide first hand industry exposure to the students.</p>
@@ -452,7 +452,7 @@ if (!$user_home->is_logged_in()) {
                                 <div class="col-md-3">
                                     <div class="media vertical scrollpoint sp-effect5">
                                         <a href="#">
-                                            <i class="media-object fa fa-taxi fa-2x"></i>
+                                            <i class="media-object fa fa-fighter-jet fa-2x"></i>
                                         </a>
                                         <div class="media-body">
                                             <h4 class="media-heading">our vision</h4>
