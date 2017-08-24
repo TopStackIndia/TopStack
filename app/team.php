@@ -298,7 +298,7 @@ body {
                                 <div class="team-hover">
                                     <div class="desk">
                                         <h4>Hi There !</h4>
-                                        <p>I'am Susanta Sengupta , CEO of TopStack.</p>
+                                        <p>I'am Sushanta Sengupta , CEO of TopStack.</p>
                                     </div>
                                     <div class="s-link">
                                         <a href="#"><i class="fa fa-facebook"></i></a>
