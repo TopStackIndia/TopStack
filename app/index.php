@@ -272,7 +272,7 @@ if (!$user_home->is_logged_in()) {
                                             <a href="mobile_technology.php">Mobile Technology</a>
                                         </li>
                                         <li>
-                                            <a href="others_training.php">Desktop Application</a>
+                                            <a href="comming_soon/comming_soon.html">Desktop Application</a>
                                         </li>
 
                                     </ul>

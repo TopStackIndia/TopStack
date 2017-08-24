@@ -114,10 +114,10 @@ if (!$user_home->is_logged_in()) {
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training<b class="caret"></b></a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a href="php_training.php">Web Technology</a>
+                                            <a href="web_technology.php">Web Technology</a>
                                         </li>
                                         <li>
-                                            <a href="android_training.php">Mobile Technology</a>
+                                            <a href="mobile_technology.php">Mobile Technology</a>
                                         </li>
                                         <li>
                                             <a href="others_training.php">Desktop Application</a>
