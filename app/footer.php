@@ -37,7 +37,7 @@
                         <div class="headline" style="text-align:justify;" ;><h5>Quick notification</div>
                              <ul class="list-unstyled link-list" style="text-align:justify;" ; >
                                <li><a color=white href="training_price.php">Training price</a>
-                              <li><a href="">Web development price</a>
+                              <li><a href="web_pricelist.php">Web development price</a>
                               <li><a href="">Course fees</a>
                              
                             </ul>
