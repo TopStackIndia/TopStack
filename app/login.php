@@ -57,7 +57,7 @@ if(isset($_POST['btn-login']))
                     <a href="javascript:void(0)" class="orange"></a>
                     <a href="javascript:void(0)" class="red"></a>
                 </div>
-                <a href="javascript:void(0)" class="Switcher"><span class="fa fa-pencil fa-lg"></span></a>
+            <!--    <a href="javascript:void(0)" class="Switcher"><span class="fa fa-pencil fa-lg"></span></a>-->
             </div>
             <div class="container">
                 <div class="navbar-header">
@@ -327,7 +327,7 @@ if(isset($_POST['btn-login']))
                         <div class="col-md-3">
                         <div class="headline" style="text-align:justify;" ;><h5>Quick notification</div>
                              <ul class="list-unstyled link-list" style="text-align:justify;" ; >
-                               <li><a color=white href="">Training price</a>
+                               <li><a color=white href="training_price.php">Training price</a>
                               <li><a href="">Web development price</a>
                               <li><a href="">Course fees</a>
                              
