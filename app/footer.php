@@ -12,7 +12,7 @@
                           
                            <div class="headline" style="text-align:justify;" ;><h5>Useful Links</h5></div>
                              <ul class="list-unstyled link-list" style="text-align:justify;" ;>
-                               <li><a href="#about">About us</a>
+                               <li><a href="index.php#about">About us</a>
                               <li><a href="">Training Methodology</a>
                               <li><a href="">Infrastructure</a>
                               <li><a href="">Clients</a>
