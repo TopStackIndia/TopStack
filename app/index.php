@@ -286,10 +286,10 @@ if (!$user_home->is_logged_in()) {
                                         <!---<li><a href="blog-archive.html">blog</a>-->
 
                                         <li class="social-nav visible-lg">
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                                            <a href="https://twitter.com/Topstack2" target="_blank" ><i class="fa fa-twitter"></i></a>
+                                            <a href="https://www.facebook.com/topstackindia/" target="_blank"><i class="fa fa-facebook"></i></a>
+                                            <a href="https://plus.google.com/u/0/117395637788190105861" target="_blank"><i class="fa fa-google-plus"></i></a>
+                                            <a href="https://www.linkedin.com/in/topstack-india-711998148/" target="_blank"><i class="fa fa-linkedin"></i></a>
                                         </li>
                             </ul>
                         </div>
@@ -1116,15 +1116,15 @@ if (!$user_home->is_logged_in()) {
                                 </div>
                                 <div class="detail">
                                     <ul class="clearfix">
-                                        <li><a href="#"><i class="fa fa-google-plus fa-2x"></i></a>
+                                        <li><a href="https://www.linkedin.com/in/topstack-india-711998148/" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a>
                                         </li>
-                                        <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+                                        <li><a href="https://twitter.com/Topstack2" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
                                         </li>
-                                        <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+                                        <li><a href="https://www.facebook.com/topstackindia/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
                                         </li>
-                                        <li><a href="#"><i class="fa fa-youtube fa-2x"></i></a>
+                                       <!-- <li><a href="#"><i class="fa fa-youtube fa-2x"></i></a>-->
                                         </li>
-                                        <li><a href="#"><i class="fa fa-pinterest fa-2x"></i></a>
+                                        <li><a href="https://www.instagram.com/training.topstack/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
                                         </li>
                                     </ul>
                                 </div>
