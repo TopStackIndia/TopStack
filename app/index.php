@@ -1178,7 +1178,7 @@ if (!$user_home->is_logged_in()) {
                             <div class="headline" style="text-align:justify;" ;><h5>Latest post</div>
                              <ul class="list-unstyled link-list" style="text-align:justify;" ; >
                                <li><a href="">Current project</a>
-                              <li><a href="">Current training</a>
+                              <li><a href="current_training.php">Current training</a>
                               <li><a href="">New services</a>
                               <li><a href="">Current courses</a>
                             </ul>
