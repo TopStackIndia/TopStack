@@ -133,10 +133,10 @@ if (!$user_home->is_logged_in()) {
                                         <!---<li><a href="blog-archive.html">blog</a>-->
 
                                         <li class="social-nav visible-lg">
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                                            <a href="https://twitter.com/Topstack2" target="_blank" ><i class="fa fa-twitter"></i></a>
+                                            <a href="https://www.facebook.com/topstackindia/" target="_blank"><i class="fa fa-facebook"></i></a>
+                                            <a href="https://plus.google.com/u/0/117395637788190105861" target="_blank"><i class="fa fa-google-plus"></i></a>
+                                            <a href="https://www.linkedin.com/in/topstack-india-711998148/" target="_blank"><i class="fa fa-linkedin"></i></a>
                                         </li>
                             </ul>
                         </div>
