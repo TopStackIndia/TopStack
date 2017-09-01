@@ -54,10 +54,11 @@ echo "Test completed succesfully with ID $testid\n";
 $results = $test->results();
 echo "REPORT";
 echo $results['report_url'];
-$rurl='Location: ';
+//$rurl='Location: ';
 $rurl.=$results['report_url'];
-header($rurl);
-exit;
+echo '<script type="text/javascript">
+window.open("'.$rurl.'");
+</script>';
 
 foreach ($results as $result => $data) {
     echo "  $result => $data\n";
