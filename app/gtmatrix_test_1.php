@@ -52,6 +52,8 @@ if ($test->error()) {
 $testid = $test->get_test_id();
 echo "Test completed succesfully with ID $testid\n";
 $results = $test->results();
+echo "REPORT";
+echo $results['report_url'];
 foreach ($results as $result => $data) {
     echo "  $result => $data\n";
 }
