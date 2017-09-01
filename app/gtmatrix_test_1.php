@@ -13,7 +13,7 @@ $test = new Services_WTF_Test("Topstackindia@gmail.com", "6365c4496695319851e28a
 
 // To test a site, run the test() method, and pass in at minimum a url to test. Returns
 // the testid on success, or false and error messsage in $test->error if failure.
-$url_to_test = "http://gtmetrix.com/";
+$url_to_test = "http://www.topstackindia.com/";
 echo "Testing $url_to_test\n";
 $testid = $test->test(array(
     'url' => $url_to_test
