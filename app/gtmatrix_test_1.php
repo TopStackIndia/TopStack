@@ -54,21 +54,21 @@ echo "Test completed succesfully with ID $testid\n";
 $results = $test->results();
 echo "REPORT";
 echo $results['report_url'];
-$rurl='Location:';
+$rurl='Location: ';
 $rurl.=$results['report_url'];
 header($rurl);
 exit;
-/*
+
 foreach ($results as $result => $data) {
     echo "  $result => $data\n";
-}*/
-/*
+}
+
 echo "\nResources\n";
 $resources = $test->resources();
 foreach ($resources as $resource => $url) {
     echo "  Resource: $resource $url\n";
-}*/
-/*
+}
+
 // Each test has a unique test id. You can load an existing / old test result using:
 echo "Loading test id $testid\n";
 $test->load($testid);
@@ -84,7 +84,7 @@ $locations = $test->locations();
 // Returns an array of associative arrays:
 foreach ($locations as $location) {
     echo "GTmetrix can run tests from: " . $location["name"] . " using id: " . $location["id"] . " default (" . $location["default"] . ")\n";
-}*/
+}
 
 /* Sample output:
 
