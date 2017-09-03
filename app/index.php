@@ -1113,6 +1113,7 @@ if (!$user_home->is_logged_in()) {
                                 <div class="detail">
                                     <h4>email us</h4>
                                     <p>training@topstackindia.com</p>
+                                   <p>development@topstackindia.com</p>
                                 </div>
                                 <div class="detail">
                                     <ul class="clearfix">

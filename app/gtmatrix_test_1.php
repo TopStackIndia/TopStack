@@ -54,7 +54,7 @@ echo "Test completed succesfully with ID $testid\n";
 $results = $test->results();
 echo "REPORT";
 echo $results['report_url'];
-//$rurl='Location: ';
+$rurl="";
 $rurl.=$results['report_url'];
 echo '<script type="text/javascript">
 window.open("'.$rurl.'");
