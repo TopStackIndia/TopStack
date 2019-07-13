@@ -3,9 +3,9 @@ class Database
 {
      
     private $host = "localhost";
-    private $db_name = "id2322512_topstack";
-    private $username = "id2322512_topstack";
-    private $password = "topstack_1234";
+    private $db_name = "id10191917_topstack";
+    private $username = "id10191917_topstack";
+    private $password = "topstack";
     public $conn;
      
     public function dbConnection()
